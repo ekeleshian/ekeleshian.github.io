@@ -1,6 +1,6 @@
 ---
 title: From Math Teacher to Data Science n00b
-date: ""
+date: "2018-06-10"
 ---
 
 
