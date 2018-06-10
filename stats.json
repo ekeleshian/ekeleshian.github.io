@@ -21,8 +21,12 @@
       "component---src-layouts-index-js-7acce865423b3ad44230.js.map"
     ],
     "path---index": [
-      "path---index-879bcdb8c40a57bdccca.js",
-      "path---index-879bcdb8c40a57bdccca.js.map"
+      "path---index-7fe287847618992013ad.js",
+      "path---index-7fe287847618992013ad.js.map"
+    ],
+    "path---rule-of-thumb": [
+      "path---rule-of-thumb-df9a4dc2999200cc4a66.js",
+      "path---rule-of-thumb-df9a4dc2999200cc4a66.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -43,9 +47,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-6aae359f7fa96c74485a.js",
+      "app-1f7cce8298f13f37c11b.js",
       "build-js-styles.css",
-      "app-6aae359f7fa96c74485a.js.map",
+      "app-1f7cce8298f13f37c11b.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -53,8 +57,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---new-beginnings": [
-      "path---new-beginnings-9f43cc6e8c9860ec776c.js",
-      "path---new-beginnings-9f43cc6e8c9860ec776c.js.map"
+      "path---new-beginnings-c946ec86159fc12663f2.js",
+      "path---new-beginnings-c946ec86159fc12663f2.js.map"
     ]
   }
 }
