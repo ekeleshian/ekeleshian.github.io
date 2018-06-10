@@ -51,7 +51,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Data Science N00b
           </Link>
         </h3>
       )
