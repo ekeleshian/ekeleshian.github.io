@@ -1,12 +1,8 @@
 {
   "assetsByChunkName": {
-    "path---my-second-post": [
-      "path---my-second-post-f1ef877b8a8f702f11ab.js",
-      "path---my-second-post-f1ef877b8a8f702f11ab.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f355d2aae2893701430f.js",
-      "component---src-pages-index-js-f355d2aae2893701430f.js.map"
+      "component---src-pages-index-js-d769bf85620cce431ad6.js",
+      "component---src-pages-index-js-d769bf85620cce431ad6.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,16 +13,16 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-38fb534b4af13a29e143.js",
-      "component---src-templates-blog-post-js-38fb534b4af13a29e143.js.map"
+      "component---src-templates-blog-post-js-b1ccbe9447127e507283.js",
+      "component---src-templates-blog-post-js-b1ccbe9447127e507283.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-d8c1eddcc99156a7e0ce.js",
       "component---src-layouts-index-js-d8c1eddcc99156a7e0ce.js.map"
     ],
     "path---index": [
-      "path---index-cf054c8c0d2c5a4372dc.js",
-      "path---index-cf054c8c0d2c5a4372dc.js.map"
+      "path---index-cee8761bfbb2ddff44be.js",
+      "path---index-cee8761bfbb2ddff44be.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -47,9 +43,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-5b6d184bc8b10b50d5ab.js",
+      "app-6aae359f7fa96c74485a.js",
       "build-js-styles.css",
-      "app-5b6d184bc8b10b50d5ab.js.map",
+      "app-6aae359f7fa96c74485a.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -57,8 +53,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---new-beginnings": [
-      "path---new-beginnings-b05ac6681d77880f6dce.js",
-      "path---new-beginnings-b05ac6681d77880f6dce.js.map"
+      "path---new-beginnings-f163f9d5998db6640026.js",
+      "path---new-beginnings-f163f9d5998db6640026.js.map"
     ]
   }
 }
