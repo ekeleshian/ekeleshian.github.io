@@ -8,6 +8,10 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---recent-project": [
+      "path---recent-project-d8a5017648af25d908ac.js",
+      "path---recent-project-d8a5017648af25d908ac.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -21,12 +25,12 @@
       "component---src-layouts-index-js-7acce865423b3ad44230.js.map"
     ],
     "path---index": [
-      "path---index-7fe287847618992013ad.js",
-      "path---index-7fe287847618992013ad.js.map"
+      "path---index-a3e6b9e9f29549e30d3d.js",
+      "path---index-a3e6b9e9f29549e30d3d.js.map"
     ],
     "path---rule-of-thumb": [
-      "path---rule-of-thumb-df9a4dc2999200cc4a66.js",
-      "path---rule-of-thumb-df9a4dc2999200cc4a66.js.map"
+      "path---rule-of-thumb-eea1ed5422d9bf7191aa.js",
+      "path---rule-of-thumb-eea1ed5422d9bf7191aa.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -47,9 +51,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-1f7cce8298f13f37c11b.js",
+      "app-1f6af7735e24d7b27520.js",
       "build-js-styles.css",
-      "app-1f7cce8298f13f37c11b.js.map",
+      "app-1f6af7735e24d7b27520.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -57,8 +61,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---new-beginnings": [
-      "path---new-beginnings-c946ec86159fc12663f2.js",
-      "path---new-beginnings-c946ec86159fc12663f2.js.map"
+      "path---new-beginnings-b5b7d44b37b90f6a1d26.js",
+      "path---new-beginnings-b5b7d44b37b90f6a1d26.js.map"
     ]
   }
 }

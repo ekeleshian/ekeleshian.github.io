@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science N00b]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 10 Jun 2018 21:56:25 GMT</lastBuildDate><item><title><![CDATA[From Math Teacher to Data Science n00b]]></title><description><![CDATA[I entered my late twenties questioning everything…  Moving to SF in 2016 caused some major turn arounds in my life. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science N00b]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 11 Jun 2018 17:05:02 GMT</lastBuildDate><item><title><![CDATA[From Math Teacher to Data Science n00b]]></title><description><![CDATA[I entered my late twenties questioning everything…  Moving to SF in 2016 caused some major turn arounds in my life. 
 Various factors led…]]></description><link>https://ekeleshian.github.io//new-beginnings/</link><guid isPermaLink="false">https://ekeleshian.github.io//new-beginnings/</guid><pubDate>Sun, 10 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I entered my late twenties questioning everything… &lt;/p&gt;
 &lt;p&gt;Moving to SF in 2016 caused some major turn arounds in my life.
 Various factors led from one thing to the next, causing a sequence of events that
@@ -17,18 +17,49 @@ in my instincts, a feeling that is too internal to describe in words,
 could explain why teaching is ultimately not for me. This blog is not intended
 to pour out those feelings.  This blog is just a representation of my
 journal describing my progress as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Newbie&quot;&gt;n00b&lt;/a&gt;
-in data science.  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Rule of Thumb]]></title><description><![CDATA[I am fortunate to be part of an environment that truly facilitates my growth
-in a new field. SF has spoiled me with various resources…]]></description><link>https://ekeleshian.github.io//rule-of-thumb/</link><guid isPermaLink="false">https://ekeleshian.github.io//rule-of-thumb/</guid><pubDate>Sun, 10 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I am fortunate to be part of an environment that truly facilitates my growth
-in a new field. SF has spoiled me with various resources, including
-new friends, meet ups, hackathons, conferences, workshops, code&amp;#x26;coffee events,
-etc, etc. In a way, it would be almost foolish not to flourish.&lt;/p&gt;
-&lt;p&gt;As someone new in the field, I sometimes let it all overwhelm me… all the
-uncertainties and questions in my head can often blur my vision.  My partner, who
-I also consider a mentor, shared some piece of wisdom that I keep returning
-to as I study data science. Here they are:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;KISS (Keep it simple, stupid)&lt;/li&gt;
-&lt;li&gt;Stick to one language (in my case, Python)&lt;/li&gt;
-&lt;li&gt;Networking is your moment to shine.&lt;/li&gt;
-&lt;li&gt;Question everything.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item></channel></rss>
+in data science.  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[From Math Teacher to Data Science n00b]]></title><description><![CDATA[I entered my late twenties questioning everything…  Moving to SF in 2016 caused some major turn arounds in my life. 
+Various factors led…]]></description><link>https://ekeleshian.github.io//recent-project/</link><guid isPermaLink="false">https://ekeleshian.github.io//recent-project/</guid><pubDate>Sun, 10 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I entered my late twenties questioning everything… &lt;/p&gt;
+&lt;p&gt;Moving to SF in 2016 caused some major turn arounds in my life.
+Various factors led from one thing to the next, causing a sequence of events that
+were so atypical compared to my prior way of life.  I can almost describe
+my chain of events as spontaneous in a way; life has felt fast and exciting.
+But with this spontaneity nature comes also a determined
+side. Paradoxical, indeed, but the truth will always
+hold that I have a deep affinity for math, especially statistics.
+My dream has always been to find work where my math knowledge
+puts me in an advantage and generates results that are impactful.&lt;br&gt;
+Teaching middle school math somehow didn’t cut it.&lt;/p&gt;
+&lt;p&gt;2016-2017 indeed has been an era of epiphanies.  Many realizations
+were made that became game-changers in my life - one
+being that I did not want to continue teaching.  Something very deep
+in my instincts, a feeling that is too internal to describe in words,
+could explain why teaching is ultimately not for me. This blog is not intended
+to pour out those feelings.  This blog is just a representation of my
+journal describing my progress as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Newbie&quot;&gt;n00b&lt;/a&gt;
+in data science.  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Exploring Data on Financial Literacy]]></title><description><![CDATA[My recent project, which I feel very excited about,
+is centered on financial literacy data in the US.  Due to my academic 
+background in…]]></description><link>https://ekeleshian.github.io//rule-of-thumb/</link><guid isPermaLink="false">https://ekeleshian.github.io//rule-of-thumb/</guid><pubDate>Sun, 10 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My recent project, which I feel very excited about,
+is centered on financial literacy data in the US.  Due to my academic
+background in this topic, I have been very eager to explore financial
+literacy amongst Americans. Luckily, I found some awesome
+data with a pretty extensive Google Scholar search. A questionnairre was
+distributed in 2015, asking Americans about their monetary management skills,
+spending behavior, investments (if any), plans for
+retirement, and a six-question quiz assessing the surveyee’s
+financial knowledge.  The database contained more than 27,000 survey submissions, each
+generating more than 100 data points of responses.&lt;/p&gt;
+&lt;p&gt;This database had some messy qualities.  I recall opening
+the csv file into Excel and feeling totally dumbfounded; the data
+looked meaningless — just rows of arbitrary alphanumeric
+sequences that deemed it impossible to do any analysis.
+Fortunately, in the directory of this database also included a pdf file of a key of all
+alpha numeric codes and their translations.  It contained the
+question and multiple choices of every survey question from the data.
+With this access, I realized that luck played a huge role with
+getting this project started (and that Google is amazing!). So, this prompted
+me to clean up the data, reformatting the data so that it was actually
+readable.   &lt;/p&gt;
+&lt;p&gt;I wrote a python file that contained dictionaries of the survey’s
+alphanumeric codes and their respective translations.&lt;/p&gt;
+&lt;p&gt;![Decoding Questions](./Screen Shot 2018-06-10 at 4.14.43 PM.png)&lt;/p&gt;
+&lt;p&gt;I wrote a chain of functions that call &lt;/p&gt;</content:encoded></item></channel></rss>
