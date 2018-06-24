@@ -1,3 +1,5 @@
+import 'prismjs/themes/prism-tomorrow.css';
+
 import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
