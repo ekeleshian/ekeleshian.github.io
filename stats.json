@@ -12,10 +12,6 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---recent-project": [
-      "path---recent-project-d60e52c8c744c2410f03.js",
-      "path---recent-project-d60e52c8c744c2410f03.js.map"
-    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -33,12 +29,8 @@
       "path---cleaning-up-data-619e196d5fcfbb8477db.js.map"
     ],
     "path---index": [
-      "path---index-48194a38b7bd8b37413f.js",
-      "path---index-48194a38b7bd8b37413f.js.map"
-    ],
-    "path---rule-of-thumb": [
-      "path---rule-of-thumb-20490b95e2562d6d1342.js",
-      "path---rule-of-thumb-20490b95e2562d6d1342.js.map"
+      "path---index-d46ef6b336647ef6dfe2.js",
+      "path---index-d46ef6b336647ef6dfe2.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -59,9 +51,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-59e96ad7b458f56642b2.js",
+      "app-cd4dbd77036d4de44a4b.js",
       "build-js-styles.css",
-      "app-59e96ad7b458f56642b2.js.map",
+      "app-cd4dbd77036d4de44a4b.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -69,8 +61,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---new-beginnings": [
-      "path---new-beginnings-8b066450c8d8ef4b9b27.js",
-      "path---new-beginnings-8b066450c8d8ef4b9b27.js.map"
+      "path---new-beginnings-d88fb885914149963af2.js",
+      "path---new-beginnings-d88fb885914149963af2.js.map"
     ]
   }
 }
