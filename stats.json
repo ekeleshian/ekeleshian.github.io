@@ -1,20 +1,20 @@
 {
   "assetsByChunkName": {
     "path---last-day": [
-      "path---last-day-7bf3503d43a29acf4456.js",
-      "path---last-day-7bf3503d43a29acf4456.js.map"
+      "path---last-day-dc576c96ea6829ae65c7.js",
+      "path---last-day-dc576c96ea6829ae65c7.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-d769bf85620cce431ad6.js",
-      "component---src-pages-index-js-d769bf85620cce431ad6.js.map"
+      "component---src-pages-index-js-f06f4ab26073344b9f1d.js",
+      "component---src-pages-index-js-f06f4ab26073344b9f1d.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---recent-project": [
-      "path---recent-project-f797f17063096d5c1429.js",
-      "path---recent-project-f797f17063096d5c1429.js.map"
+      "path---recent-project-adb8ae2822d30c7a5ef2.js",
+      "path---recent-project-adb8ae2822d30c7a5ef2.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -28,13 +28,13 @@
       "component---src-layouts-index-js-c0dc77229589bd272513.js",
       "component---src-layouts-index-js-c0dc77229589bd272513.js.map"
     ],
-    "path---index": [
-      "path---index-4914353bb7d4bd83049f.js",
-      "path---index-4914353bb7d4bd83049f.js.map"
+    "path---cleaning-up-data": [
+      "path---cleaning-up-data-619e196d5fcfbb8477db.js",
+      "path---cleaning-up-data-619e196d5fcfbb8477db.js.map"
     ],
-    "path---rule-of-thumb": [
-      "path---rule-of-thumb-d4ac737fae56cd5286e5.js",
-      "path---rule-of-thumb-d4ac737fae56cd5286e5.js.map"
+    "path---index": [
+      "path---index-65d64fe0ef1b959977c3.js",
+      "path---index-65d64fe0ef1b959977c3.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -55,9 +55,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-17c2a45b100b3744e411.js",
+      "app-05d3850df1386582daa9.js",
       "build-js-styles.css",
-      "app-17c2a45b100b3744e411.js.map",
+      "app-05d3850df1386582daa9.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -65,8 +65,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---new-beginnings": [
-      "path---new-beginnings-e3b84782982654fe3222.js",
-      "path---new-beginnings-e3b84782982654fe3222.js.map"
+      "path---new-beginnings-8b066450c8d8ef4b9b27.js",
+      "path---new-beginnings-8b066450c8d8ef4b9b27.js.map"
     ]
   }
 }
