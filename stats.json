@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---last-day": [
+      "path---last-day-7bf3503d43a29acf4456.js",
+      "path---last-day-7bf3503d43a29acf4456.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-d769bf85620cce431ad6.js",
       "component---src-pages-index-js-d769bf85620cce431ad6.js.map"
@@ -9,8 +13,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---recent-project": [
-      "path---recent-project-d8a5017648af25d908ac.js",
-      "path---recent-project-d8a5017648af25d908ac.js.map"
+      "path---recent-project-f797f17063096d5c1429.js",
+      "path---recent-project-f797f17063096d5c1429.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -21,16 +25,16 @@
       "component---src-templates-blog-post-js-b1ccbe9447127e507283.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-7acce865423b3ad44230.js",
-      "component---src-layouts-index-js-7acce865423b3ad44230.js.map"
+      "component---src-layouts-index-js-c0dc77229589bd272513.js",
+      "component---src-layouts-index-js-c0dc77229589bd272513.js.map"
     ],
     "path---index": [
-      "path---index-a3e6b9e9f29549e30d3d.js",
-      "path---index-a3e6b9e9f29549e30d3d.js.map"
+      "path---index-4914353bb7d4bd83049f.js",
+      "path---index-4914353bb7d4bd83049f.js.map"
     ],
     "path---rule-of-thumb": [
-      "path---rule-of-thumb-eea1ed5422d9bf7191aa.js",
-      "path---rule-of-thumb-eea1ed5422d9bf7191aa.js.map"
+      "path---rule-of-thumb-d4ac737fae56cd5286e5.js",
+      "path---rule-of-thumb-d4ac737fae56cd5286e5.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -51,9 +55,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-1f6af7735e24d7b27520.js",
+      "app-17c2a45b100b3744e411.js",
       "build-js-styles.css",
-      "app-1f6af7735e24d7b27520.js.map",
+      "app-17c2a45b100b3744e411.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -61,8 +65,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---new-beginnings": [
-      "path---new-beginnings-b5b7d44b37b90f6a1d26.js",
-      "path---new-beginnings-b5b7d44b37b90f6a1d26.js.map"
+      "path---new-beginnings-e3b84782982654fe3222.js",
+      "path---new-beginnings-e3b84782982654fe3222.js.map"
     ]
   }
 }
