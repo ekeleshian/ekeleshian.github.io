@@ -1,5 +1,5 @@
 ---
-title: Part 2 Playing With Data
+title: Playing with Finanial Literacy Data
 date: 2018-07-10 11:59:19
 
 ---
@@ -88,7 +88,7 @@ Our conversation was invaluable for me, as I learned so much just within that ho
 
 _Don't over-analyze the problem - the time you spend thinking about all the ways the project can be better is just a waste of time if you don't have any code to start with._ 
 
-What is most important is results.  The optimization piece of the project should not be a topic of conversation until there are some desirable results with already written code.  Furthermore, I shouldn't expect myself to know how to optimize my own code as a n00b; this matter is one that needs the attention of a mentor to help you guide through the process of validating the calculations and optimizing the algorithms.
+What is most important is results.  The optimization piece of the project should not be a topic of conversation until there are some desirable results with already written code.  Furthermore, as a n00b,I shouldn't expect myself to know how to optimize my own code; this matter is one that needs the attention of a mentor to help you guide through the process of validating the calculations and optimizing the algorithms.
 
 After my talk with Roy, I went home with my mind flooded with ideas.  So, I wrote a to-do list:
 
@@ -238,7 +238,7 @@ dictionary_of_parameters = {
 
 6.69875097275
 ```
-When I calculate the time it takes to produce these results, you can see that it takes around 6.7 seconds.
+When I calculate the time it takes to produce these results, you can see that it takes around 6.7 seconds.  
 
 So, going back to the to-do list, here is what has been done so far:
 
