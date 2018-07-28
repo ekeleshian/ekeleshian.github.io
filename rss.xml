@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science N00b]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 10 Jul 2018 23:16:25 GMT</lastBuildDate><item><title><![CDATA[Part 2 Playing With Data]]></title><description><![CDATA[This post is a continuation of my  Part 1 Cleaning Up Data  post, in which I describe my beginning approach to answer the  so what?!  from…]]></description><link>https://ekeleshian.github.io//playing-with-data/</link><guid isPermaLink="false">https://ekeleshian.github.io//playing-with-data/</guid><pubDate>Tue, 10 Jul 2018 11:59:19 GMT</pubDate><content:encoded>&lt;p&gt;This post is a continuation of my &lt;a href=&quot;https://ekeleshian.github.io/cleaning-up-data/&quot;&gt;Part 1 Cleaning Up Data&lt;/a&gt; post, in which I describe my beginning approach to answer the &lt;em&gt;so what?!&lt;/em&gt; from financial literacy data.  After cleaning it up, AKA converting the column values into names that are actually sensable and quantifying string values into integers, what can come out of this data?  What kind of point should come across this information pertaining the financial literacy levels amongst people living in the US? &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science N00b]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 28 Jul 2018 04:04:23 GMT</lastBuildDate><item><title><![CDATA[Genomics Hackathon]]></title><description><![CDATA[My latest learning experience came from a hackathon I attended last weekend. It was technically a ‘datathon’, as the sponsors had coined it…]]></description><link>https://ekeleshian.github.io//genomics-hackathon/</link><guid isPermaLink="false">https://ekeleshian.github.io//genomics-hackathon/</guid><pubDate>Wed, 25 Jul 2018 15:46:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;hackingteam.jpeg&quot; alt=&quot;Hacking Team&quot;&gt;&lt;/p&gt;
+&lt;p&gt;My latest learning experience came from a hackathon I attended last weekend. It was technically a ‘datathon’, as the sponsors had coined it, and the topic was genetics.  As data has become more accessible than ever (you can literally send your &lt;em&gt;saliva&lt;/em&gt; to a lab and the lab will then send back some freakishly intimate information about yourself), companies are more in need of programmers who can genereate interesting things out of the data. &lt;/p&gt;
+&lt;p&gt;I’m not here to provide the microdetails of the experience, but rather the greatest takeaways from it.  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It’s really important to enter a hackathon with specific goals in mind. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Hackathons can feel really intimating for beginners.  It may feel tempting to quit and leave, but I urge you to &lt;em&gt;never do that&lt;/em&gt;. If you quit, then that means you didn’t set high goals for yourself.  If you enter a hackathon with measurable goals in mind, making at least three pull requests each night, for instance, then you will find it less tempting to reject a hackathon.  If you don’t have concrete goals, that’s okay too, as long as you &lt;em&gt;some kind&lt;/em&gt; of goals, whether it be to learn or to meet people.  Hackathons are amazing in the way that they have many avenues to seek out knowledge and expand your network.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Your portfolio and github automatically look better after participating in a hackathon.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You may find yourself spending a few weeks on a personal project that you’d love to show off on github or your portfolio.  But once you go through a weekend of hacking with a team, you get to share these accomplishments, and hence making your portfolio rich with real-world experience.&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;This is actual real-world stuff! The work that is produced by an effective hacking team can potentially make an impact.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This point isn’t emphasized enough in the community of beginners.  You never know what kind of amazing work that can be done with a team of developers, data scientists, and designers.  Furthermore, if you’re determined to win, there is a chance that the sponsoring company uses your code, which would be ultimate prize.  &lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;You will encounter uncomfortable moments with your team.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you think about it, as you’re brainstorming or hacking all hours in the night with your team, a team in which not everyone knows each other very well, there’s a high chance you will encounter some uncomfortable moments with your fellow hackers.  Maybe someone doesn’t like the idea? Maybe another feels left out?  Maybe there’s a disagreement about code? These types of incidents, no matter how hard we try to avoid them, are inevitable and will happen in real life.  So, you will be fortunate to experience this discomfort at a hackathon, where things are super temporary, as you will get to learn ways to respond to awkward and displeasing moments with your team.&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;You will learn SO MUCH.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I can’t say this enough. The things I learned at this hackathon are things that I wouldn’t be able to get so nicely and quickly through a tutorial.  The human approach to learning, especially when it’s project based, is the most effective way to retain information; as a former educator, trust me, it’s true!&lt;/p&gt;
+&lt;p&gt;Just to share what I learned, here’s just a few:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how to use a business’s API for my own use using Python&lt;/li&gt;
+&lt;li&gt;what dimensionality reduction and kmeans applications look like in R&lt;/li&gt;
+&lt;li&gt;amazing Linux terminal commands that are really effective when filtering data, like &lt;code class=&quot;language-text&quot;&gt;grep&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;cut&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;tr&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;sort&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;unique&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;making visual networks on R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So get yourself out there and learn. Ask questions, be humble, and be a positive team member.  Your participation and experience will be valued, I promise. It’s a win-win!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What's the story?]]></title><description><![CDATA[Whether you work extensively with data or not, I just know that you have data on your mind.  Whether you’re in marketing, HR, sales, design…]]></description><link>https://ekeleshian.github.io//fin-lit-story/</link><guid isPermaLink="false">https://ekeleshian.github.io//fin-lit-story/</guid><pubDate>Fri, 20 Jul 2018 11:41:00 GMT</pubDate><content:encoded>&lt;p&gt;Whether you work extensively with data or not, I just know that you have data on your mind.  Whether you’re in marketing, HR, sales, design, &lt;em&gt;whatever!&lt;/em&gt;, knowing the relevant stats about your team will give you a basis of where your work stands, in terms of knowing your competition, making sound decisions, or creating precise trajectories about the future. Really, this list can go on; my point is, data will always serve as a tool at work, and it can do wonders if you know how to work with it mindfully and intelligently.   &lt;/p&gt;
+&lt;p&gt;Now, the big caveat here is that data can get big, messy, and abstract.  Data science is booming right now just due to this fact.  But what happens when a data scientist produces statistical models that are too complex to understand merely by the nature of the data? Models can have multiple layers with multiple parameters, so you can imagine how hard it can get when presenting in front of important figures, notably the company’s stake holders.&lt;/p&gt;
+&lt;p&gt;A challenge that many data scientists face is this: how do I convey the data in a way that really sticks with the audience? For one thing, you must &lt;em&gt;know&lt;/em&gt; your audience.  What does your audience want? What do they want to hear, and do you have what they want? If you don’t, what can you do to make this as close of a reality as possible? &lt;/p&gt;
+&lt;p&gt;For another thing, you must &lt;em&gt;work smart, not necessarily hard&lt;/em&gt;.  Don’t present complex statistical concepts with the means of showing off your number skills.  &lt;em&gt;Do not ever enter a meeting room with that mindset&lt;/em&gt;. What you have to do is keep it simple, but nontrivial.  Extract the most fundamental components from your analysis.  Focus on those implications that specifically pertain to your audience members.  Present visualizations that are easy to read, like histograms and box plots.  &lt;/p&gt;
+&lt;p&gt;As you can take away from this, the role of a data scientist requires the ability to depict an accurate picture in the most effective means possible.  Story-telling is a skill crucial to any data scientist, and I believe it is something that will stay prevalent in the industry.&lt;/p&gt;
+&lt;p&gt;So what’s my story?! Let’s turn back to the original problem, that is: Financial Literacy is a topic that is heavily underserved in our education system today.&lt;/p&gt;
+&lt;h2&gt;First:  Surveyees do have the sufficient knowledge and skills needed to effectively manage their finances.&lt;/h2&gt;
+&lt;p&gt;=======&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;score_analysis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hist&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;column &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;describe&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;98th percentile = &apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;quantile&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;q&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;.98&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-cb376.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.49928537398762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA9hAAAPYQGoP6dpAAABqklEQVQoz21TSy8DURj1C2yI0JJ4bW1tKsLawi8Rrwo2bCT12AkbGxsrC32kkiZ9BJFI2HgkqFfQqDbKVNvp3Hn1+O4dU6Pc5Mw9c7/7nXvumUwdaFQqlV8wTRPVQe+6rqNCa7X7nLB16jjhDTY0ApWQfM1jY/8WGakIuVREWWEwDKO6z8l10fMtyB+aplWd6YblbvvkCfUjO0h9yIheZjC8doi3AhM1vsfpjov/K2iQINOsYuQijbapEF4kGZuH92j1hpArMkcSlgFhotahToJWblYWT+8yViJXcJPI0OoBPIsx9MxHcPosIS2VkaK6af7k/cchY0yIpcnN1tEj+pcTaJkIoHMmjOaJIFrJaQfxrtkwOQ1igOr5sio+mJ3lb0FVFQv7ySwaRv1onw6jm5otkd0q5we4JoMYXElA+85aJ8E/DhVmCR4/5NA0HoCLrsqv20LNHG6vPYfQOBZA70IUZykJimo5q3EImHTC3nUGc/5zeHwxgT5f9F/uId6/FCPEsR6/wV32E6rmFBTEhFRiyBUUUWQERdXEXMsZcUVAR15mAvaPwAW/ANY8v9V4VfnGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;All Scores&quot;
+        title=&quot;&quot;
+        src=&quot;/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-42603.png&quot;
+        srcset=&quot;/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-f931c.png 200w,
+/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-e8031.png 400w,
+/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-42603.png 800w,
+/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-5b8b9.png 1200w,
+/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-c7ea5.png 1600w,
+/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-cb376.png 2099w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;count    27564.000000
+mean        43.777176
+std         18.175437
+min          0.000000
+25%         29.629630
+50%         44.444444
+75%         59.259259
+max         92.592593
+
+98th percentile = 77.77777777777779&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Three-quarters of the sample scored an F average on the financial literacy test (59.3%).  Only 9% of the sample passed the test with at least a 70%.&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;emergency_funds&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	er_funds &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;loc&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;EmergencyFunds?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isin&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#only want 1=yes and 2=No values&lt;/span&gt;
+	er_funds&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hist&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;column &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;EmergencyFunds?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	er_funds&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;EmergencyFunds?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;describe&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-13aa8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.53896103896104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA9hAAAPYQGoP6dpAAABMElEQVQoz5WSPUsDQRCG719ZWKnYqD/AQgsFwcZU9lZiERG0EgRFhATtbEVCEPyImjSCFjZ2antN7nZn9nVmktUzJmoGjp2d23lmhnkTiIUQEI052D1+zAznHIjoRzxaMT9RP5DH1fM76k9v8pDgvYcXgEKyLEOapnZqXGPOeUli1B5fcXL7YgUjOCGSSuwwv3eNya26/SCpHruIncS7nlpMbenwDiPrZ1boC2gJhIX9Bqa3L/oCe/0ILFVbmNisDQLeYGpI4EqlibFyP2DwBvzsUBL4N6D/B3DxoIGZneGApUoL4+UBI88VlsJ/jtxZ1PLRPUY3zr8D2TTEWD1uWpcStgeaTF3p9PomG7G10wfM7l7CF2UTO2rnDrnr6KwIjL5ps+CTaDeX0TWPuktS4AeJ0PNBgAXdawAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;ER Funds&quot;
+        title=&quot;&quot;
+        src=&quot;/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-42603.png&quot;
+        srcset=&quot;/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-f931c.png 200w,
+/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-e8031.png 400w,
+/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-42603.png 800w,
+/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-5b8b9.png 1200w,
+/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-c7ea5.png 1600w,
+/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-13aa8.png 1848w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mean         1.503745&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;A shocking 1:1 split between people who have set aside an emergency fund and those who have not.&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Analyzing Financial Literacy in America]]></title><link>https://ekeleshian.github.io//financial-literacy-analysis/</link><guid isPermaLink="false">https://ekeleshian.github.io//financial-literacy-analysis/</guid><pubDate>Tue, 17 Jul 2018 12:38:08 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Playing with Finanial Literacy Data]]></title><description><![CDATA[This post is a continuation of my  Part 1 Cleaning Up Data  post, in which I describe my beginning approach to answer the  so what?!  from…]]></description><link>https://ekeleshian.github.io//playing-with-data/</link><guid isPermaLink="false">https://ekeleshian.github.io//playing-with-data/</guid><pubDate>Tue, 10 Jul 2018 11:59:19 GMT</pubDate><content:encoded>&lt;p&gt;This post is a continuation of my &lt;a href=&quot;https://ekeleshian.github.io/cleaning-up-data/&quot;&gt;Part 1 Cleaning Up Data&lt;/a&gt; post, in which I describe my beginning approach to answer the &lt;em&gt;so what?!&lt;/em&gt; from financial literacy data.  After cleaning it up, AKA converting the column values into names that are actually sensable and quantifying string values into integers, what can come out of this data?  What kind of point should come across this information pertaining the financial literacy levels amongst people living in the US? &lt;/p&gt;
 &lt;p&gt;To be perfectly frank, the mere volume of the dataset really intimidated me at the beginning.  &lt;code class=&quot;language-text&quot;&gt;count()&lt;/code&gt; sums up the numbers of observations nicely, so if you apply it, here is the result:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -75,7 +215,7 @@ Length&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span cl
 &lt;/ul&gt;
 &lt;p&gt;Our conversation was invaluable for me, as I learned so much just within that hour.  I think the main message, AKA, the main hurdle that I still have yet to overcome, was this: &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Don’t over-analyze the problem - the time you spend thinking about all the ways the project can be better is just a waste of time if you don’t have any code to start with.&lt;/em&gt; &lt;/p&gt;
-&lt;p&gt;What is most important is results.  The optimization piece of the project should not be a topic of conversation until there are some desirable results with already written code.  Furthermore, I shouldn’t expect myself to know how to optimize my own code as a n00b; this matter is one that needs the attention of a mentor to help you guide through the process of validating the calculations and optimizing the algorithms.&lt;/p&gt;
+&lt;p&gt;What is most important is results.  The optimization piece of the project should not be a topic of conversation until there are some desirable results with already written code.  Furthermore, as a n00b,I shouldn’t expect myself to know how to optimize my own code; this matter is one that needs the attention of a mentor to help you guide through the process of validating the calculations and optimizing the algorithms.&lt;/p&gt;
 &lt;p&gt;After my talk with Roy, I went home with my mind flooded with ideas.  So, I wrote a to-do list:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Define the problem, clearly and succinctly.  What I want to prove is: &lt;em&gt;financial literacy is significantly underserved in our education system.&lt;/em&gt;&lt;/li&gt;
@@ -207,7 +347,7 @@ fin_quiz_score &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;s
 
 &lt;span class=&quot;token number&quot;&gt;6.69875097275&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;When I calculate the time it takes to produce these results, you can see that it takes around 6.7 seconds.&lt;/p&gt;
+&lt;p&gt;When I calculate the time it takes to produce these results, you can see that it takes around 6.7 seconds.  &lt;/p&gt;
 &lt;p&gt;So, going back to the to-do list, here is what has been done so far:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -248,7 +388,91 @@ score_calculation()&lt;/td&gt;
 &lt;p&gt;Despite my pessimism, I sucked it up and went.  The ceremony’s speeches were plain as expected.  Very disappointing, as that room was filled with over a billion dollars worth of Silicon Valley talent. The kids looked lovely, though.  They were so excited, so scared, and so sad all at the same time, as they approached me for our final goodbyes.  That moment, of seeing all the kids take their last minute pictures with each other, making their final farewells to the staff, reuniting with their families with hugs and kisses, that moment was truly beautiful.  I felt so present, so happy to be there, seeing the kids together one last time and bidding our farewells..    &lt;/p&gt;
 &lt;p&gt;It was at that point that I should’ve left. But recalling a conversation with my boss, one of the few obligations requested was to attend the luncheon.  So, I felt the need to follow my word.  The luncheon was just the thing that I worried would happen - spoil my closure.  The farewell toast that was given to me was terse, unprepared, and partially didn’t make sense.  And that was it.  This was the school’s way to properly acknowledge my achievements and bid me farewell.  Hearing the other farewell toasts after mine, which were all beautifully delivered with prepared scripts, made me feel even worse about it. It indeed reminded me that I did not have close friends at work. For that moment, I felt alone.  I felt my contributions were void. It didn’t matter. I was disposable.&lt;/p&gt;
 &lt;p&gt;Closure at work, especially when 99.9% of times are stormy, dysfunctional, leaderless, and multi-faceted, is super important. A meaningful closure is part of the backbone of professionalism. It serves as a final mode of communication between the departing employee and the company, where proper recognition of their work and final sentiments are expressed.  I feel beyond grateful that I received this from the families, as that’s what truly matters.  The various forms the children expressed their gratitude towards me as a math teacher made the farewell process so meaningful, that I fantasize that this was the way my career as a teacher had ended.  &lt;/p&gt;
-&lt;p&gt;Time to move onward.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[From Math Teacher to Data Science n00b]]></title><description><![CDATA[I entered my late twenties questioning everything…  Moving to SF in 2016 caused some major turn arounds in my life. 
+&lt;p&gt;Time to move onward.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Early Phases of Financial Literacy Project]]></title><description><![CDATA[In this post, will discuss my beginning approach to my first project, which revolves around financial literacy in the United States.   With…]]></description><link>https://ekeleshian.github.io//cleaning-up-data/</link><guid isPermaLink="false">https://ekeleshian.github.io//cleaning-up-data/</guid><pubDate>Wed, 13 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In this post, will discuss my beginning approach to my first project, which revolves around financial literacy in the United States.  &lt;/p&gt;
+&lt;p&gt;With an extensive Google Scholar search, I found relevant data about the topic.  The database had some messy qualities.  I recall opening
+the csv file into Excel and feeling totally dumbfounded; the data
+looked meaningless — just rows of arbitrary alphanumeric
+sequences that deemed it impossible to do any analysis.
+Fortunately, in the directory of this database also included a pdf file of a key of all
+alpha numeric codes and their translations.  It contained the
+question and multiple choices of every survey question from the data.
+With this access, I realized that luck played a huge role with
+getting this project started (and that Google is amazing!). So, this prompted
+me to clean up the data, reformatting the data so that it was actually
+readable.   &lt;/p&gt;
+&lt;p&gt;I wrote a python file, called “schema.py”, that contained dictionaries of the survey’s
+alphanumeric codes and their respective translations. I first started decoding the attributes that expressed each survey question; for instance, the code “STATEQ” decodes to State.  Since there were 126 survey questions, there were 126 attributes, each decoded according to the nature of the survey question.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;survey_attributes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;survey_code&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;attribute&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Then, I decoded the various codes for survey output.  For instance, if an item in the third question had a ‘2’, and if the said question happened to be a true/false question, then the value ‘2’ would be decoded to “False”. The decoding process is an integral part in cleaning up the data.  The more time you spend cleaning up the data, the much higher chances of generating successful and insightful results about the data.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;output_codes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;output1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;True&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;I then wrote a new python file, named “main.py” which contained a pipeline function, that when called, causes a chain of events in which the data frame tranforms into a readable and organized platform to work with.  &lt;/p&gt;
+&lt;p&gt;In my main function, I write the path of the csv file, save it as a pandas dataframe object, and finally save and run the dataframe through the aforementioned pipeline. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; pandas &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; pd
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; schema
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;new_columns&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 
+	df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;rename&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;columns &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; schema&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;survey_attributes&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; inplace &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; df
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;convert_row_values&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; k &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; schema&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;output_codes&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+		dictionary &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;output_codes&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+		df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;replace&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;to_replace &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; dictionary&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; inplace&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; df
+
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;pipeline&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dataframe&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	modified_columns_df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; new_columns&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dataframe&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	master_df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; convert_row_values&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;modified_columns_df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; master_df
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	csv_path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/Users/elizabethkeleshian/financial_literacy_analytics/2015_state_data.csv&apos;&lt;/span&gt;
+	df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;read_csv&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;csv_path&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	results &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pipeline&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;You will notice that when calling the pipeline function, two other functions are called, in order to convert the column and row data into workable content.  &lt;/p&gt;
+&lt;p&gt;And walla! You get a workable dataframe.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;usr&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;python2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;home&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;elizabeth&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;financial_literacy&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;main_&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;py
+       RespondentID                 State      CensusDivision CensusRegion  \
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010001&lt;/span&gt;               Arizona            Mountain         West   
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010002&lt;/span&gt;                  Ohio  East North Central      Midwest   
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010003&lt;/span&gt;              New York     Middle Atlantic    Northeast   
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010004&lt;/span&gt;               Florida      South Atlantic        South   
+&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010005&lt;/span&gt;            New Jersey     Middle Atlantic    Northeast   
+&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010006&lt;/span&gt;              Missouri  West North Central      Midwest   
+&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010007&lt;/span&gt;               Florida      South Atlantic        South   
+&lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010008&lt;/span&gt;               Arizona            Mountain         West   
+&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010009&lt;/span&gt;        South Carolina      South Atlantic        South   
+&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;        &lt;span class=&quot;token number&quot;&gt;2015010010&lt;/span&gt;              New York     Middle Atlantic    Northeast   
+&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010011&lt;/span&gt;            Washington             Pacific         West   
+&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010012&lt;/span&gt;               Florida      South Atlantic        South   
+&lt;span class=&quot;token number&quot;&gt;12&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010013&lt;/span&gt;           Connecticut         New England    Northeast   
+&lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010014&lt;/span&gt;                 Texas  West South Central        South   
+&lt;span class=&quot;token number&quot;&gt;14&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010015&lt;/span&gt;                Kansas  West North Central      Midwest   
+&lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010016&lt;/span&gt;            California             Pacific         West   
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010017&lt;/span&gt;           Connecticut         New England    Northeast   
+&lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010018&lt;/span&gt;            California             Pacific         West   
+&lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010019&lt;/span&gt;                 Texas  West South Central        South   
+&lt;span class=&quot;token number&quot;&gt;19&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010020&lt;/span&gt;          Pennsylvania     Middle Atlantic    Northeast   
+&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010021&lt;/span&gt;                 Texas  West South Central        South   
+&lt;span class=&quot;token number&quot;&gt;21&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010022&lt;/span&gt;                 Texas  West South Central        South   
+&lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010023&lt;/span&gt;            California             Pacific         West   
+&lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010024&lt;/span&gt;          Pennsylvania     Middle Atlantic    Northeast   
+&lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010025&lt;/span&gt;              Michigan  East North Central      Midwest   
+&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010026&lt;/span&gt;          Pennsylvania     Middle Atlantic    Northeast   
+&lt;span class=&quot;token number&quot;&gt;26&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010027&lt;/span&gt;                 Texas  West South Central        South   
+&lt;span class=&quot;token number&quot;&gt;27&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010028&lt;/span&gt;               Florida      South Atlantic        South   
+&lt;span class=&quot;token number&quot;&gt;28&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010029&lt;/span&gt;                  Ohio  East North Central      Midwest   
+&lt;span class=&quot;token number&quot;&gt;29&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010030&lt;/span&gt;           Connecticut         New England    Northeast&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;From here, I then imported the matplotlib.pyplot subpackage to generate some fun data visualizations.  Stay tuned to learn how I went about this as a data science n00b…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[From Math Teacher to Data Science n00b]]></title><description><![CDATA[I entered my late twenties questioning everything…  Moving to SF in 2016 caused some major turn arounds in my life. 
 Various factors led…]]></description><link>https://ekeleshian.github.io//new-beginnings/</link><guid isPermaLink="false">https://ekeleshian.github.io//new-beginnings/</guid><pubDate>Sun, 10 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I entered my late twenties questioning everything… &lt;/p&gt;
 &lt;p&gt;Moving to SF in 2016 caused some major turn arounds in my life.
 Various factors led from one thing to the next, causing a sequence of events that
