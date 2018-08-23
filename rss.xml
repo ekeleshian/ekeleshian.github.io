@@ -1,4 +1,194 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science N00b]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 28 Jul 2018 04:04:23 GMT</lastBuildDate><item><title><![CDATA[Genomics Hackathon]]></title><description><![CDATA[My latest learning experience came from a hackathon I attended last weekend. It was technically a ‘datathon’, as the sponsors had coined it…]]></description><link>https://ekeleshian.github.io//genomics-hackathon/</link><guid isPermaLink="false">https://ekeleshian.github.io//genomics-hackathon/</guid><pubDate>Wed, 25 Jul 2018 15:46:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;hackingteam.jpeg&quot; alt=&quot;Hacking Team&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science N00b]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 23 Aug 2018 03:06:49 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><link>https://ekeleshian.github.io//financial-literacy-analysis/</link><guid isPermaLink="false">https://ekeleshian.github.io//financial-literacy-analysis/</guid><content:encoded>&lt;!-- ---
+title: Analyzing Financial Literacy in America
+date:  2018-07-17 12:38:08
+--- --&gt;</content:encoded></item><item><title><![CDATA[Take Aways from PyBay 2018]]></title><description><![CDATA[TakeAway 1: Visualizing the Data Structure Raymond showed us  Visualize Python , a unique website that uncovers the true nature of objects…]]></description><link>https://ekeleshian.github.io//pybay2018/</link><guid isPermaLink="false">https://ekeleshian.github.io//pybay2018/</guid><pubDate>Wed, 22 Aug 2018 11:59:19 GMT</pubDate><content:encoded>&lt;h2&gt;TakeAway 1: Visualizing the Data Structure&lt;/h2&gt;
+&lt;p&gt;Raymond showed us &lt;a href=&quot;http://www.pythontutor.com/visualize.html#mode=edit&quot;&gt;Visualize Python&lt;/a&gt;, a unique website that uncovers the true nature of objects in Python.  &lt;/p&gt;
+&lt;p&gt;This website is gnarly!  It enlightens a few points:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lists just point to stuff&lt;/li&gt;
+&lt;li&gt;A list can point to anything, including other lists&lt;/li&gt;
+&lt;li&gt;Lists are objects that have useful functionality, like indexing, that really leverage its identity as an object&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For instance, suppose you had this following ‘skeleton’ of a list that intends to describe the hierarchical structure of a corporation:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;TITLE_NAME&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; TOP&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; BOTTOM &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;This means that the 0th index will be the actual name of the title. The first index will return a subset (a list) of the hierarchy above this index, and the bottom index will return a subset (a list) of the hierarchy below this index. &lt;/p&gt;
+&lt;p&gt;The CEO will have no one on top of him.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;first &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;CEO&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+second &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; first&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BOTTOM&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;VP&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; first&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;first&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;TOP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;None&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;That makes sense because no one is on top of the CEO&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;first&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BOTTOM&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;TITLE_NAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;VP&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;See how indexing can leverage the notion of a list being an object?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;third &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; second&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BOTTOM&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Senior Exec&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; second&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+fourth &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; third&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BOTTOM&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Exec&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; third&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+fifth &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; fourth&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BOTTOM&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Manager&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; fourth&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;third&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;TOP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;TOP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;TITLE_NAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;#39;CEO&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;The skeleton of our list also allowed us to write code that is intuitive and logical. For example, the above code returns the object that is two levels above the third object, which in this case, is the CEO&lt;/p&gt;
+&lt;p&gt;If you copy and paste a code like this on the website, you get an image that resembles this:
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/visualize_lists-a502c15be943e60b255448333349da03-65e86.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 28.82136279926335%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAA2UlEQVQY062QyW7DMAxE9f+flmuBBGmTtEbbeI9XybJl6ZWx60ty6aEEBhwNQWpIFUIgBM88B/4jVHTNmZyn6zPM8I2xBb1J0UNKqzMGG4uW0JlCtBhtc9o+EX4VlFJPpD/BuVSMOdTu5YwZPU0fc6sPlE1EUb9TNBfy6oO02JPVb2TVJ2l55Nbd85myPtKamKo5iZkT2lxk4Ih6/apotMVOgWFCsGb7y8U8s8D/8SJqH5Xy6yCrjAvs5GQFh/ee7b4QFtz5pj3z9a2y2ixD1uKzjU1/xFZ7jB+zINQg2OQPMwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;visualize&quot;
+        title=&quot;&quot;
+        src=&quot;/static/visualize_lists-a502c15be943e60b255448333349da03-42603.png&quot;
+        srcset=&quot;/static/visualize_lists-a502c15be943e60b255448333349da03-f931c.png 200w,
+/static/visualize_lists-a502c15be943e60b255448333349da03-e8031.png 400w,
+/static/visualize_lists-a502c15be943e60b255448333349da03-42603.png 800w,
+/static/visualize_lists-a502c15be943e60b255448333349da03-5b8b9.png 1200w,
+/static/visualize_lists-a502c15be943e60b255448333349da03-c7ea5.png 1600w,
+/static/visualize_lists-a502c15be943e60b255448333349da03-65e86.png 2172w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The visualization here sheds light on the true nature of lists — they’re just objects that point to other objects, in this case, either strings or lists.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;TakeAway2: Elegant construction of Binary Tree&lt;/h2&gt;
+&lt;p&gt;With the same logic, we can construct a binary tree that depicts domestic relationships and hierarchies.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;NAME&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; MAMA&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; BABA &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; 
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;mama&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;baba&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;#by default, mama and baba point to None&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; mama&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; baba&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+elize &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Elize&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+hagop &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hagop&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+hripsime &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hripsime&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+garabed &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Garabed&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+levon &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Levon&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; elize&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; hagop&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+silva &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Silva&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; hripsime&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; garabed&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+elizabeth &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; person&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Elizabeth&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; silva&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; levon&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Grandfathers: &apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;|- (maternal)&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; elizabeth&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;MAMA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BABA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;NAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;|- (paternal)&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; elizabeth&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BABA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BABA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;NAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Grandfathers: 
+|- (maternal) Garabed
+|- (paternal) Hagop&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Grandmothers: &apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;|- (maternal)&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; elizabeth&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;MAMA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;MAMA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;NAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;|- (paternal)&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; elizabeth&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BABA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;MAMA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;NAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Grandmothers: 
+|- (maternal) Hripsime
+|- (paternal) Elize&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;I love how elegant the function &lt;code class=&quot;language-text&quot;&gt;person&lt;/code&gt; looks. The code kind of looks like English!  One who doesn’t know code really well or none at all would be able to understand what that function does.&lt;/p&gt;
+&lt;p&gt;Since Raymond already went over pre-order and in-order, I will provide the code for postorder.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;postorder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; p &lt;span class=&quot;token keyword&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; postorder&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;MAMA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; postorder&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;BABA&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;NAME&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;postorder&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;elizabeth&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[&amp;#39;Hripsime&amp;#39;, &amp;#39;Garabed&amp;#39;, &amp;#39;Silva&amp;#39;, &amp;#39;Elize&amp;#39;, &amp;#39;Hagop&amp;#39;, &amp;#39;Levon&amp;#39;, &amp;#39;Elizabeth&amp;#39;]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;postorder&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;silva&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+elizabeth&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[&amp;#39;Elizabeth&amp;#39;,
+ [&amp;#39;Silva&amp;#39;, [&amp;#39;Hripsime&amp;#39;, None, None], [&amp;#39;Garabed&amp;#39;, None, None]],
+ [&amp;#39;Levon&amp;#39;, [&amp;#39;Elize&amp;#39;, None, None], [&amp;#39;Hagop&amp;#39;, None, None]]]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;TakeAway3: easy to read data != reliable data&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In case you do encounter data that looks like it’s meant for humans to read it, convert it into a structure that would make it easier for a computer to read it.  &lt;/li&gt;
+&lt;li&gt;Sniffer tool in csv library can detect the separator in the data — super cool!!&lt;/li&gt;
+&lt;li&gt;XML’s terminology comes in hand when implementing XML parsers&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Genomics Hackathon]]></title><description><![CDATA[My latest learning experience came from a hackathon I attended last weekend. It was technically a ‘datathon’, as the sponsors had coined it…]]></description><link>https://ekeleshian.github.io//genomics-hackathon/</link><guid isPermaLink="false">https://ekeleshian.github.io//genomics-hackathon/</guid><pubDate>Wed, 25 Jul 2018 15:46:42 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/hackingteam-bffde92469697480fd63d8b68aee7075-63103.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAEOJ5Sjkyf/xAAaEAADAAMBAAAAAAAAAAAAAAABAgMAERIU/9oACAEBAAEFAm0+ecgMuigpDKV6CxLD/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAgICAwAAAAAAAAAAAAAAABEBAhAhIjFR/9oACAEBAAY/AnNn6O0qMW6ZyjY2f//EABoQAQEBAQADAAAAAAAAAAAAAAERACExUWH/2gAIAQEAAT8hpXO2DrkQCFwy6/cnPbOHlNtu4eL73//aAAwDAQACAAMAAAAQCP8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qp//EAB0QAQEAAgIDAQAAAAAAAAAAAAERACExUXGBkeH/2gAIAQEAAT8QrtNdESQPRiwci8j09ORMiFCGLihoqsnP3zkMJZukIaePzCjFuW1O9Dn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Hacking Team&quot;
+        title=&quot;&quot;
+        src=&quot;/static/hackingteam-bffde92469697480fd63d8b68aee7075-893a4.jpeg&quot;
+        srcset=&quot;/static/hackingteam-bffde92469697480fd63d8b68aee7075-bbf57.jpeg 200w,
+/static/hackingteam-bffde92469697480fd63d8b68aee7075-260b8.jpeg 400w,
+/static/hackingteam-bffde92469697480fd63d8b68aee7075-893a4.jpeg 800w,
+/static/hackingteam-bffde92469697480fd63d8b68aee7075-25965.jpeg 1200w,
+/static/hackingteam-bffde92469697480fd63d8b68aee7075-e54c8.jpeg 1600w,
+/static/hackingteam-bffde92469697480fd63d8b68aee7075-7c0ed.jpeg 2400w,
+/static/hackingteam-bffde92469697480fd63d8b68aee7075-63103.jpeg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;My latest learning experience came from a hackathon I attended last weekend. It was technically a ‘datathon’, as the sponsors had coined it, and the topic was genetics.  As data has become more accessible than ever (you can literally send your &lt;em&gt;saliva&lt;/em&gt; to a lab and the lab will then send back some freakishly intimate information about yourself), companies are more in need of programmers who can genereate interesting things out of the data. &lt;/p&gt;
 &lt;p&gt;I’m not here to provide the microdetails of the experience, but rather the greatest takeaways from it.  &lt;/p&gt;
 &lt;ol&gt;
@@ -28,117 +218,7 @@
 &lt;li&gt;amazing Linux terminal commands that are really effective when filtering data, like &lt;code class=&quot;language-text&quot;&gt;grep&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;cut&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;tr&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;sort&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;unique&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;making visual networks on R&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So get yourself out there and learn. Ask questions, be humble, and be a positive team member.  Your participation and experience will be valued, I promise. It’s a win-win!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What's the story?]]></title><description><![CDATA[Whether you work extensively with data or not, I just know that you have data on your mind.  Whether you’re in marketing, HR, sales, design…]]></description><link>https://ekeleshian.github.io//fin-lit-story/</link><guid isPermaLink="false">https://ekeleshian.github.io//fin-lit-story/</guid><pubDate>Fri, 20 Jul 2018 11:41:00 GMT</pubDate><content:encoded>&lt;p&gt;Whether you work extensively with data or not, I just know that you have data on your mind.  Whether you’re in marketing, HR, sales, design, &lt;em&gt;whatever!&lt;/em&gt;, knowing the relevant stats about your team will give you a basis of where your work stands, in terms of knowing your competition, making sound decisions, or creating precise trajectories about the future. Really, this list can go on; my point is, data will always serve as a tool at work, and it can do wonders if you know how to work with it mindfully and intelligently.   &lt;/p&gt;
-&lt;p&gt;Now, the big caveat here is that data can get big, messy, and abstract.  Data science is booming right now just due to this fact.  But what happens when a data scientist produces statistical models that are too complex to understand merely by the nature of the data? Models can have multiple layers with multiple parameters, so you can imagine how hard it can get when presenting in front of important figures, notably the company’s stake holders.&lt;/p&gt;
-&lt;p&gt;A challenge that many data scientists face is this: how do I convey the data in a way that really sticks with the audience? For one thing, you must &lt;em&gt;know&lt;/em&gt; your audience.  What does your audience want? What do they want to hear, and do you have what they want? If you don’t, what can you do to make this as close of a reality as possible? &lt;/p&gt;
-&lt;p&gt;For another thing, you must &lt;em&gt;work smart, not necessarily hard&lt;/em&gt;.  Don’t present complex statistical concepts with the means of showing off your number skills.  &lt;em&gt;Do not ever enter a meeting room with that mindset&lt;/em&gt;. What you have to do is keep it simple, but nontrivial.  Extract the most fundamental components from your analysis.  Focus on those implications that specifically pertain to your audience members.  Present visualizations that are easy to read, like histograms and box plots.  &lt;/p&gt;
-&lt;p&gt;As you can take away from this, the role of a data scientist requires the ability to depict an accurate picture in the most effective means possible.  Story-telling is a skill crucial to any data scientist, and I believe it is something that will stay prevalent in the industry.&lt;/p&gt;
-&lt;p&gt;So what’s my story?! Let’s turn back to the original problem, that is: Financial Literacy is a topic that is heavily underserved in our education system today.&lt;/p&gt;
-&lt;h2&gt;First:  Surveyees do have the sufficient knowledge and skills needed to effectively manage their finances.&lt;/h2&gt;
-&lt;p&gt;=======&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;score_analysis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-	df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hist&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;column &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;describe&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;98th percentile = &apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;quantile&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;q&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;.98&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-	plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-cb376.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 48.49928537398762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA9hAAAPYQGoP6dpAAABqklEQVQoz21TSy8DURj1C2yI0JJ4bW1tKsLawi8Rrwo2bCT12AkbGxsrC32kkiZ9BJFI2HgkqFfQqDbKVNvp3Hn1+O4dU6Pc5Mw9c7/7nXvumUwdaFQqlV8wTRPVQe+6rqNCa7X7nLB16jjhDTY0ApWQfM1jY/8WGakIuVREWWEwDKO6z8l10fMtyB+aplWd6YblbvvkCfUjO0h9yIheZjC8doi3AhM1vsfpjov/K2iQINOsYuQijbapEF4kGZuH92j1hpArMkcSlgFhotahToJWblYWT+8yViJXcJPI0OoBPIsx9MxHcPosIS2VkaK6af7k/cchY0yIpcnN1tEj+pcTaJkIoHMmjOaJIFrJaQfxrtkwOQ1igOr5sio+mJ3lb0FVFQv7ySwaRv1onw6jm5otkd0q5we4JoMYXElA+85aJ8E/DhVmCR4/5NA0HoCLrsqv20LNHG6vPYfQOBZA70IUZykJimo5q3EImHTC3nUGc/5zeHwxgT5f9F/uId6/FCPEsR6/wV32E6rmFBTEhFRiyBUUUWQERdXEXMsZcUVAR15mAvaPwAW/ANY8v9V4VfnGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;All Scores&quot;
-        title=&quot;&quot;
-        src=&quot;/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-42603.png&quot;
-        srcset=&quot;/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-f931c.png 200w,
-/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-e8031.png 400w,
-/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-42603.png 800w,
-/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-5b8b9.png 1200w,
-/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-c7ea5.png 1600w,
-/static/all_fin_score-e2b59cf00601c0857aac89c04fdd8b54-cb376.png 2099w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;count    27564.000000
-mean        43.777176
-std         18.175437
-min          0.000000
-25%         29.629630
-50%         44.444444
-75%         59.259259
-max         92.592593
-
-98th percentile = 77.77777777777779&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;h3&gt;Three-quarters of the sample scored an F average on the financial literacy test (59.3%).  Only 9% of the sample passed the test with at least a 70%.&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;emergency_funds&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-	er_funds &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;loc&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;EmergencyFunds?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isin&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#only want 1=yes and 2=No values&lt;/span&gt;
-	er_funds&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hist&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;column &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;EmergencyFunds?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-	er_funds&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;EmergencyFunds?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;describe&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-	plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;show&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-13aa8.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 48.53896103896104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA9hAAAPYQGoP6dpAAABMElEQVQoz5WSPUsDQRCG719ZWKnYqD/AQgsFwcZU9lZiERG0EgRFhATtbEVCEPyImjSCFjZ2antN7nZn9nVmktUzJmoGjp2d23lmhnkTiIUQEI052D1+zAznHIjoRzxaMT9RP5DH1fM76k9v8pDgvYcXgEKyLEOapnZqXGPOeUli1B5fcXL7YgUjOCGSSuwwv3eNya26/SCpHruIncS7nlpMbenwDiPrZ1boC2gJhIX9Bqa3L/oCe/0ILFVbmNisDQLeYGpI4EqlibFyP2DwBvzsUBL4N6D/B3DxoIGZneGApUoL4+UBI88VlsJ/jtxZ1PLRPUY3zr8D2TTEWD1uWpcStgeaTF3p9PomG7G10wfM7l7CF2UTO2rnDrnr6KwIjL5ps+CTaDeX0TWPuktS4AeJ0PNBgAXdawAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;ER Funds&quot;
-        title=&quot;&quot;
-        src=&quot;/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-42603.png&quot;
-        srcset=&quot;/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-f931c.png 200w,
-/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-e8031.png 400w,
-/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-42603.png 800w,
-/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-5b8b9.png 1200w,
-/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-c7ea5.png 1600w,
-/static/emergency_funds-037ecef5f72754dd6efcaf9a89881c19-13aa8.png 1848w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mean         1.503745&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;h3&gt;A shocking 1:1 split between people who have set aside an emergency fund and those who have not.&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[Analyzing Financial Literacy in America]]></title><link>https://ekeleshian.github.io//financial-literacy-analysis/</link><guid isPermaLink="false">https://ekeleshian.github.io//financial-literacy-analysis/</guid><pubDate>Tue, 17 Jul 2018 12:38:08 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Playing with Finanial Literacy Data]]></title><description><![CDATA[This post is a continuation of my  Part 1 Cleaning Up Data  post, in which I describe my beginning approach to answer the  so what?!  from…]]></description><link>https://ekeleshian.github.io//playing-with-data/</link><guid isPermaLink="false">https://ekeleshian.github.io//playing-with-data/</guid><pubDate>Tue, 10 Jul 2018 11:59:19 GMT</pubDate><content:encoded>&lt;p&gt;This post is a continuation of my &lt;a href=&quot;https://ekeleshian.github.io/cleaning-up-data/&quot;&gt;Part 1 Cleaning Up Data&lt;/a&gt; post, in which I describe my beginning approach to answer the &lt;em&gt;so what?!&lt;/em&gt; from financial literacy data.  After cleaning it up, AKA converting the column values into names that are actually sensable and quantifying string values into integers, what can come out of this data?  What kind of point should come across this information pertaining the financial literacy levels amongst people living in the US? &lt;/p&gt;
+&lt;p&gt;So get yourself out there and learn. Ask questions, be humble, and be a positive team member.  Your participation and experience will be valued, I promise. It’s a win-win!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Playing with Finanial Literacy Data]]></title><description><![CDATA[This post is a continuation of my  Part 1 Cleaning Up Data  post, in which I describe my beginning approach to answer the  so what?!  from…]]></description><link>https://ekeleshian.github.io//playing-with-data/</link><guid isPermaLink="false">https://ekeleshian.github.io//playing-with-data/</guid><pubDate>Tue, 10 Jul 2018 11:59:19 GMT</pubDate><content:encoded>&lt;p&gt;This post is a continuation of my &lt;a href=&quot;https://ekeleshian.github.io/cleaning-up-data/&quot;&gt;Part 1 Cleaning Up Data&lt;/a&gt; post, in which I describe my beginning approach to answer the &lt;em&gt;so what?!&lt;/em&gt; from financial literacy data.  After cleaning it up, AKA converting the column values into names that are actually sensable and quantifying string values into integers, what can come out of this data?  What kind of point should come across this information pertaining the financial literacy levels amongst people living in the US? &lt;/p&gt;
 &lt;p&gt;To be perfectly frank, the mere volume of the dataset really intimidated me at the beginning.  &lt;code class=&quot;language-text&quot;&gt;count()&lt;/code&gt; sums up the numbers of observations nicely, so if you apply it, here is the result:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
