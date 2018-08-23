@@ -1,3 +1,9 @@
+---
+title: Take Aways from PyBay 2018
+date: 2018-08-22 11:59:19
+
+---
+
 
 ## TakeAway 1: Visualizing the Data Structure
 
@@ -70,7 +76,7 @@ third[TOP][TOP][TITLE_NAME]
 The skeleton of our list also allowed us to write code that is intuitive and logical. For example, the above code returns the object that is two levels above the third object, which in this case, is the CEO
 
 If you copy and paste a code like this on the website, you get an image that resembles this:
-![alt text](visualize_lists.png/ "Logo Title Text 1")
+![visualize](visualize_lists.png)
 
 The visualization here sheds light on the true nature of lists -- they're just objects that point to other objects, in this case, either strings or lists.
 
