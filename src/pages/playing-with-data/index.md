@@ -1,5 +1,5 @@
 ---
-title: Playing with Finanial Literacy Data
+title: Playing with Financial Literacy Data
 date: 2018-07-10 11:59:19
 
 ---
