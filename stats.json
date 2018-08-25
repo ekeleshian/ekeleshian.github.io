@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---last-day": [
-      "path---last-day-3f92ea45cf883a328947.js",
-      "path---last-day-3f92ea45cf883a328947.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-53d9454906e47e28e819.js",
       "component---src-pages-index-js-53d9454906e47e28e819.js.map"
@@ -29,16 +25,16 @@
       "component---src-layouts-index-js-8160e493ca079c17610b.js.map"
     ],
     "path---cleaning-up-data": [
-      "path---cleaning-up-data-a1ea92f2e9541d4243fb.js",
-      "path---cleaning-up-data-a1ea92f2e9541d4243fb.js.map"
+      "path---cleaning-up-data-cb7aab7aab7efe510a7a.js",
+      "path---cleaning-up-data-cb7aab7aab7efe510a7a.js.map"
     ],
     "path---financial-literacy-analysis": [
       "path---financial-literacy-analysis-ac5a0150059427907ba5.js",
       "path---financial-literacy-analysis-ac5a0150059427907ba5.js.map"
     ],
     "path---index": [
-      "path---index-1fce77f95f59cd62e982.js",
-      "path---index-1fce77f95f59cd62e982.js.map"
+      "path---index-6e7ee58dcb274d08ee32.js",
+      "path---index-6e7ee58dcb274d08ee32.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -63,9 +59,9 @@
       "path---genomics-hackathon-e63aa312bcddd2d5eb4e.js.map"
     ],
     "app": [
-      "app-80fd7338405c610202f9.js",
+      "app-7e254010b99785073571.js",
       "build-js-styles.css",
-      "app-80fd7338405c610202f9.js.map",
+      "app-7e254010b99785073571.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -77,8 +73,8 @@
       "path---new-beginnings-1e441d6a23fd6969bdc6.js.map"
     ],
     "path---playing-with-data": [
-      "path---playing-with-data-9ebab760a4eb61af43cf.js",
-      "path---playing-with-data-9ebab760a4eb61af43cf.js.map"
+      "path---playing-with-data-a933bbd0eed7a5291bd9.js",
+      "path---playing-with-data-a933bbd0eed7a5291bd9.js.map"
     ]
   }
 }
