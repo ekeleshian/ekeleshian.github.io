@@ -22,12 +22,12 @@ class Bio extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: rhythm(6),
+            height: rhythm(6),
           }}
         />
         <p>
-          Written by <strong>Elizabeth Keleshian</strong>, who is making a career U-turn in San Francisco.{' '}
+          Written by <strong>Elizabeth Keleshian</strong>, documenting the journey of her career change.{' '}
           <a href="https://twitter.com/_mathlizard">
             You should follow her on Twitter
           </a>
