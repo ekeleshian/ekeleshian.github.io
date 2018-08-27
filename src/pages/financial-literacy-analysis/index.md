@@ -14,7 +14,7 @@ Here is the formal definition of [financial literacy](https://www.investopedia.c
 >Financial literacy is the education and understanding of various financial areas including topics related to managing personal finance, money and investing. This topic focuses on the ability to manage personal finance matters in an efficient manner, and it includes the knowledge of making appropriate decisions about personal finance such as investing, insurance, real estate, paying for college, budgeting, retirement and tax planning.
 
 
-I explored the world of financial literacy in my Master's program at University of Pennsylvania, where I participated and investigated the effects of Wharton's [Bridges to Wealth](http://www.bridgestowealth.org/) program.  Big realizations were made here:
+I explored the world of financial literacy in my Master's program where I participated and investigated the effects of Wharton's [Bridges to Wealth](http://www.bridgestowealth.org/) program.  Big realizations were made here:
 
 1) When young people are **properly educated** about compound interest, they are very likely to start investing.
 
