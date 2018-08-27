@@ -30,7 +30,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Data Science N00b
+            math lizard
           </Link>
         </h1>
       )
@@ -51,7 +51,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Data Science N00b
+            math lizard
           </Link>
         </h3>
       )
