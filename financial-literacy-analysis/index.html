@@ -1,7 +1,896 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/component---src-layouts-index-js-8160e493ca079c17610b.js" as="script"/><link rel="preload" href="/component---src-templates-blog-post-js-34cbf33c27dcef043f89.js" as="script"/><link rel="preload" href="/path---financial-literacy-analysis-ac5a0150059427907ba5.js" as="script"/><link rel="preload" href="/app-7e254010b99785073571.js" as="script"/><link rel="preload" href="/commons-fcbb8af1639fee4f6844.js" as="script"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true"> | Data Science N00b</title><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><style id="gatsby-inlined-css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100.50d27986.woff2) format("woff2"),url(/static/montserrat-latin-100.5e334eff.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic.8c070533.woff2) format("woff2"),url(/static/montserrat-latin-100italic.03e19243.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200.4343d3d9.woff2) format("woff2"),url(/static/montserrat-latin-200.f2022ecd.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic.116c4c4b.woff2) format("woff2"),url(/static/montserrat-latin-200italic.89614a60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300.d2ad295b.woff2) format("woff2"),url(/static/montserrat-latin-300.3a371ee0.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic.f6b6bf24.woff2) format("woff2"),url(/static/montserrat-latin-300italic.16521668.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400.240a8444.woff2) format("woff2"),url(/static/montserrat-latin-400.b20cc131.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic.86172bb8.woff2) format("woff2"),url(/static/montserrat-latin-400italic.9405e787.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500.fb8d6b71.woff2) format("woff2"),url(/static/montserrat-latin-500.50825d47.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic.c0a555a4.woff2) format("woff2"),url(/static/montserrat-latin-500italic.635de59c.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600.d5615136.woff2) format("woff2"),url(/static/montserrat-latin-600.f300da4f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic.10f29d13.woff2) format("woff2"),url(/static/montserrat-latin-600italic.2bc37d86.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700.7d77e1f0.woff2) format("woff2"),url(/static/montserrat-latin-700.81826529.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic.1dd2b53f.woff2) format("woff2"),url(/static/montserrat-latin-700italic.c162d257.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800.d4e7bf86.woff2) format("woff2"),url(/static/montserrat-latin-800.895aadbf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic.fc0cbe44.woff2) format("woff2"),url(/static/montserrat-latin-800italic.b3362875.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900.c8bdd772.woff2) format("woff2"),url(/static/montserrat-latin-900.1b99ef78.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic.cb72c1f9.woff2) format("woff2"),url(/static/montserrat-latin-900italic.b78bb9f8.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300.f015f1e9.woff2) format("woff2"),url(/static/merriweather-latin-300.92dfe81b.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic.7fd86b32.woff2) format("woff2"),url(/static/merriweather-latin-300italic.878b76f5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400.12dbf4c0.woff2) format("woff2"),url(/static/merriweather-latin-400.1fffad22.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic.1e0d3e81.woff2) format("woff2"),url(/static/merriweather-latin-400italic.de18d4c4.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700.dc8fec81.woff2) format("woff2"),url(/static/merriweather-latin-700.d7d2ed8e.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic.b7b7e5da.woff2) format("woff2"),url(/static/merriweather-latin-700italic.6210a5fc.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900.43f870d5.woff2) format("woff2"),url(/static/merriweather-latin-900.8f3806df.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic.168c1ab2.woff2) format("woff2"),url(/static/merriweather-latin-900italic.ae7778f0.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#ccc;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}</style></head><body><div id="___gatsby"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem;" data-reactroot="" data-reactid="1" data-react-checksum="235027894"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:-1.75rem;" data-reactid="2"><a style="box-shadow:none;text-decoration:none;color:inherit;" href="/" data-reactid="3">Data Science N00b</a></h3><div data-reactid="4"><!-- react-empty: 5 --><h1 data-reactid="6"></h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem;" data-reactid="7"></p><div data-reactid="8"><!-- ---
-title: Analyzing Financial Literacy in America
-date:  2018-07-17 12:38:08
---- --></div><hr style="margin-bottom:1.75rem;" data-reactid="9"/><div style="display:flex;margin-bottom:4.375rem;" data-reactid="10"><img src="/static/Keleshian-Liz.8358ef73.jpg" alt="Elizabeth Keleshian" style="margin-right:0.875rem;margin-bottom:0;width:3.5rem;height:3.5rem;" data-reactid="11"/><p data-reactid="12"><!-- react-text: 13 -->Written by <!-- /react-text --><strong data-reactid="14">Elizabeth Keleshian</strong><!-- react-text: 15 -->, who is making a career U-turn in San Francisco.<!-- /react-text --><!-- react-text: 16 --> <!-- /react-text --><a href="https://twitter.com/_mathlizard" data-reactid="17">You should follow her on Twitter</a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0;" data-reactid="18"><li data-reactid="19"><a rel="prev" href="/pybay2018/" data-reactid="20"><!-- react-text: 21 -->← <!-- /react-text --><!-- react-text: 22 -->Take Aways from PyBay 2018<!-- /react-text --></a></li></ul></div></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-7e254010b99785073571.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","107818501498521":"component---src-templates-blog-post-js-34cbf33c27dcef043f89.js","162898551421021":"component---src-pages-404-js-4503918ea3a16cfcdb75.js","35783957827783":"component---src-pages-index-js-53d9454906e47e28e819.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","127675179568203":"path---financial-literacy-analysis-ac5a0150059427907ba5.js","85966596966028":"path---pybay-2018-c7ca7bd905ba34c815a5.js","219620025261909":"path---genomics-hackathon-e63aa312bcddd2d5eb4e.js","281023625406845":"path---playing-with-data-a933bbd0eed7a5291bd9.js","117233333338360":"path---cleaning-up-data-cb7aab7aab7efe510a7a.js","256828598317467":"path---new-beginnings-1e441d6a23fd6969bdc6.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-6e7ee58dcb274d08ee32.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","114276838955818":"component---src-layouts-index-js-8160e493ca079c17610b.js"}/*]]>*/</script><script>
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/component---src-layouts-index-js-503bd0b3f9d6f4214f04.js" as="script"/><link rel="preload" href="/component---src-templates-blog-post-js-ea8d621611c9f00dab82.js" as="script"/><link rel="preload" href="/path---financial-literacy-analysis-91d4680947f20e289bbc.js" as="script"/><link rel="preload" href="/app-7e254010b99785073571.js" as="script"/><link rel="preload" href="/commons-fcbb8af1639fee4f6844.js" as="script"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">Are Americans Financially Literate? | Data Science N00b</title><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><style id="gatsby-inlined-css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100.50d27986.woff2) format("woff2"),url(/static/montserrat-latin-100.5e334eff.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic.8c070533.woff2) format("woff2"),url(/static/montserrat-latin-100italic.03e19243.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200.4343d3d9.woff2) format("woff2"),url(/static/montserrat-latin-200.f2022ecd.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic.116c4c4b.woff2) format("woff2"),url(/static/montserrat-latin-200italic.89614a60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300.d2ad295b.woff2) format("woff2"),url(/static/montserrat-latin-300.3a371ee0.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic.f6b6bf24.woff2) format("woff2"),url(/static/montserrat-latin-300italic.16521668.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400.240a8444.woff2) format("woff2"),url(/static/montserrat-latin-400.b20cc131.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic.86172bb8.woff2) format("woff2"),url(/static/montserrat-latin-400italic.9405e787.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500.fb8d6b71.woff2) format("woff2"),url(/static/montserrat-latin-500.50825d47.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic.c0a555a4.woff2) format("woff2"),url(/static/montserrat-latin-500italic.635de59c.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600.d5615136.woff2) format("woff2"),url(/static/montserrat-latin-600.f300da4f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic.10f29d13.woff2) format("woff2"),url(/static/montserrat-latin-600italic.2bc37d86.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700.7d77e1f0.woff2) format("woff2"),url(/static/montserrat-latin-700.81826529.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic.1dd2b53f.woff2) format("woff2"),url(/static/montserrat-latin-700italic.c162d257.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800.d4e7bf86.woff2) format("woff2"),url(/static/montserrat-latin-800.895aadbf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic.fc0cbe44.woff2) format("woff2"),url(/static/montserrat-latin-800italic.b3362875.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900.c8bdd772.woff2) format("woff2"),url(/static/montserrat-latin-900.1b99ef78.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic.cb72c1f9.woff2) format("woff2"),url(/static/montserrat-latin-900italic.b78bb9f8.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300.f015f1e9.woff2) format("woff2"),url(/static/merriweather-latin-300.92dfe81b.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic.7fd86b32.woff2) format("woff2"),url(/static/merriweather-latin-300italic.878b76f5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400.12dbf4c0.woff2) format("woff2"),url(/static/merriweather-latin-400.1fffad22.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic.1e0d3e81.woff2) format("woff2"),url(/static/merriweather-latin-400italic.de18d4c4.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700.dc8fec81.woff2) format("woff2"),url(/static/merriweather-latin-700.d7d2ed8e.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic.b7b7e5da.woff2) format("woff2"),url(/static/merriweather-latin-700italic.6210a5fc.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900.43f870d5.woff2) format("woff2"),url(/static/merriweather-latin-900.8f3806df.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic.168c1ab2.woff2) format("woff2"),url(/static/merriweather-latin-900italic.ae7778f0.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#ccc;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}</style></head><body><div id="___gatsby"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem;" data-reactroot="" data-reactid="1" data-react-checksum="615528821"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:-1.75rem;" data-reactid="2"><a style="box-shadow:none;text-decoration:none;color:inherit;" href="/" data-reactid="3">math lizard</a></h3><div data-reactid="4"><!-- react-empty: 5 --><h1 data-reactid="6">Are Americans Financially Literate?</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem;" data-reactid="7">August 27, 2018</p><div data-reactid="8"><h3>My Motivation</h3>
+<p>Ever since grad school and my time in education, this question has been pondering in my head almost to an annoying level, as it’s a serious problem that we’re facing in this country, and that is…</p>
+<p><em>Most Americans do not know what they’re doing with their money.</em></p>
+<p>Here is the formal definition of <a href="https://www.investopedia.com/terms/f/financial-literacy.asp">financial literacy</a>: </p>
+<blockquote>
+<p>Financial literacy is the education and understanding of various financial areas including topics related to managing personal finance, money and investing. This topic focuses on the ability to manage personal finance matters in an efficient manner, and it includes the knowledge of making appropriate decisions about personal finance such as investing, insurance, real estate, paying for college, budgeting, retirement and tax planning.</p>
+</blockquote>
+<p>I explored the world of financial literacy in my Master’s program at University of Pennsylvania, where I participated and investigated the effects of Wharton’s <a href="http://www.bridgestowealth.org/">Bridges to Wealth</a> program.  Big realizations were made here:</p>
+<ol>
+<li>
+<p>When young people are <strong>properly educated</strong> about compound interest, they are very likely to start investing.</p>
+</li>
+<li>
+<p><strong>Collaboration</strong> and group-led <strong>discussions</strong> are an integral part of bringing new people into the practice of investing.</p>
+</li>
+<li>
+<p><strong>Barriers to access</strong> is a very real problem in impoverished urban areas, where much needed credit unions are scarce or simply quiet.</p>
+</li>
+<li>
+<p>The <strong>social capital</strong> that you have from your environment strongly dictates how you’re going to manage your money.</p>
+</li>
+<li>
+<p><strong>Home-owners</strong> are more likely to spend their money wisely than <strong>renters</strong>. </p>
+</li>
+</ol>
+<p>These realizations, which were then fleshed out in my thesis, were backed by <strong>personal observations</strong>, <strong>survey data</strong>, and <strong>interviews</strong>. But as I reflect about the thesis I wrote three years ago, I wish that my analysis contained more stats to quantify my realizations: my foundings were determined by a taking a <em>qualitative</em> approach on the data, building up a narrative about attributes that <em>could potentially</em> affect financial literacy.</p>
+<p>Therefore, my motivation with this project is to justify these realizations with statistics. In other words, I want to approach this project in the eyes of a <strong>data scientist</strong>.</p>
+<p>So, let’s go!</p>
+<hr>
+<h3>The Data</h3>
+<p>The <a href="http://www.usfinancialcapability.org/downloads.php">National Financial Capability Study</a> assesses the overall financial capability of the national population. Data collection was done by each state across a large sample. I obtained their data over a Google Scholar search. </p>
+<p>I wrote and ran two python files in order to process the data in a format I wanted, in addition to aggregating over certain columns in order to generate a new metric. One of the python files just stored dictionaries of key-value pairs that allowed to convert labels, and the other python file behaved like a pipeline, cleaning up the data and adding more attributes. After I run the code, a new dataframe is generated and saved in a csv, called <code class="language-text">correct_data.csv</code>, which can now allow me to play with it in this jupyter notebook.</p>
+<p>Here’s a glimpse of the processed data:</p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">df <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span><span class="token string">"./correct_data.csv"</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<p>So, let’s take a look at some simple stats first</p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">df<span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>head<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">NFCSID                   27564
+State                    27564
+CensusDivision           27564
+CensusRegion             27564
+Gender                   27564
+AgeGroup                 27564
+Gender/AgeNet            27564
+Ethnicity                27564
+HighestLevelEducation    27564
+MaritalStatus            27564
+dtype: int64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token builtin">len</span><span class="token punctuation">(</span>df<span class="token punctuation">.</span>columns<span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">127</code></pre>
+      </div>
+<p>The data is a lot. Notice that I only printed out just the first 10 columns, indicating that many other columns aren’t printed on the screen.</p>
+<p>Let’s pick out some interesting columns to start.</p>
+<p>I want to start with the <code class="language-text">financialliteracyscore</code> column, as this is the column that I created. It measures a person’s level of comprehension on financial literacy. I created this metric based on the definition mentioned earlier: the <strong>knowledge of compound interest</strong>, the practice of <strong>planning for the future</strong>, and basic <strong>money management</strong>, including budgeting and owning a savings account*. </p>
+<p>*<em>By the way, the nitty-gritty of how I went about this is in my prior blog post, <a href="https://ekeleshian.github.io/playing-with-data/">Playing with Financial Literacy Data</a></em>.</p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">df<span class="token punctuation">[</span><span class="token string">'financialliteracyscore'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>describe<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">count    27564.000000
+mean        34.669752
+std         17.734525
+min         -7.407407
+25%         22.222222
+50%         33.333333
+75%         48.148148
+max         81.481481
+Name: financialliteracyscore, dtype: float64</code></pre>
+      </div>
+<p><em>Side note: the lowest score here is negative because some of the columns I aggregated over were metrics that would pull the score down. For instance, if a surveyee answered that they have too much debt, their score went down two points; if they use their credit cards for a cash advance, the score went down one point. The weight of this negative score was arbitruary somewhat, just based on my own perception about how bad that quality is relative to the other negative attributes. The entire rubric I created is in my prior blog <a href="https://ekeleshian.github.io/playing-with-data/">Playing with Financial Literacy Data</a></em>; <em>the rubric is called</em> <code class="language-text">dictionary_of_parameters</code> <em>for reference.</em></p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">import</span> decimal
+
+<span class="token keyword">def</span> <span class="token function">rounding</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    num <span class="token operator">=</span> decimal<span class="token punctuation">.</span>Decimal<span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> <span class="token builtin">round</span><span class="token punctuation">(</span>num<span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
+    
+percentile_75 <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token string">'financialliteracyscore'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>quantile<span class="token punctuation">(</span>q<span class="token operator">=</span><span class="token number">.75</span><span class="token punctuation">)</span>
+percentile_98 <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token string">'financialliteracyscore'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>quantile<span class="token punctuation">(</span>q<span class="token operator">=</span><span class="token number">.98</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Financial literacy score in the 75th percentile: {rounding(percentile_75)}%'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Financial literacy score in the 98th percentile: {rounding(percentile_98)}%'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Financial literacy score in the 75th percentile: 48.15%
+Financial literacy score in the 98th percentile: 70.37%</code></pre>
+      </div>
+<p>Already, the stats looks alarming.  75% of surveyees score around 50% on this financial literacy assessment, meaning three-fourths of Americans failed the test.</p>
+<p>Furthermore, <strong>only 2%</strong> of Americans know a decent amount of financial literacy, as they passed the test.</p>
+<p>I feel like I have seen this 2% with regards to people and money before…</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/homer_thinking-86a565d71add05ee9966b264c97df105-f4cb4.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 611px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 66.61211129296237%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDBP/aAAwDAQACEAMQAAABrRcpkGif/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAIBAxESITL/2gAIAQEAAQUCJtiJ1U2h/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIv/aAAgBAwEBPwEM3H//xAAYEQACAwAAAAAAAAAAAAAAAAABAgMQEf/aAAgBAgEBPwFm2QLX/8QAGBAAAgMAAAAAAAAAAAAAAAAAABABIYH/2gAIAQEABj8CIp6v/8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAECExUYH/2gAIAQEAAT8hggjLtC/EZpOqf//aAAwDAQACAAMAAAAQ++//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QkSf/xAAWEQEBAQAAAAAAAAAAAAAAAAABIRD/2gAIAQIBAT8QdUhc/8QAGxABAAEFAQAAAAAAAAAAAAAAAREAECExUWH/2gAIAQEAAT8QBWAlaIw7sKF6TyikmCCNYi3/2Q=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Homer thinking"
+        title=""
+        src="/static/homer_thinking-86a565d71add05ee9966b264c97df105-f4cb4.jpg"
+        srcset="/static/homer_thinking-86a565d71add05ee9966b264c97df105-fa5da.jpg 200w,
+/static/homer_thinking-86a565d71add05ee9966b264c97df105-1efcc.jpg 400w,
+/static/homer_thinking-86a565d71add05ee9966b264c97df105-f4cb4.jpg 611w"
+        sizes="(max-width: 611px) 100vw, 611px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>What I really want to do now is to partition the data into two groups: those who failed the test (98% of the paricipants) vs those who didn’t (2% of the participants).  Then, with feature engineering, I can hopefully figure out the particular factors that determine financial literacy proficiency.</p>
+<p>But before I do that, I need to make sure that this partition is reasonable, as it was determined by a metric that I created.  So, I will test my financial literacy metric by comparing the two groups with parameters that I did not use in my financial literacy metric calculation.</p>
+<p>In turn, I will compare the two groups by the following parameters:</p>
+<ol>
+<li>
+<p>Household Income</p>
+</li>
+<li>
+<p>Highest level of education</p>
+</li>
+<li>
+<p>Whether they received financial education at work, school, or at home.</p>
+</li>
+<li>
+<p>Own a home</p>
+</li>
+<li>
+<p>Math abilities</p>
+</li>
+</ol>
+<p>These parameters typically correlate with financial literacy competence, but they’re not included in my financial literacy metric. If my financial literacy metric is a reliable one, then these parameters should correlate nicely with the test results.</p>
+<hr>
+<h3>Partitioning the data</h3>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">bottom_98 <span class="token operator">=</span> df<span class="token punctuation">[</span>df<span class="token punctuation">[</span><span class="token string">'financialliteracyscore'</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> <span class="token number">70</span><span class="token punctuation">]</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">top_2 <span class="token operator">=</span> df<span class="token punctuation">[</span>df<span class="token punctuation">[</span><span class="token string">'financialliteracyscore'</span><span class="token punctuation">]</span> <span class="token operator">>=</span> <span class="token number">70</span><span class="token punctuation">]</span></code></pre>
+      </div>
+<hr>
+<h2>Comparing Household Income</h2>
+<p>As mentioned before, I will first verify that my financial literacy metric is a reliable one, by comparing it with certain attributes that weren’t used to calculate the metric. First, I will compare their household income.  </p>
+<p><em>As a side note: since we’re dealing with uneven sample sizes, metrics will be determined in relative terms, i.e. percentages.</em></p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">percent_calculator</span><span class="token punctuation">(</span>df<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> key<span class="token punctuation">,</span> value <span class="token keyword">in</span> kwargs<span class="token punctuation">.</span>items<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> key <span class="token operator">==</span> <span class="token string">'column'</span><span class="token punctuation">:</span>
+            label <span class="token operator">=</span> value
+        <span class="token keyword">if</span> key <span class="token operator">==</span> <span class="token string">'response'</span><span class="token punctuation">:</span>
+            response <span class="token operator">=</span> value
+    numerator <span class="token operator">=</span> df<span class="token punctuation">[</span>df<span class="token punctuation">[</span>label<span class="token punctuation">]</span> <span class="token operator">==</span> response<span class="token punctuation">]</span><span class="token punctuation">[</span>label<span class="token punctuation">]</span><span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    no_nulls <span class="token operator">=</span> df<span class="token punctuation">[</span>df<span class="token punctuation">[</span>label<span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token number">99</span><span class="token punctuation">]</span>
+    denominator <span class="token operator">=</span> no_nulls<span class="token punctuation">[</span>label<span class="token punctuation">]</span><span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> rounding<span class="token punctuation">(</span>numerator<span class="token operator">*</span><span class="token number">1.0</span><span class="token operator">/</span>denominator <span class="token operator">*</span> <span class="token number">100</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">income_98 <span class="token operator">=</span> bottom_98<span class="token punctuation">[</span><span class="token string">'HouseholdIncome'</span><span class="token punctuation">]</span>
+income_98<span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>plot<span class="token punctuation">(</span><span class="token string">'bar'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f47649cbba8&gt;</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-4c4c9.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 384px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 79.42708333333333%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAADaklEQVQ4y6WTf0wTZxjHa0tbcAiu8kPoqvyhmy4xyj+aGRMcwRmyTHTGn8v2x0yWLCT+wZxiNDMbi8hgUycz25Ql8wfYtJMqRX44ZYtaRRTakAnaowh3gHesLTXVFq7vfffe9ZbBiInGJ/fked+79z73ed43p9HQAKDr8fbtYAaHdws8X8Lz/GcvmCWCIOz1er3rZJ6+t7Ys6+TVv0b3t7B4mfD7/c0ycGbLN5/mlDd4eouO35TvjxNApFUkElHqc2RUfnFsbMwqAxNw7XhGVaOH2VpzV75PSOSxBEmS6FhJKRajM6JcSk4PGYpgMGhXDNsO75xf6exitvx6j3rfI6SmEOKTv8GE+hEVI9Nai39rynwKUIe2Y5mVDRR4qhfg7xJULUbAzyDf/g6YIAPxjgciPwI/H0VgOIx4G0QBU+NpwKQb1SXzFMNTPYDQSXAkl24wg9W2Neh77MPA2vfwtKkezbUPccPWD297G5w/VEIaFcH/5AYZj8WBgThQz9cfzKps6FQNZeAyxfBtatgX8oHb9AEiVxpx2TqA2xdZeFodOPNFCaThCXBlLpBobIphYsePn1vihv8BFUN73JB9fysivzvRSoHtDhbdV52oKyuFNDKBoUO3KFBUgAF/QAEa1D18sFk+FL5TxOFlhAIJbZkwIR+hQBK57CSt1oek3TFIuq80kNqv9hAKJCMVt8nTUHjCZrfB7XbbZGCy52SpparRPbCtzke9u4HqXDwJDyL/wlqw40MQaMvSny344/wIui4JuH+tGfaD+6gSXf6dB+PhCGp+qUFHR4dDE//1rqeWn791c+OJTgFcOxv7din76FEPl2ctYHtGe4f6N2xhQ00Oruksw17/zcd1tdRzpw/s4qIDYY4td7FBwT949PujYy6X62cF+IYlw5CbV2i2rCjMOVGx1/TumykLq6srXjXlpr1eduRrU8Hc7AVffvxRev6q9fOK1mx77cONRXPfWrI4p+pARVrBolULrbXnUpevWD6/uLg4RTMnNVmjhlFuXx2nqzVTrWlqTVbX6WnO+t+zLM3kMCbNTNEZEjM+2V6kTUyYkU0PTaPVa81yNWq15gXmbL1pdnpSdqbFMDtl1itGvX7O6pV5OmOCwSy/bzKZjKV7SmdMZmrlv0Yd6yYZ/WtseMbahMmQfwA6Nx/lg/r2LgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-4c4c9.png"
+        srcset="/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-82932.png 200w,
+/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-4c4c9.png 384w"
+        sizes="(max-width: 384px) 100vw, 384px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">income_2 <span class="token operator">=</span> top_2<span class="token punctuation">[</span><span class="token string">'HouseholdIncome'</span><span class="token punctuation">]</span>
+income_2<span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>plot<span class="token punctuation">(</span><span class="token string">'bar'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f476493e470&gt;</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-ca96f.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 378px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 80.6878306878307%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAADaklEQVQ4y6WTf0wTZxjHa0tbcAiu8kPoqvyhmy4xyj+aGRMcwRmyTHTGn8v2x0yWLCT+wZxiNDMbi8hgUycz25Ql8wfYtJMqRX44ZYtaRRTakAnaowh3gHesLTXVFq7vfffe9ZbBiInGJ/fked+79z73ed43p9HQAKDr8fbtYAaHdws8X8Lz/GcvmCWCIOz1er3rZJ6+t7Ys6+TVv0b3t7B4mfD7/c0ycGbLN5/mlDd4eouO35TvjxNApFUkElHqc2RUfnFsbMwqAxNw7XhGVaOH2VpzV75PSOSxBEmS6FhJKRajM6JcSk4PGYpgMGhXDNsO75xf6exitvx6j3rfI6SmEOKTv8GE+hEVI9Nai39rynwKUIe2Y5mVDRR4qhfg7xJULUbAzyDf/g6YIAPxjgciPwI/H0VgOIx4G0QBU+NpwKQb1SXzFMNTPYDQSXAkl24wg9W2Neh77MPA2vfwtKkezbUPccPWD297G5w/VEIaFcH/5AYZj8WBgThQz9cfzKps6FQNZeAyxfBtatgX8oHb9AEiVxpx2TqA2xdZeFodOPNFCaThCXBlLpBobIphYsePn1vihv8BFUN73JB9fysivzvRSoHtDhbdV52oKyuFNDKBoUO3KFBUgAF/QAEa1D18sFk+FL5TxOFlhAIJbZkwIR+hQBK57CSt1oek3TFIuq80kNqv9hAKJCMVt8nTUHjCZrfB7XbbZGCy52SpparRPbCtzke9u4HqXDwJDyL/wlqw40MQaMvSny344/wIui4JuH+tGfaD+6gSXf6dB+PhCGp+qUFHR4dDE//1rqeWn791c+OJTgFcOxv7din76FEPl2ctYHtGe4f6N2xhQ00Oruksw17/zcd1tdRzpw/s4qIDYY4td7FBwT949PujYy6X62cF+IYlw5CbV2i2rCjMOVGx1/TumykLq6srXjXlpr1eduRrU8Hc7AVffvxRev6q9fOK1mx77cONRXPfWrI4p+pARVrBolULrbXnUpevWD6/uLg4RTMnNVmjhlFuXx2nqzVTrWlqTVbX6WnO+t+zLM3kMCbNTNEZEjM+2V6kTUyYkU0PTaPVa81yNWq15gXmbL1pdnpSdqbFMDtl1itGvX7O6pV5OmOCwSy/bzKZjKV7SmdMZmrlv0Yd6yYZ/WtseMbahMmQfwA6Nx/lg/r2LgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-ca96f.png"
+        srcset="/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-230dd.png 200w,
+/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-ca96f.png 378w"
+        sizes="(max-width: 378px) 100vw, 378px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">income_98<span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">[50k, 75k)      0.205368
+[35k, 50k)      0.149237
+[70k, 100k)     0.134462
+[100k, 150k)    0.118090
+[0, 15K)        0.117348
+[15k, 25k)      0.110777
+[25k, 35k)      0.110740
+150k+           0.053978
+Name: HouseholdIncome, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">income_2<span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">[100k, 150k)    0.298246
+150k+           0.253589
+[70k, 100k)     0.196172
+[50k, 75k)      0.188198
+[35k, 50k)      0.047847
+[25k, 35k)      0.009569
+[15k, 25k)      0.004785
+[0, 15K)        0.001595
+Name: HouseholdIncome, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Percent of low-income surveyees from the bottom 98%: {rounding((0.118694 + 0.112046+ 0.111783)*100)}%'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Percent of low-income surveyees from the top 2%: {rounding((0.002125 + 0.004251 + 0.013815)*100)}%'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Percent of low-income surveyees from the bottom 98%: 34.25%
+Percent of low-income surveyees from the top 2%: 2.02%</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Percent of surveyees with income more than 100K from the bottom 98%: {rounding((0.115915 +0.051985)*100)}%'</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Percent of surveyees with income more than 100K from the top 2%: {rounding((0.299681 + 0.243358)*100)}%'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Percent of surveyees with income more than 100K from the bottom 98%: 16.79%
+Percent of surveyees with income more than 100K from the top 2%: 54.30%</code></pre>
+      </div>
+<p>Those in the top 2% significantly earn more money than the bottom 98%.  Since income typically correlates with financial literacy, we’re off to a good start.</p>
+<hr>
+<h2>Comparing Level of Education</h2>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">education_98 <span class="token operator">=</span> bottom_98<span class="token punctuation">[</span><span class="token string">'HighestLevelEducation'</span><span class="token punctuation">]</span>
+education_2 <span class="token operator">=</span> top_2<span class="token punctuation">[</span><span class="token string">'HighestLevelEducation'</span><span class="token punctuation">]</span>
+education_98<span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">College, no degree     0.283699
+Bachelor&#39;s             0.226566
+HS diploma             0.163938
+Post Graduate          0.131084
+Associate&#39;s            0.109960
+GED or alternative     0.062813
+Did not complete HS    0.021940
+Name: HighestLevelEducation, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">education_2<span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Post Graduate         0.344498
+Bachelor&#39;s            0.342903
+College, no degree    0.154705
+Associate&#39;s           0.098884
+HS diploma            0.049442
+GED or alternative    0.009569
+Name: HighestLevelEducation, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Percent of surveyees from bottom 98% who did not attend college: {rounding((0.284866+ 0.165045+ 0.022199+0.063366)*100)}%'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Percent of surveyees from bottom 98% who did not attend college: 53.55%</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">'Percent of surveyees from top 2% who did not attend college: {rounding((0.164718+ 0.056323+0.011690 )*100)}%'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Percent of surveyees from top 2% who did not attend college: 23.27%</code></pre>
+      </div>
+<p>According to the percentages above, those in the top 2% are relatively more educated. This correlates nicely with the financial literacy metric. </p>
+<hr>
+<h2>Comparing Financial Education</h2>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">target <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"FinancialEducationOfferedAtSchoolOrWork?"</span><span class="token punctuation">,</span> 
+          <span class="token string">"ReceiveFinancialEducationInHighSchool?"</span><span class="token punctuation">,</span>
+          <span class="token string">"ReceiveFinancialEducationInCollege?"</span><span class="token punctuation">,</span> 
+          <span class="token string">"ReceiveFinancialEducationFromWork?"</span><span class="token punctuation">,</span>
+          <span class="token string">"ReceiveFinancialEducationFromMilitary?"</span><span class="token punctuation">,</span>
+          <span class="token string">"ParentsTeachYouAboutFinance?"</span><span class="token punctuation">,</span>
+         <span class="token punctuation">]</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_98 <span class="token operator">=</span> bottom_98<span class="token punctuation">[</span>target<span class="token punctuation">]</span>
+
+fin_ed_98 <span class="token operator">=</span> fin_ed_98<span class="token punctuation">[</span>fin_ed_98<span class="token punctuation">[</span><span class="token string">'FinancialEducationOfferedAtSchoolOrWork?'</span><span class="token punctuation">]</span><span class="token operator">!=</span> <span class="token number">99</span><span class="token punctuation">]</span>
+<span class="token comment"># fin_ed_98.hist(column = "FinancialEducationOfferedAtSchoolOrWork?")</span>
+<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>fin_ed_98<span class="token punctuation">[</span><span class="token string">'FinancialEducationOfferedAtSchoolOrWork?'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">12000</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Yes, but did not participate \n2 = Yes, and participate \n3 = No'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(0,12000,&#39;0 = IDK\n1 = Yes, but did not participate \n2 = Yes, and participate \n3 = No&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-bdfc6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACWUlEQVQ4y2NISkpiZGBgEHNzc5N8/vx55Zs3bxqBuP7Dhw9g/P79ezD96dMnMBsk9/btWzANY999/Lz23pMXbffu3nFjOHHiBMhA/paWFqUvX778B4EfP378JwVkr77+v/ng6///v3+cwXDv3j2QgcJVVVXKL1++fH///v2/N27c+Hn16tVfFy9eBGMg/xdQ7tfXr19/AfXD8d9/ENq598D3iLln////+62LASgANI+Bt76+XuHjx49fgN77D6T//f379//v37/BGMSGgX///sHxX6CJIOA18dDvhCWX/////bWXQU5OjhNooERubq7yz58/v8D0oXsLZggyG6uB3Nzc4kADBYBeVvj+/fsXqIZ/yC5BN+z3n7///+IykIuLSwpooEh6eroasoHYAh9d+A82AxUVFTmABnKVl5Upfvv2DWzgXySdIE0gDBN6+v7b/6n7boNpGEAxEAp4E5NT1P78QoQhDEDD899viHP+Hbr16h9b+up/h2+/hsuBDIxfDDLwC9xA7lmddUrXHr/9OP3gvf/PP37/DXIcCK8+8/jP+vNP/8D4x+6++SNauPHPiXtv4WJeEw//iF90Ecj61g0zkO3sin6VFcdu/xcq2fH/3JPPcO849R/97z31BJx/+tHn/8LFW/+ffYxQ4z352P/klbeAOeLjZIaenh6wiVumNXK1zFweo5Q9L2Tt3pOhZ0+diAFmNR/7kpkxvq2rg58/fRJ4+cK5qF0X7vnwhXXGrNh1PPT5k4dBp08ej3Fp2+LjVjk78dKpo4Zgw+pz4hmIANxALERIEQC9se/BLMqIogAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-bdfc6.png"
+        srcset="/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-62a61.png 200w,
+/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-ba673.png 400w,
+/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-bdfc6.png 405w"
+        sizes="(max-width: 405px) 100vw, 405px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_2 <span class="token operator">=</span> top_2<span class="token punctuation">[</span>target<span class="token punctuation">]</span>
+fin_ed_2 <span class="token operator">=</span> fin_ed_2<span class="token punctuation">[</span>fin_ed_2<span class="token punctuation">[</span><span class="token string">'FinancialEducationOfferedAtSchoolOrWork?'</span><span class="token punctuation">]</span><span class="token operator">!=</span><span class="token number">99</span><span class="token punctuation">]</span>
+
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>fin_ed_2<span class="token punctuation">[</span><span class="token string">'FinancialEducationOfferedAtSchoolOrWork?'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">350</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Yes, but did not participate \n2 = Yes, and participate \n3 = No'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(0,350,&#39;0 = IDK\n1 = Yes, but did not participate \n2 = Yes, and participate \n3 = No&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-b8f46.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAChklEQVQ4y52TT0gUURzHNywqCrYuEVokEkKH0gi0PEYHLx68dAtCqAjJaqeMjDSzMINtPRkEXQpS0FIytRS7hGt/BGndTHcX1nZ2nd1xZ3ZGHHXnzZtfvzeOk4WU9IUv8/u99+Yzv9+b91wuVCgUOsHzfF0kErkqCAKnKAony7LlTCbDqarKSZLEJZNJLpYQuFkhyaVSKU5EszjKz3I/+Lhn1D+yl/FcCPMCKh6PQzabZSFQSq2nYRjO2HoKilkobxuDkagCsDBbxng5CLynaRoEg8ElrJYEAgGCMRkfHycsT6clsry0SDSdkmf+GfKVVwiyLL8NCvrmC12k41N0GSBTYlWIrTWwr4miSHRdNzE0mbBKK151TNLMXZdemc39352xocmkuftyD3R9mTEAJAu4PRwOt9gdEHuhI+SCYbcflxdh//VeeDQ47cwPfUua7poe6Pz8C+jCDW+wXybmimCtVwoF4GUN8q69Bu/g1F+BOYlEomm1Qov2h9YCczcA3BKLxe6vB1yvwo0AXel02mqZ2i2vwv63wq14oJvteR1J1LS9rBs0Syj72eyvUARSBFLvuykrZ0Ygddd0mwgkToUZKX1Xw9mIuPDb3lU+/ghc14STC/M65NX2QetwxBl7Pz0H7iu98HIshplcagG1uUR91VO/efh2nzSvLSkG0RU8kGpRQ79yuu2DCqahMEdFVcn1dKsP+4N4LaiKVgbwlLurO+c7/GEZSOoY422qq/XsO1JRVVZw8cmB5gctR1t9vuKJQCA//9SZknKPr7Cj/cWhW3U3j3cPDBe4T54rqjh/ozgyPZnfeKe+pKnteeGOysaDlWerS0fftG9zbVB70Ozi7/zXwp8ROkBd8d9k1gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-b8f46.png"
+        srcset="/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-cc80b.png 200w,
+/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-b8f46.png 392w"
+        sizes="(max-width: 392px) 100vw, 392px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_2<span class="token punctuation">[</span><span class="token string">'FinancialEducationOfferedAtSchoolOrWork?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">3    0.467021
+2    0.402128
+1    0.081915
+0    0.048936
+Name: FinancialEducationOfferedAtSchoolOrWork?, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_98<span class="token punctuation">[</span><span class="token string">'FinancialEducationOfferedAtSchoolOrWork?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">3    0.588611
+2    0.212364
+1    0.099683
+0    0.099343
+Name: FinancialEducationOfferedAtSchoolOrWork?, dtype: float64</code></pre>
+      </div>
+<p><strong>40% of the top 2</strong> received financial education from school/work, and only <strong>21% of the bottom 98</strong> received financial education from school/work. </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_98 <span class="token operator">=</span> bottom_98<span class="token punctuation">[</span>target<span class="token punctuation">]</span>
+fin_ed_copy_98<span class="token operator">=</span>fin_ed_98<span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+fin_ed_copy_98 <span class="token operator">=</span> fin_ed_copy_98<span class="token punctuation">[</span>fin_ed_copy_98<span class="token punctuation">[</span><span class="token string">'ParentsTeachYouAboutFinance?'</span><span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token number">99</span><span class="token punctuation">]</span>
+
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>fin_ed_copy_98<span class="token punctuation">[</span><span class="token string">"ParentsTeachYouAboutFinance?"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">12000</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Yes\n2 = No'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(0,12000,&#39;0 = IDK\n1 = Yes\n2 = No&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-bdfc6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACEUlEQVQ4y2N48OABAxCIe3l5Sd2/f7/y+vXrjVevXq1///59/Zs3b+D47ds39a9eQ/Dbt2+RxN/W3338vPbekxdt9+7ecWP4//8/I9BAzmnTpsl//Pjx/9evX/9//vz5Pykge/X1/80HX/////3jDIbp06eDDOSvrq5W+PTp0wegy/4CDfwJVPcLHXdsv/6ra8cNMPsfEP/9BxF37j3wPWLu2f///37rArkQ5GWB8vJyhR8/fnyBWvoPCP4jYxBw6N7/H6gZzP4LNO3PX4i418RDvxOWXP7///fXXgYlJSUOoIF8QBfKf//+/QvcNAiNYqDv5MP/A6YegRgIFPuLzUAeHh4xkJdLSkoU0Q1ENhQEvCce+u8HNBSvgVxcXNIgL1PNQEVFRZCXOauqquSpYiAUcBUWFCh/+wYx8O8/TAAyG2jgP6CBYDbQsH9//kLEQQbGLwYZ+AVhYEZWjvKfXz8/QR32G4j/oGPvSYf/+E05Amb/g0QymO018fDP+EUXgayv3bBkw7R23mS5W0/f/N924/3/z7+wJ2DfaSf/B8w4hSHuPfnY/+SVt/7///lpMsOmTZvATlzUks9T2js3gSGwM2rSonUJD+7cCt2+Y0fyxYuXwnfv3p145fKlcKvC6TEOlQvDL5w9FX38xAkwPn/mZIxN2bxwl5JpqUf37jABG/b3yg4GIoAwEAuBfINPEQAC+/AjQmuI3AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-bdfc6.png"
+        srcset="/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-62a61.png 200w,
+/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-ba673.png 400w,
+/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-bdfc6.png 405w"
+        sizes="(max-width: 405px) 100vw, 405px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_2 <span class="token operator">=</span> top_2<span class="token punctuation">[</span>target<span class="token punctuation">]</span>
+fin_ed_copy_2<span class="token operator">=</span>fin_ed_2<span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+fin_ed_copy_2 <span class="token operator">=</span> fin_ed_copy_2<span class="token punctuation">[</span>fin_ed_copy_2<span class="token punctuation">[</span><span class="token string">'ParentsTeachYouAboutFinance?'</span><span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token number">99</span><span class="token punctuation">]</span>
+
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>fin_ed_copy_2<span class="token punctuation">[</span><span class="token string">"ParentsTeachYouAboutFinance?"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">600</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Yes\n2 = No'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(0,600,&#39;0 = IDK\n1 = Yes\n2 = No&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-b8f46.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACOElEQVQ4y2NgYGDgOnDggMPDhw8rL126VHT//v3i169fF798+RKOXwHxwyfPi+8/foYiDpd/9ar46dOnRUeOHJFgAIEnT570/geCa9eu/f/z589/bKB9z4P/SUuv/McHrly5YgUyjxnouhaQwPPnz7//+vXrN5AJx3//QejQGcd+q1Zv+/3zz18w/x9CzS8QDQQ/rl+/bgZ24YMHD1qhloAU/EMGf//++wcSi5t78p9h465/P0FWoKkBaQQ65A/Qh3AD2/5DVP2GKQBRIPwXrP///9g5J/7rN+78DzTwP0weSmMYyPbo0SO4Cykx8Pp1iIGsz549a0I3EKYJn4Ewu0HEn9+//1y9CjGQBRgpreQYCAI/fv359/LTz/+fv/34c/fWTUgYAtNeG6kG/v4DofffePlPvmLr/w1nH/35//cNxEBgGLZADfgFilhk/OfvP5DOvzFzTvzVb9j59yfEpL9ACkzvvPL8L3f2un+rTt4HppC3YAOZgF7u+E8AxM0/89+gec//v2ji+26+/i9YuPn/2jOPgLx35mAX3r17p+7r9x//gPgtMLY+wPBPIP7x8+cHoNs/RM86+l6vbtuHL99+fPj9+9eHbz8g4tsvPv7An73m44rjd979//3SGGxgSnKiQnhihn1hyyTNgoJCmxkzZugWFRVZT5o0Sa+8osJi5vSpemqOwQ6yfoXahUDxlStWaBQUFlovXjBPOyazyIzTKVPHKzzB9uC6RRwMRAIxIJYEYl5CCgGoUFUshHXQpwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-b8f46.png"
+        srcset="/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-cc80b.png 200w,
+/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-b8f46.png 392w"
+        sizes="(max-width: 392px) 100vw, 392px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_copy_98<span class="token punctuation">[</span><span class="token string">'ParentsTeachYouAboutFinance?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">2    0.518070
+1    0.452904
+0    0.029026
+Name: ParentsTeachYouAboutFinance?, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">fin_ed_copy_2<span class="token punctuation">[</span><span class="token string">'ParentsTeachYouAboutFinance?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">1    0.726886
+2    0.270988
+0    0.002125
+Name: ParentsTeachYouAboutFinance?, dtype: float64</code></pre>
+      </div>
+<p><strong>45% from the bottom 98</strong> claimed that their parents taught them about finance, as opposed to <strong>73% from the top 2</strong> </p>
+<hr>
+<p>So far, I have demonstrated stark constrasts between the two groups by comparing attributes that weren’t included in my financial literacy metric.  This means that I am on the right track in terms of verifying that this partition makes sense. I have two more comparisons to make, the next one being owning a home.</p>
+<h2>Comparing Home Ownership</h2>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_bottom_98 <span class="token operator">=</span> bottom_98<span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+copy_bottom_98 <span class="token operator">=</span> copy_bottom_98<span class="token punctuation">[</span>copy_bottom_98<span class="token punctuation">[</span><span class="token string">'OwnHome?'</span><span class="token punctuation">]</span><span class="token operator">!=</span><span class="token number">99</span><span class="token punctuation">]</span>
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>copy_bottom_98<span class="token punctuation">[</span><span class="token string">"OwnHome?"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">12000</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Yes\n2 = No'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(0,12000,&#39;0 = IDK\n1 = Yes\n2 = No&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-bdfc6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACEElEQVQ4y2OYPXs2AxCw1tTU8D19+rTq3bt3jW/fvq1/8+YNCgaJ3X38HIyxyNcCxdpu377txjBr1ixGoIESGRkZGv/+/fuPD+Stu/W/YP1tnPKvXr2awXDr1i2Qgfytra0KQJveA135F4h/AuV/oWOXvoO/3CccArOBdsPFgc74DjIQ6MouBiAN8rJoYWGhKlDgy/Pnz/+/ePEC7FSQi2EYBHwmHf7vP+UImP0XVe43iAA6qJdBXl6eA2igUGVlpcL379+/gBX//YvVQO+Jh/77TT6MYiAIvPv68zeI9e7d214Gbm5uCaCB4nl5ecowA/9BwH9kQ7EZCLUXJPY7edkVoDu/9DJwcXFJgVyYm5uLYiAxLoQZ6DHh4O+4xZf+///ztZdBSUkJ5GVebAYS60KviYd+Jyy5DHQh0EAo4EtOTlZH8zIKAAkDDfwHNBDMBhr2789fiDjIwPjFlyFehgKugoICpZ8/f3yEOgwUa3/Qsfekw3/8phwBs4FGAc2DiHtNPPwzftFFkJe7YQay5+flqn78/BlvwvaddvJ/wIxTGOLek4/9T1556///n58mM9TX14NNLMlN5168ck3C/E37ozZt25lw88b10B07diRfvHgpfPfu3YlXLl8KtyqcHuNQuTD8wtlT0cdPnADj82dOxtiUzQt3KZmWenTvDhOwYSnx0QxEAGFQagBiJnyKAAou8Tcq2NGNAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-bdfc6.png"
+        srcset="/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-62a61.png 200w,
+/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-ba673.png 400w,
+/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-bdfc6.png 405w"
+        sizes="(max-width: 405px) 100vw, 405px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_top_2 <span class="token operator">=</span> top_2<span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+copy_top_2 <span class="token operator">=</span> copy_top_2<span class="token punctuation">[</span>copy_top_2<span class="token punctuation">[</span><span class="token string">'OwnHome?'</span><span class="token punctuation">]</span><span class="token operator">!=</span><span class="token number">99</span><span class="token punctuation">]</span>
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>copy_top_2<span class="token punctuation">[</span><span class="token string">"OwnHome?"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">300</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Yes\n2 = No'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(0,300,&#39;0 = IDK\n1 = Yes\n2 = No&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-b8f46.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB+klEQVQ4y6VTz0sbQRResKAXr6UeBC+Vim2sCFabinrrKZfiqSrBe8HNHiqKVqugHuwhIMZiERpK4z8g+AO8pFYhJ1kSk0CaqEnzq+kIJe7s7Mz0zZrVoG1T9MHHY+Z98+339s1IEkQ4HO5Mp9OjmUxGBihXkQUkTr4r345Tyh/r2aySTCZdfr//ntCTEonEAq8Qs9txPvRJ/SdHVdWnQu9OPB6fKe2dAUg5KDvPfZ5dcn9snWCDmmt2ydFFhtBCoVC76TCfz78pCRJ2JShlcJazwQ/7rHVqk2HxCViXhzio67oRDAZNwdpIJDLPz1nEIogkQM3znA+s7PGWqQ0Ogtyql/I1QalQKExYDss4NxasTqVS02ITJk2KxeKtHVaB4IymaTwQCBBwe/uWraEghIhhGDcWDFktR6PRudI/FFeAiuFaMCgTCrR/ZY+2TG5QTAxazuHMrDOi6+TCYS6Xe1vpYg+uBvjj6W1O/1KH1nj48PCJKRiLxcYxxgxs/wAgCxigYYzAAHr5/stP28Q6+lXUECE6OtPEPkVfoxn0/N3O6dbBUYGfHreZgk6ns0GW5W6v19sE+ZnH43mkKIrd7XbbXo+MdCwvLdoae1/01DvkZtnlsq/5fA+GZdn++eNqs8P5ql2q73tod/R3qZu+Guk/4y6gTjyCSsTfdsleO/3ff3sAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-b8f46.png"
+        srcset="/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-cc80b.png 200w,
+/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-b8f46.png 392w"
+        sizes="(max-width: 392px) 100vw, 392px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_bottom_98<span class="token punctuation">[</span><span class="token string">'OwnHome?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize <span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">1    0.61616
+2    0.37946
+0    0.00438
+Name: OwnHome?, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_top_2<span class="token punctuation">[</span><span class="token string">'OwnHome?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">1    0.928799
+2    0.070138
+0    0.001063
+Name: OwnHome?, dtype: float64</code></pre>
+      </div>
+<p><strong>38% of the bottom 98</strong> don’t own a home, as opposed to <strong>7% of the top 2</strong>.</p>
+<hr>
+<h2>Comparing Math Ability</h2>
+<p>This is the last attribute I will use to compare the split and hopefully will be able to validate my partitioning.</p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_math_98 <span class="token operator">=</span> bottom_98<span class="token punctuation">[</span>bottom_98<span class="token punctuation">[</span><span class="token string">'GoodAtMath?'</span><span class="token punctuation">]</span><span class="token operator">!=</span><span class="token number">99</span><span class="token punctuation">]</span>
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>copy_math_98<span class="token punctuation">[</span><span class="token string">"GoodAtMath?"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">8000</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Strongly Disagree \n4 = Neither agree nor disagree \n7 = Strongly Agree'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(0,8000,&#39;0 = IDK\n1 = Strongly Disagree \n4 = Neither agree nor disagree \n7 = Strongly Agree&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-bdfc6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACnElEQVQ4y5WT70tTURjHj28SZZomGhH1Qry96U1/gvSiFxWrxF+jF2k/ZU4thEBJtwgGYRSVIFQaxaKpY0Njglg5XYzYFNQww9KhGy10y83d69zuj6fnHO6GCRV94ctzzr3n+dzvA+eSYDBIUFk9PT0aXLeHw2ET2hiNRo0bGxus0v3a2hqrkUiE1bTpfikQ6lgO/jB/+7pYTiwWSxYCi9va2jhBEIBqa2sL/keNgwtwZ2IdG6NdBL9AgcTj8ZSEQqGY3++X3W530ufzpfBZamZmJoXJUysrKyme51PYn7EkK6wev+dK1PZOA0hCJ1GVbzAYjsRiMezhIRAIKAgBhEM8HgdJklhqWqkURQEZnZa22y3WWT4BiLyJlJaWZlOi3W4vSSQSgnpG+dN4O2H+MA9PJ5fg2O1R8crrecwaNxGNRlOCvEJMWIZAnh6UZWyhjbLMAL8Z3+OoDDgy9x1y9DbIb7KLTbYFgO1NE8nNzT2IwD1Wq3U/jiWoKZTdIFBBaVN5/RE40DoM+1ocomFQBXIcR0fO0+v1mYSKSkiDdkLTGvCtQv1zLxy++QYKm3cA08Lrk0koYgRqSVYyotyXHr/S71tl61MPJ5XsBpvCtTuVvTjybmDetYYGLplMxtQAIp1wt8u7xiVt9we21j35KBXfGJLK2kekgmbHduPAZ4Bk3Ei8Xi+7hxMuV/FmnE0M998tg8m5CM75dUZeDG9DzbMp4DrG4OqrWXZG1zsFRa1O4DrHoOD6MLQMLYPM/zQTfMci1p2vyRt566q2u+fOFV3oriInH5wlNY8rHOPeqv730xXkdFdlTn2fttLcXy1EI9oTt17UFl7uO3Po4iNd/qU+bfVdm+7L7NRRBht1WMm/VIRXC4uG/vd/O/cLwLLXK42c9SYAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-bdfc6.png"
+        srcset="/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-62a61.png 200w,
+/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-ba673.png 400w,
+/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-bdfc6.png 405w"
+        sizes="(max-width: 405px) 100vw, 405px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_math_2 <span class="token operator">=</span>top_2<span class="token punctuation">[</span>top_2<span class="token punctuation">[</span><span class="token string">'GoodAtMath?'</span><span class="token punctuation">]</span><span class="token operator">!=</span><span class="token number">99</span><span class="token punctuation">]</span>
+plt<span class="token punctuation">.</span>hist<span class="token punctuation">(</span>copy_math_2<span class="token punctuation">[</span><span class="token string">"GoodAtMath?"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'Responses'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'Frequency'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">600</span><span class="token punctuation">,</span> <span class="token string">'0 = IDK\n1 = Strongly Disagree \n4 = Neither agree nor disagree \n7 = Strongly Agree'</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">Text(1,600,&#39;0 = IDK\n1 = Strongly Disagree \n4 = Neither agree nor disagree \n7 = Strongly Agree&#39;)</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_49_1-8e8e675f276190345dc6dae3be10e146-b8f46.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACNElEQVQ4y52TTWgTQRSA11rrQaFUipVeKkLEhlIEoaLgzYNHUcGrNxFqtOZikUgFm4p6UJB6sh6EIBraHjxYCqJINElzStLELCabP5NNiJvd/O0mszPj23U3higx+uBjZh/zPubNzDIMw+zy+XynSqXSfKVSmYPRXigU2vA836Yzr1EEcnnezmVy9lQme+PzJ88BRhMmEolHFKJcLtN/jXCxSc8sB6iHEymt5U5qQiadTi/KskxDoZAcDAZRLBZD0WgURSIRJAgCEkURKYqCoL6Niok+vg3nW4OX3eilj1NgSzOabwCEToSQJkR+v58EAgHi9XoJ5AkcAclms6RarRIQEDNUjPXvzQhPRq6tU/dWUqX0uy4cjMfjS0YHyCj6Y3udeRX/nG9u82TYtk5f+38Jd2stGwXItGmDCca4LTNzvYR7MpnMXXOHRke0m+7oJRxKJpPOTmE/t9tLOMBx3FK/wu6WN8L534Q7QOg0FrcA3AsQwf0SDO8GQwn+yBbx8NU1AkJkCnemUql79D/iS6FOH7/7SvfNvaHuQBoywnH9YbMsu1BvyLTWUIRmsymZ1BqyVJcVqdVqiWKtIXJFSXz2gZW24kUJTlE6sbghjdrc4tj11YrLw5Zpkz+mC2/N3xx3PFyeerL6fmJl5bnV5XJNwl8yMeu4P+V8+uLwmvvVkelzs0eZ045DzPjFyZlLt625ROyg5axtevTCgmXk/B3LFccDq/pte4jpM/YDY8Devy38AR9QWy2Q/GA6AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_49_1-8e8e675f276190345dc6dae3be10e146-b8f46.png"
+        srcset="/static/output_49_1-8e8e675f276190345dc6dae3be10e146-cc80b.png 200w,
+/static/output_49_1-8e8e675f276190345dc6dae3be10e146-b8f46.png 392w"
+        sizes="(max-width: 392px) 100vw, 392px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_math_98<span class="token punctuation">[</span><span class="token string">'GoodAtMath?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">7    0.391393
+6    0.256746
+5    0.145802
+4    0.105781
+3    0.039833
+1    0.034255
+2    0.022159
+0    0.004032
+Name: GoodAtMath?, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">copy_math_2<span class="token punctuation">[</span><span class="token string">'GoodAtMath?'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>value_counts<span class="token punctuation">(</span>normalize<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">7    0.847872
+6    0.098936
+5    0.037234
+4    0.009574
+1    0.003191
+3    0.002128
+2    0.001064
+Name: GoodAtMath?, dtype: float64</code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-python"><code class="language-python">plt<span class="token punctuation">.</span>boxplot<span class="token punctuation">(</span><span class="token punctuation">[</span>copy_math_98<span class="token punctuation">[</span><span class="token string">'GoodAtMath?'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> 
+            copy_math_2<span class="token punctuation">[</span><span class="token string">'GoodAtMath?'</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span> labels<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'Bottom 98'</span><span class="token punctuation">,</span> <span class="token string">'Top 2'</span><span class="token punctuation">]</span><span class="token punctuation">)</span></code></pre>
+      </div>
+<div class="gatsby-highlight">
+      <pre class="language-text"><code class="language-text">{&#39;whiskers&#39;: [&lt;matplotlib.lines.Line2D at 0x7f8e4edf2940&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4edf2dd8&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4ed80748&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4ed80b70&gt;],
+ &#39;caps&#39;: [&lt;matplotlib.lines.Line2D at 0x7f8e4edf8240&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4edf8668&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4ed80f98&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4ed89400&gt;],
+ &#39;boxes&#39;: [&lt;matplotlib.lines.Line2D at 0x7f8e4edf27f0&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4ed802e8&gt;],
+ &#39;medians&#39;: [&lt;matplotlib.lines.Line2D at 0x7f8e4edf8a90&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4ed89828&gt;],
+ &#39;fliers&#39;: [&lt;matplotlib.lines.Line2D at 0x7f8e4edf8eb8&gt;,
+  &lt;matplotlib.lines.Line2D at 0x7f8e4ed89c50&gt;],
+ &#39;means&#39;: []}</code></pre>
+      </div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-c8d09.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 366px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 68.85245901639344%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABgElEQVQ4y62TzUrDQBDHAx69iAi+mFcfojmIV5/AJ6mCUKvi2Qpiz5aUWhpskzbfLW4+Nrv+J01KmzRBwYE/mZ2d/e3s7kQZDAbn8/n8wjCMFqSOx5+qrk9U0zRVGldlqrOviTrTx0WshdxLTdPOFDLbtjW5ZWEUS54K+VdzHOc1A8J5y2NRAmO+lXwHLjyeILZXjIWJZTuZL4QIaXEQBI8FsJ8DeRzHwnNs4XuuiJOEyhRlo1gURQKAYp7TYt/3n3eANEH5M8OQfhBsjrJm7PphGErXdYtYPZC+y+VScs4rsDIwyDetALHTe2lC4ugbwL4KaX61Wv2+QrxIY4W4w3ogKtwBWpYlGWONQNpwK6f5yHR/aZo2AimH7rEOmPUhIBHl4q/hSOZ5j1W07kPGPc/LcvJ1EuN1H8L5kP9gePWXDDgaja4x6KDS9mKxuO/1ek/D4fABj3WHzW7LwtFu8O92ptNpN4+1Eevqun6l7LEj6BQ6gQ6UejuEjstBFKr8ABSpsgtxwK4tAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="png"
+        title=""
+        src="/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-c8d09.png"
+        srcset="/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-6464a.png 200w,
+/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-c8d09.png 366w"
+        sizes="(max-width: 366px) 100vw, 366px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><strong>39% of the bottom 98</strong> claim strongly that they’re good at math, as opposed to <strong>85% of the top 2</strong>. Furthermore, the spread of responses is much larger from the bottom 98 when examining the box plot and histograms directly above.</p>
+<h3>Summary:</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Comparison</th>
+<th align="center">Top 2 %</th>
+<th align="center">Bottom 98%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Household Income</td>
+<td align="center">54% earn more than 100K</td>
+<td align="center">17% earn more than 100K</td>
+</tr>
+<tr>
+<td align="center">Highest Level of Education</td>
+<td align="center">23% did not attend college</td>
+<td align="center">54%   did not attend college</td>
+</tr>
+<tr>
+<td align="center">Financial Education</td>
+<td align="center">40% received from work or school; 73% received from parents</td>
+<td align="center">21% received from work or school; 45% received from parents</td>
+</tr>
+<tr>
+<td align="center">Home Ownership</td>
+<td align="center">7% do not own home</td>
+<td align="center">38% do not own home</td>
+</tr>
+<tr>
+<td align="center">Math Abilities</td>
+<td align="center">85% very confident in abilities</td>
+<td align="center">39% very confident in abilities</td>
+</tr>
+</tbody>
+</table></div><hr style="margin-bottom:1.75rem;" data-reactid="9"/><div style="display:flex;margin-bottom:4.375rem;" data-reactid="10"><img src="/static/Keleshian-Liz.8358ef73.jpg" alt="Elizabeth Keleshian" style="margin-right:0.875rem;margin-bottom:0;width:10.5rem;height:10.5rem;" data-reactid="11"/><p data-reactid="12"><!-- react-text: 13 -->Written by <!-- /react-text --><strong data-reactid="14">Elizabeth Keleshian</strong><!-- react-text: 15 -->, documenting the journey of her career change.<!-- /react-text --><!-- react-text: 16 --> <!-- /react-text --><a href="https://twitter.com/_mathlizard" data-reactid="17">You should follow her on Twitter</a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0;" data-reactid="18"><li data-reactid="19"><a rel="prev" href="/pybay2018/" data-reactid="20"><!-- react-text: 21 -->← <!-- /react-text --><!-- react-text: 22 -->Take Aways from PyBay 2018<!-- /react-text --></a></li></ul></div></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-7e254010b99785073571.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","107818501498521":"component---src-templates-blog-post-js-ea8d621611c9f00dab82.js","162898551421021":"component---src-pages-404-js-4503918ea3a16cfcdb75.js","35783957827783":"component---src-pages-index-js-57c91d768b7a9793a4d0.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","127675179568203":"path---financial-literacy-analysis-91d4680947f20e289bbc.js","85966596966028":"path---pybay-2018-eb1c7ef82d432a77862e.js","219620025261909":"path---genomics-hackathon-e63aa312bcddd2d5eb4e.js","281023625406845":"path---playing-with-data-a933bbd0eed7a5291bd9.js","117233333338360":"path---cleaning-up-data-cb7aab7aab7efe510a7a.js","256828598317467":"path---new-beginnings-1e441d6a23fd6969bdc6.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-d2560281bd93852fd77d.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","114276838955818":"component---src-layouts-index-js-503bd0b3f9d6f4214f04.js"}/*]]>*/</script><script>
             
   
   if(true) {
@@ -13,4 +902,4 @@ date:  2018-07-17 12:38:08
   if (typeof ga === "function") {
     ga('create', 'undefined', 'auto');
       }
-      </script><script>/*<![CDATA[*/["/commons-fcbb8af1639fee4f6844.js","/app-7e254010b99785073571.js","/path---financial-literacy-analysis-ac5a0150059427907ba5.js","/component---src-templates-blog-post-js-34cbf33c27dcef043f89.js","/component---src-layouts-index-js-8160e493ca079c17610b.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
+      </script><script>/*<![CDATA[*/["/commons-fcbb8af1639fee4f6844.js","/app-7e254010b99785073571.js","/path---financial-literacy-analysis-91d4680947f20e289bbc.js","/component---src-templates-blog-post-js-ea8d621611c9f00dab82.js","/component---src-layouts-index-js-503bd0b3f9d6f4214f04.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
