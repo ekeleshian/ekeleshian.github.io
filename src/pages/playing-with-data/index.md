@@ -164,18 +164,13 @@ I then called this function:
  Here is the code for the function:
 
 ```python
- def financial_score_calculation(df, dictionary_of_parameters):
+def financial_score_calculation(df, dictionary_of_parameters):
+
     for parameter in dictionary_of_parameters:
-        for i in dictionary_of_parameters[parameter]['target']:
-            index = df.loc[df[parameter] == i].index
-            for i in index:
-                old_score = df.at[i, 'financialliteracyscore']
-                new_score = old_score + dictionary_of_parameters[parameter]['score']
-                df.at[i, 'financialliteracyscore'] = new_score
-    for i in df.index:
-        old_score = df.at[i, 'financialliteracyscore']
-        new_score = (old_score/27.0)*100
-        df.at[i, 'financialliteracyscore'] = new_score
+        index = df[df[parameter].isin(dictionary_of_parameters[parameter]['target'])].index
+        df.loc[index, 'financialliteracyscore'] += dictionary_of_parameters[parameter]['score']
+    df['financialliteracyscore'] = df['financialliteracyscore'] / len(dictionary_of_parameters)* 100
+
     return df
 
  ```
