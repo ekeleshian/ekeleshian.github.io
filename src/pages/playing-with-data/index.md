@@ -165,12 +165,10 @@ I then called this function:
 
 ```python
 def financial_score_calculation(df, dictionary_of_parameters):
-
     for parameter in dictionary_of_parameters:
         index = df[df[parameter].isin(dictionary_of_parameters[parameter]['target'])].index
         df.loc[index, 'financialliteracyscore'] += dictionary_of_parameters[parameter]['score']
     df['financialliteracyscore'] = df['financialliteracyscore'] / len(dictionary_of_parameters)* 100
-
     return df
 
  ```
