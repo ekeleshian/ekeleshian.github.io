@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Data Science N00b',
+    title: 'math lizard',
     author: 'Elizabeth Keleshian',
     description: 'Digital journal describing my career U-turn towards Data Science.',
     siteUrl: 'https://ekeleshian.github.io/',
   },
-  pathPrefix: '/data-science-n00b',
+  pathPrefix: '/mathlizard',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
