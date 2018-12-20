@@ -1,50 +1,54 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-57c91d768b7a9793a4d0.js",
-      "component---src-pages-index-js-57c91d768b7a9793a4d0.js.map"
+      "component---src-pages-index-js-b78a6c328fb581170a44.js",
+      "component---src-pages-index-js-b78a6c328fb581170a44.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---pybay-2018": [
-      "path---pybay-2018-eb1c7ef82d432a77862e.js",
-      "path---pybay-2018-eb1c7ef82d432a77862e.js.map"
+      "path---pybay-2018-e9f535003c952b478eff.js",
+      "path---pybay-2018-e9f535003c952b478eff.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-ea8d621611c9f00dab82.js",
-      "component---src-templates-blog-post-js-ea8d621611c9f00dab82.js.map"
+      "component---src-templates-blog-post-js-0ce43e231812cccb0656.js",
+      "component---src-templates-blog-post-js-0ce43e231812cccb0656.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-503bd0b3f9d6f4214f04.js",
       "component---src-layouts-index-js-503bd0b3f9d6f4214f04.js.map"
     ],
     "path---cleaning-up-data": [
-      "path---cleaning-up-data-cb7aab7aab7efe510a7a.js",
-      "path---cleaning-up-data-cb7aab7aab7efe510a7a.js.map"
+      "path---cleaning-up-data-1263db7f8840a8165bdc.js",
+      "path---cleaning-up-data-1263db7f8840a8165bdc.js.map"
     ],
     "path---financial-literacy-analysis": [
-      "path---financial-literacy-analysis-826c7866935b00a50486.js",
-      "path---financial-literacy-analysis-826c7866935b00a50486.js.map"
+      "path---financial-literacy-analysis-6a0937e13540abfca146.js",
+      "path---financial-literacy-analysis-6a0937e13540abfca146.js.map"
     ],
     "path---index": [
-      "path---index-d2560281bd93852fd77d.js",
-      "path---index-d2560281bd93852fd77d.js.map"
+      "path---index-18b9c29ba5c4c7077309.js",
+      "path---index-18b9c29ba5c4c7077309.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-fcbb8af1639fee4f6844.js",
+      "commons-6e82eaae3f56c620a9ec.js",
       "build-js-styles.css",
-      "commons-fcbb8af1639fee4f6844.js.map",
+      "commons-6e82eaae3f56c620a9ec.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---prepping-for-dsr": [
+      "path---prepping-for-dsr-bf722d042ced1ff94399.js",
+      "path---prepping-for-dsr-bf722d042ced1ff94399.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -55,13 +59,13 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---genomics-hackathon": [
-      "path---genomics-hackathon-e63aa312bcddd2d5eb4e.js",
-      "path---genomics-hackathon-e63aa312bcddd2d5eb4e.js.map"
+      "path---genomics-hackathon-6ba6fa133a890315e64e.js",
+      "path---genomics-hackathon-6ba6fa133a890315e64e.js.map"
     ],
     "app": [
-      "app-7e254010b99785073571.js",
+      "app-e125653522b82ceddac0.js",
       "build-js-styles.css",
-      "app-7e254010b99785073571.js.map",
+      "app-e125653522b82ceddac0.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -69,12 +73,12 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---new-beginnings": [
-      "path---new-beginnings-1e441d6a23fd6969bdc6.js",
-      "path---new-beginnings-1e441d6a23fd6969bdc6.js.map"
+      "path---new-beginnings-2546f78b378790350de4.js",
+      "path---new-beginnings-2546f78b378790350de4.js.map"
     ],
     "path---playing-with-data": [
-      "path---playing-with-data-d2c8e5fb723676a614cc.js",
-      "path---playing-with-data-d2c8e5fb723676a614cc.js.map"
+      "path---playing-with-data-0b34bbed76db5c2a86e6.js",
+      "path---playing-with-data-0b34bbed76db5c2a86e6.js.map"
     ]
   }
 }
