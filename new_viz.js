@@ -1,14 +1,15 @@
-console.log("bh")
+console.log("a")
 function select(category){ //if category is undefined, then you hit the clear case.
   if(category === 'google' || category === 'other'){
+    console.log("b")
     $.ajax({url: 'https://us-central1-smartfont-2018.cloudfunctions.net/select_data',
             data: {category},
             dataType: 'json',
             type: 'GET',
             complete: function(result){
               // debugger;
-              console.log("b")
-              fillFontList(result.responseJSON, 'fontList')
+              console.log("c")
+              fillFontList(result.responseJSON.result, 'fontList')
             }
     });
   }
@@ -21,14 +22,16 @@ function select(category){ //if category is undefined, then you hit the clear ca
 
 
 function fillFontList(result, fontList){
-  console.log("bws")
+  console.log("d")
   var x_coordinates = [0, 300, 150, 0, 300];
   var y_coordinates = [0, 0, 200, 400, 400];
   var cx = [150, 600, 370, 150, 600];
   var cy = [140, 140, 440, 740, 740];
-  // debugger;
+  debugger;
+  // console.log(result, fontList)
 
   for (var i = 0; i < result.length; i++){
+    // debugger;
     d3.select('#fontList')
     .append('circle')
     .attr('r', 120)
@@ -45,7 +48,7 @@ function fillFontList(result, fontList){
     .attr('y', y_coordinates[i])
     .attr('transform', "scale(1.5)");
   }
-
+  console.log("after d")
   d3.select('#fontList')
     .selectAll('image')
     .on('click', function(){
@@ -54,10 +57,12 @@ function fillFontList(result, fontList){
       clear();
       on_node_clicked(clicked_font_name);
     });
+    console.log("after after d")
 }
 
 
 function getResult(clicked_font){
+  console.log("e")
   $.ajax({
     url: "https://us-central1-smartfont-2018.cloudfunctions.net/neighbors",
     data: {'clicked_font': clicked_font, 'trial': true},
@@ -69,7 +74,7 @@ function getResult(clicked_font){
 
 
 function on_node_clicked(root){
-  debugger;
+    console.log("f")
     var w = window.innerWidth*0.68*0.95;
     var h = Math.ceil(w*0.9);
     var oR = 0;
@@ -191,7 +196,7 @@ function on_node_clicked(root){
     }
 //mouse-overed parent image and text animation
     function activateBubble(d,i){
-
+      console.log("g")
       var t = svg.transition()
       .duration(d3.event.altKey ? 7500 : 350);
 
@@ -217,7 +222,7 @@ function on_node_clicked(root){
 
     //mouse-overed child image animation
     function activateChildBubble(d,i){
-
+      console.log("h")
       var t = svg.transition()
       .duration(d3.event.altKey ? 7500 : 350);
 
@@ -282,7 +287,8 @@ function on_node_clicked(root){
 
 
     //mouse-overed child text animation with tooltip
-    function activateChildTxt(d,i){ 
+    function activateChildTxt(d,i){
+      console.log("i") 
       var txt_id_selected = this.id;
       var txt_x_selected = this.getAttribute("x");
 
@@ -398,6 +404,7 @@ function on_node_clicked(root){
 }
 
 function clear(){
+  console.log("j")
   d3.select("#parentImgandTxt").remove();
   d3.selectAll(".childBubble").remove();
   d3.selectAll(".childBubbleTxt").remove();
