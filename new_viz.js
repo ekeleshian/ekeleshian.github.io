@@ -1,4 +1,4 @@
-
+console.log("bh")
 function select(category){ //if category is undefined, then you hit the clear case.
   if(category === 'google' || category === 'other'){
     $.ajax({url: 'https://us-central1-smartfont-2018.cloudfunctions.net/select_data',
