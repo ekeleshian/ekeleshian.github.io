@@ -1,9 +1,7 @@
-console.log("a")
 
 const ROOT = "https://ekeleshian.github.io/"
 function select(category){ //if category is undefined, then you hit the clear case.
   if(category === 'google' || category === 'other'){
-    console.log("b")
     $.ajax({url: 'https://us-central1-smartfont-2018.cloudfunctions.net/select_data',
             data: {category},
             dataType: 'json',
@@ -11,7 +9,7 @@ function select(category){ //if category is undefined, then you hit the clear ca
             complete: function(result){
               // debugger;
               console.log("c")
-              fillFontList(result.responseJSON.result, 'fontList')
+              fillFontList(result.responseJSON.result, category)
             }
     });
   }
@@ -23,13 +21,12 @@ function select(category){ //if category is undefined, then you hit the clear ca
 }
 
 
-function fillFontList(result, fontList){
-  console.log("d")
+function fillFontList(result, category){
   var x_coordinates = [0, 300, 150, 0, 300];
   var y_coordinates = [0, 0, 200, 400, 400];
   var cx = [150, 600, 370, 150, 600];
   var cy = [140, 140, 440, 740, 740];
-  debugger;
+  // debugger;
   // console.log(result, fontList)
 
   for (var i = 0; i < result.length; i++){
@@ -55,28 +52,31 @@ function fillFontList(result, fontList){
     .selectAll('image')
     .on('click', function(){
       var clicked_font = this.href.baseVal;
-      var clicked_font_name = clicked_font.split('/')[3].split('.')[0]
+      var index = clicked_font.split("/").length - 1
+      var clicked_font_name = clicked_font.split('/')[index].split('.')[0]
       clear();
-      on_node_clicked(clicked_font_name);
+      getResult(clicked_font_name, category);
     });
-    console.log("after after d")
+
 }
 
 
-function getResult(clicked_font){
+function getResult(clicked_font, category){
   console.log("e")
   $.ajax({
     url: "https://us-central1-smartfont-2018.cloudfunctions.net/neighbors",
-    data: {'clicked_font': clicked_font, 'trial': true},
+    data: {'clicked_font': clicked_font, 'category': category},
     dataType: 'json',
     type: 'GET',
-    success: on_node_clicked
+    complete: function(result){
+        on_node_clicked(result.responseJSON)
+    }
   });
 }
 
 
 function on_node_clicked(root){
-    console.log("f")
+
     var w = window.innerWidth*0.68*0.95;
     var h = Math.ceil(w*0.9);
     var oR = 0;
