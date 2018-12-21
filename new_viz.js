@@ -1,4 +1,6 @@
 console.log("a")
+
+const ROOT = "https://ekeleshian.github.io/"
 function select(category){ //if category is undefined, then you hit the clear case.
   if(category === 'google' || category === 'other'){
     console.log("b")
@@ -43,7 +45,7 @@ function fillFontList(result, fontList){
   for (var i = 0; i < result.length; i++ ){
     d3.select('#fontList')
     .append("svg:image")
-    .attr('xlink:href', result[i])
+    .attr('xlink:href', ROOT+result[i])
     .attr('x', x_coordinates[i])
     .attr('y', y_coordinates[i])
     .attr('transform', "scale(1.5)");
@@ -113,7 +115,7 @@ function on_node_clicked(root){
     bubbleObj.append("image")
     .attr("class", "parentBubble")
     .attr("id", "parentImg")
-    .attr("xlink:href", function(d){ return d.img; })
+    .attr("xlink:href", function(d){ return ROOT + d.img; })
     .attr("x", function(d,i) { return (oR*(3*(1+i)-1) - 300); })
     .attr("y", ((h+oR)/3)-200)
     .attr("width", oR)
@@ -147,7 +149,7 @@ function on_node_clicked(root){
         childBubbles.append("image")
         .attr("class", "childBubble")
         .attr("id", function(d,i) { return "childBubbleImg_" + i; })
-        .attr("xlink:href", function(d){ return d.img;})
+        .attr("xlink:href", function(d){ return ROOT + d.img;})
         .attr("width", oR/2)
         .attr("height", oR/2)
         .attr("x", function(d,i) { 
