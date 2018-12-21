@@ -16,10 +16,6 @@
       "path---reading-from-text-files-dbac1311eb5044016498.js",
       "path---reading-from-text-files-dbac1311eb5044016498.js.map"
     ],
-    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
-      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
-      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
-    ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-0ce43e231812cccb0656.js",
       "component---src-templates-blog-post-js-0ce43e231812cccb0656.js.map"
@@ -58,18 +54,14 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---offline-plugin-app-shell-fallback": [
-      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
-      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "path---genomics-hackathon": [
       "path---genomics-hackathon-6ba6fa133a890315e64e.js",
       "path---genomics-hackathon-6ba6fa133a890315e64e.js.map"
     ],
     "app": [
-      "app-1c631e3ac31ea6db9bcc.js",
+      "app-db60ebff120b43d081b9.js",
       "build-js-styles.css",
-      "app-1c631e3ac31ea6db9bcc.js.map",
+      "app-db60ebff120b43d081b9.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
