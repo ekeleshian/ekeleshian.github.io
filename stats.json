@@ -12,6 +12,10 @@
       "path---pybay-2018-e9f535003c952b478eff.js",
       "path---pybay-2018-e9f535003c952b478eff.js.map"
     ],
+    "path---reading-from-text-files": [
+      "path---reading-from-text-files-dbac1311eb5044016498.js",
+      "path---reading-from-text-files-dbac1311eb5044016498.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -33,8 +37,8 @@
       "path---financial-literacy-analysis-6a0937e13540abfca146.js.map"
     ],
     "path---index": [
-      "path---index-18b9c29ba5c4c7077309.js",
-      "path---index-18b9c29ba5c4c7077309.js.map"
+      "path---index-1ebee03c0d00520a2502.js",
+      "path---index-1ebee03c0d00520a2502.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -47,8 +51,8 @@
       "build-js-styles.css.map"
     ],
     "path---prepping-for-dsr": [
-      "path---prepping-for-dsr-bf722d042ced1ff94399.js",
-      "path---prepping-for-dsr-bf722d042ced1ff94399.js.map"
+      "path---prepping-for-dsr-a50e27d9cc8a3acc7498.js",
+      "path---prepping-for-dsr-a50e27d9cc8a3acc7498.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -63,9 +67,9 @@
       "path---genomics-hackathon-6ba6fa133a890315e64e.js.map"
     ],
     "app": [
-      "app-e125653522b82ceddac0.js",
+      "app-1c631e3ac31ea6db9bcc.js",
       "build-js-styles.css",
-      "app-e125653522b82ceddac0.js.map",
+      "app-1c631e3ac31ea6db9bcc.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
