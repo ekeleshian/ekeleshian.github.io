@@ -163,9 +163,10 @@ function on_node_clicked(root){
         .on("mouseleave", function(){ return resetBubbles(); })
         .on("click", function(d){
           var clicked_font = this.href.baseVal;
-          var clicked_font_name =clicked_font.split("/")[3].split(".")[0];
+          let index = clicked_font.split("/").length - 1;
+          var clicked_font_name =clicked_font.split("/")[index].split(".")[0];
           clear();
-          on_node_clicked(clicked_font_name);
+          getResult(clicked_font_name);
         }); 
 
         childBubbles.append("text")
