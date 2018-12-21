@@ -7,6 +7,7 @@ function select(category){ //if category is undefined, then you hit the clear ca
             type: 'GET',
             complete: function(result){
               // debugger;
+              console.log("b")
               fillFontList(result.responseJSON, 'fontList')
             }
     });
@@ -20,7 +21,7 @@ function select(category){ //if category is undefined, then you hit the clear ca
 
 
 function fillFontList(result, fontList){
-
+  console.log("bws")
   var x_coordinates = [0, 300, 150, 0, 300];
   var y_coordinates = [0, 0, 200, 400, 400];
   var cx = [150, 600, 370, 150, 600];
