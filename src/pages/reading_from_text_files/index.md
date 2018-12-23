@@ -1,6 +1,6 @@
 ---
 title: Reading From Blobs Efficiently
-date: 2018-12-20 17:59:19
+date: 2018-12-22 17:59:19
 
 ---
 
@@ -9,7 +9,7 @@ date: 2018-12-20 17:59:19
 I wanted to integrate my machine learning project into my blog website.   To set up the server, I decided to use Google Cloud Functions as I didn't want to deal with the mundane tasks of server maintenance.  One of my GCF's was tasked to read from a giant CSV file and extract a piece from it to send over to the client.  This created a legitimate bottleneck for two reasons:
 
 1) GCFs are allocated at most 2 GB of memory
-2) Memory-consuming code leads to time-consuming code.  
+2) Blocking I/O is really slow and costly.  
 
 I had to find a way for my program to store only specific lines from the file into memory, as opposed to its default behavior which is to store every line into memory.  
 
@@ -21,7 +21,18 @@ I stored my csv file in Google Cloud Storage.  This was done quite easily in the
 
 ```$ pip install --upgrade google-cloud-storage```
 
-Then in a juypter notebook: 
+##### Authenticating a service account for your data:
+
+Go to GC's console to the IAM & admin tab to create a new service account.  This will generate a JSON file which will be downloaded to your hard disk. 
+
+##### Then in the terminal:
+```
+$ mv ~/Downloads/myproject-hash.json ~/myproject/
+$ export GOOGLE_APPLICATION_CREDENTIALS="/home/mathlizard/myproject/myproject-hash.json"
+
+```
+
+##### Then in a juypter notebook: 
 
 ```python
 from google.cloud import storage
@@ -33,22 +44,20 @@ blob = bucket.blob(blob_names[0])
 
 #### Tackling the Problem
 
-From the GC [API documentation](https://googleapis.github.io/google-cloud-python/latest/storage/blobs.html), there are three ways to read the contents of a blob, but I found that `download_as_string` would be the best method to use as it has two optional parameters to pass, `start (*int*), end (*int*)`, which represent the first and last byte of a range to be downloaded. Since the byte range was deterministic, i.e. the contents of this blob would never change during runtime, I figured that this was the way to solve my problem.  
+From the GC [API documentation](https://googleapis.github.io/google-cloud-python/latest/storage/blobs.html), there are three ways to read the contents of a blob, but I found that `download_as_string` would be the best method to use as it has two optional parameters to pass, `start (~int~), end (/int/)`, which represent the first and last byte of a range to be downloaded. Since the byte range was deterministic, i.e. the contents of this blob would never change during runtime, I figured that this was the way to solve my problem.  
 
-Determine the offset:
+##### Determine the offset:
 
 ```python
 data = blob.download_as_string()
 rows = data.split(b"\n")
-length_row = []
-for i in rows:
-    length_row.append(len(i))
-max(length_row)
+offset = max([len(i) for i in rows])
+
 ```
 
 The row with the largest byte length covered 20901 bytes.  This was my offset value.  If each row were 20901 bytes long, then the start and end values to be passed in `download_as_string` would just be a multiple of 20901. Therefore...
 
-Make each row 20901 bytes long:
+##### Make each row the length of the offset:
 
 ```python
 new_matrix = []
@@ -60,7 +69,8 @@ for i in rows:
     new_matrix.append(new_row)
 ```
 
-Write over the blob with new content:
+
+##### Write over the blob with new content:
 
 ```python
 byte_string = b''.join(new_matrix) 
@@ -83,7 +93,7 @@ relevant_row = relevant_row.astype(int)
 I have to increment the index value by one since the first row of my data is the column names.  
 
 
-Wallah! My problem got fixed. Now my code does data extraction efficiently as it only reads from a specific range of data.  My GCFs aren't complaining about exceeding memory and the website runs faster, too.   
+Wallah! My problem got fixed. Now my code does data extraction efficiently as it only reads from a specific range of data.  My GCFs aren't complaining about exceeding memory and the website runs faster, too.  Here's the link to the website in case you were curious how the implementation turned out AND use chrome as your browser:  [a recommendation system for fonts.](ekeleshian.github.io/visualizations.html)  
 
 
 
