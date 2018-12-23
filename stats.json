@@ -13,8 +13,8 @@
       "path---pybay-2018-e9f535003c952b478eff.js.map"
     ],
     "path---reading-from-text-files": [
-      "path---reading-from-text-files-c0552a84847e71bc502f.js",
-      "path---reading-from-text-files-c0552a84847e71bc502f.js.map"
+      "path---reading-from-text-files-08b0176d69c89c7e70bd.js",
+      "path---reading-from-text-files-08b0176d69c89c7e70bd.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-d2b5abdadd1ea450c0ab.js",
@@ -25,16 +25,16 @@
       "component---src-layouts-index-js-503bd0b3f9d6f4214f04.js.map"
     ],
     "path---cleaning-up-data": [
-      "path---cleaning-up-data-642a173ca8bda3cee157.js",
-      "path---cleaning-up-data-642a173ca8bda3cee157.js.map"
+      "path---cleaning-up-data-1263db7f8840a8165bdc.js",
+      "path---cleaning-up-data-1263db7f8840a8165bdc.js.map"
     ],
     "path---financial-literacy-analysis": [
-      "path---financial-literacy-analysis-6a0937e13540abfca146.js",
-      "path---financial-literacy-analysis-6a0937e13540abfca146.js.map"
+      "path---financial-literacy-analysis-10d8afd31763beaa2623.js",
+      "path---financial-literacy-analysis-10d8afd31763beaa2623.js.map"
     ],
     "path---index": [
-      "path---index-e31d005a69d72467c258.js",
-      "path---index-e31d005a69d72467c258.js.map"
+      "path---index-dd8f374489b7f8319ac4.js",
+      "path---index-dd8f374489b7f8319ac4.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -46,10 +46,6 @@
       "commons-6e82eaae3f56c620a9ec.js.map",
       "build-js-styles.css.map"
     ],
-    "path---prepping-for-dsr": [
-      "path---prepping-for-dsr-285cad2e57512c116dc4.js",
-      "path---prepping-for-dsr-285cad2e57512c116dc4.js.map"
-    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -59,14 +55,18 @@
       "path---genomics-hackathon-6ba6fa133a890315e64e.js.map"
     ],
     "app": [
-      "app-e13a0d551a4db6bbbea2.js",
+      "app-445ec24e3458b856778d.js",
       "build-js-styles.css",
-      "app-e13a0d551a4db6bbbea2.js.map",
+      "app-445ec24e3458b856778d.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---new-beginnings": [
+      "path---new-beginnings-2546f78b378790350de4.js",
+      "path---new-beginnings-2546f78b378790350de4.js.map"
     ],
     "path---playing-with-data": [
       "path---playing-with-data-0b34bbed76db5c2a86e6.js",
