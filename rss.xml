@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[math lizard]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 23 Dec 2018 22:44:05 GMT</lastBuildDate><item><title><![CDATA[Reading From Blobs Efficiently]]></title><description><![CDATA[The Background I wanted to integrate my machine learning project into my blog website.   To set up the server, I decided to use Google Cloud…]]></description><link>https://ekeleshian.github.io//reading_from_text_files/</link><guid isPermaLink="false">https://ekeleshian.github.io//reading_from_text_files/</guid><pubDate>Sat, 22 Dec 2018 17:59:19 GMT</pubDate><content:encoded>&lt;h2&gt;The Background&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[math lizard]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 23 Dec 2018 22:45:49 GMT</lastBuildDate><item><title><![CDATA[Reading From Blobs Efficiently]]></title><description><![CDATA[The Background I wanted to integrate my machine learning project into my blog website.   To set up the server, I decided to use Google Cloud…]]></description><link>https://ekeleshian.github.io//reading_from_text_files/</link><guid isPermaLink="false">https://ekeleshian.github.io//reading_from_text_files/</guid><pubDate>Sat, 22 Dec 2018 17:59:19 GMT</pubDate><content:encoded>&lt;h2&gt;The Background&lt;/h2&gt;
 &lt;p&gt;I wanted to integrate my machine learning project into my blog website.   To set up the server, I decided to use Google Cloud Functions as I didn’t want to deal with the mundane tasks of server maintenance.  One of my GCF’s was tasked to read from a giant CSV file and extract a piece from it to send over to the client.  This created a legitimate bottleneck for two reasons:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;GCFs are allocated at most 2 GB of memory&lt;/li&gt;
@@ -1580,23 +1580,4 @@ alphanumeric codes and their respective translations. I first started decoding t
 &lt;span class=&quot;token number&quot;&gt;28&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010029&lt;/span&gt;                  Ohio  East North Central      Midwest   
 &lt;span class=&quot;token number&quot;&gt;29&lt;/span&gt;       &lt;span class=&quot;token number&quot;&gt;2015010030&lt;/span&gt;           Connecticut         New England    Northeast&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;From here, I then imported the matplotlib.pyplot subpackage to generate some fun data visualizations.  Stay tuned to learn how I went about this as a data science n00b…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[From Math Teacher to Data Science n00b]]></title><description><![CDATA[I entered my late twenties questioning everything…  Moving to SF in 2016 caused some major turn arounds in my life. 
-Various factors led…]]></description><link>https://ekeleshian.github.io//new-beginnings/</link><guid isPermaLink="false">https://ekeleshian.github.io//new-beginnings/</guid><pubDate>Sun, 10 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I entered my late twenties questioning everything… &lt;/p&gt;
-&lt;p&gt;Moving to SF in 2016 caused some major turn arounds in my life.
-Various factors led from one thing to the next, causing a sequence of events that
-were so atypical compared to my prior way of life.  I can almost describe
-my chain of events as spontaneous in a way; life has felt fast and exciting.
-But with this spontaneity nature comes also a determined
-side. Paradoxical, indeed, but the truth will always
-hold that I have a deep affinity for math, especially statistics.
-My dream has always been to find work where my math knowledge
-puts me in an advantage and generates results that are impactful.&lt;br&gt;
-Teaching middle school math somehow didn’t cut it.&lt;/p&gt;
-&lt;p&gt;2016-2017 indeed has been an era of epiphanies.  Many realizations
-were made that became game-changers in my life - one
-being that I did not want to continue teaching.  Something very deep
-in my instincts, a feeling that is too internal to describe in words,
-could explain why teaching is ultimately not for me. This blog is not intended
-to pour out those feelings.  This blog is just a representation of my
-journal describing my progress as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Newbie&quot;&gt;n00b&lt;/a&gt;
-in data science.  &lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;From here, I then imported the matplotlib.pyplot subpackage to generate some fun data visualizations.  Stay tuned to learn how I went about this as a data science n00b…&lt;/p&gt;</content:encoded></item></channel></rss>
