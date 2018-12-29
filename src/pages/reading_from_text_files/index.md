@@ -4,9 +4,9 @@ date: 2018-12-22 17:59:19
 
 ---
 
-## The Background
+## The Problem
 
-I wanted to integrate my machine learning project into my blog website.   To set up the server, I decided to use Google Cloud Functions as I didn't want to deal with the mundane tasks of server maintenance.  One of my GCF's was tasked to read from a giant CSV file and extract a piece from it to send over to the client.  This created a legitimate bottleneck for two reasons:
+I wanted to turn my machine learning project into a working website that you can access through my blog.   To set up the server, I decided to use Google Cloud Functions as I didn't want to deal with the mundane tasks of server maintenance.  One of my GCF's was tasked to read from a giant CSV file and extract a piece from it to send over to the client.  This created a legitimate bottleneck for two reasons:
 
 1) GCFs are allocated at most 2 GB of memory
 2) Blocking I/O is really slow and costly.  
@@ -17,11 +17,13 @@ I had to find a way for my program to store only specific lines from the file in
 
 #### The Set-Up
 
-I stored my csv file in Google Cloud Storage.  This was done quite easily in the Google Cloud's console.  When uploading the file, two things were generated: a bucket and a blob.  A bucket is a container that stores the data.  A blob is a Google object that converts the file into a GCS-friendly structure.  In order to read the contents from the blob, I first had to install the GCS client library for python: 
+I stored my csv file in Google Cloud Storage.  This was done quite easily in the Google Cloud's console.  When uploading the file, two things were generated: a bucket and a blob.  A bucket is a container that stores the data.  A blob is a Google object that converts the file into a GCS-friendly structure.  In order to read the contents from the blob, first:
+
+##### Install GCS client library for Python:
 
 ```$ pip install --upgrade google-cloud-storage```
 
-##### Authenticating a service account for your data:
+##### Authenticate a service account for thedata:
 
 Go to GC's console to the IAM & admin tab to create a new service account.  This will generate a JSON file which will be downloaded to your hard disk. 
 
@@ -44,7 +46,7 @@ blob = bucket.blob(blob_names[0])
 
 #### Tackling the Problem
 
-From the GC [API documentation](https://googleapis.github.io/google-cloud-python/latest/storage/blobs.html), there are three ways to read the contents of a blob, but I found that `download_as_string` would be the best method to use as it has two optional parameters to pass, `start (~int~), end (/int/)`, which represent the first and last byte of a range to be downloaded. Since the byte range was deterministic, i.e. the contents of this blob would never change during runtime, I figured that this was the way to solve my problem.  
+From the GC [API documentation](https://googleapis.github.io/google-cloud-python/latest/storage/blobs.html), there are three ways to read the contents of a blob, but I found that `download_as_string` would be the best method to use as it has two optional parameters to pass `start, end`, which represent the first and last byte of a range to be downloaded. Since the byte range was deterministic, i.e. the contents of this blob would never change during runtime, I figured that this was the way to solve my problem.  
 
 ##### Determine the offset:
 
@@ -85,7 +87,7 @@ Say I have to extract the fifth row in my blob.  Then here's the code to do this
 import numpy as np
 idx = 5
 relevant_row = blob.download_as_string(start=20901*(idx+1), end=20901*(idx+2)-1)
-relevant_row = relevant_row.split(b",")
+relevant_row = np.array(relevant_row.split(b","))
 relevant_row = relevant_row[np.where(relevant_row != b'')]  #gets rid of all the trailing commas at the end
 relevant_row = relevant_row.astype(int)
 ```
@@ -93,7 +95,7 @@ relevant_row = relevant_row.astype(int)
 I have to increment the index value by one since the first row of my data is the column names.  
 
 
-Wallah! My problem got fixed. Now my code does data extraction efficiently as it only reads from a specific range of data.  My GCFs aren't complaining about exceeding memory and the website runs faster, too.  Here's the link to the website in case you were curious how the implementation turned out AND use chrome as your browser:  [a recommendation system for fonts.](ekeleshian.github.io/visualizations.html)  
+Wallah! My problem got fixed. Now my code does data extraction efficiently as it only reads from a specific range of data.  My GCFs aren't complaining about exceeding memory and the website runs faster, too.  Here's the link to the website in case you were curious how the implementation turned out AND use chrome as your browser:  [a recommendation system for fonts.](https://ekeleshian.github.io/visualizations.html)  
 
 
 
