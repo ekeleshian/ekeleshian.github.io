@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---past-four-months": [
+      "path---past-four-months-67c3fbcd3b890cef16f0.js",
+      "path---past-four-months-67c3fbcd3b890cef16f0.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-75f69340db5fd0fd8099.js",
       "component---src-pages-index-js-75f69340db5fd0fd8099.js.map"
@@ -13,8 +17,8 @@
       "path---pybay-2018-e9f535003c952b478eff.js.map"
     ],
     "path---reading-from-text-files": [
-      "path---reading-from-text-files-783d34a3fe3529229406.js",
-      "path---reading-from-text-files-783d34a3fe3529229406.js.map"
+      "path---reading-from-text-files-264eea0cf5e66fa9f2bd.js",
+      "path---reading-from-text-files-264eea0cf5e66fa9f2bd.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-d2b5abdadd1ea450c0ab.js",
@@ -33,8 +37,8 @@
       "path---financial-literacy-analysis-10d8afd31763beaa2623.js.map"
     ],
     "path---index": [
-      "path---index-a2d08c0c2494e06bf9cb.js",
-      "path---index-a2d08c0c2494e06bf9cb.js.map"
+      "path---index-c68bc46a97a934ccf9e0.js",
+      "path---index-c68bc46a97a934ccf9e0.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -55,9 +59,9 @@
       "path---genomics-hackathon-6ba6fa133a890315e64e.js.map"
     ],
     "app": [
-      "app-445ec24e3458b856778d.js",
+      "app-400a6ebca563eec2f75f.js",
       "build-js-styles.css",
-      "app-445ec24e3458b856778d.js.map",
+      "app-400a6ebca563eec2f75f.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
