@@ -15,7 +15,7 @@ Server maintenance, which involves dealing with Linux, is a pain. That's why for
 
 Pros:  Documentation and tutorials are decent; it's serverless; it's cheaper than paying monthly for domain; after final deployment, website works with no issues. 
 
-Cons:  No emulator to debug, run, & debug python cloud functions; deployment issues, which included receiving non-descriptive error messages and exploding depending on how the constraints in the requirements.txt file were coded. 
+Cons:  No emulator to debug, run, & debug python cloud functions; deployment issues, which included receiving non-descriptive error messages and exploding depending on how the constraints in the requirements.txt file were coded ([here](https://issuetracker.google.com/issues/121021718) is where this bug is reported and discussed). 
 
 As a side point: if the client side of your project doesn't share the same domain as your GCFs, you will have to deal with CORS issues.   This wasn't emphasized in the tutorials, so here's an [example](https://cloud.google.com/functions/docs/writing/http) of its quick implementation.
 
@@ -24,20 +24,20 @@ As a cool side-affect: I was able to gain a deeper understanding about http requ
 
 ##7. Climbing High to Start the Race in Tech
 
-The barriers to entry in tech is quite high, because there are certain nuanced tools that one must pick up and learn well before there's even a topic of discussion about getting a job as a coder.  They're *pre-requisites* so to speak:   
+The barriers to entry in tech are quite high, because there are certain nuanced tools that you should pick up and learn well before there's even a topic of discussion about getting a job as a coder.  They're *pre-requisites* so to speak:   
 
 #### Git
  Rebasing and cherrypicking; partitioning work with meaningful and compartmentalized commits; knowing which files need to be tracked and staged; using `tig`.
 #### Unix-isms
 Using CLI tools to get stuff done, my favorite so far being `wget`; reconfiguring environment variables and functions in .bashrc;  making aliases for common commands in .bashrc.   
 #### The Open-Source-Community
-Posting an issue when getting a weird bug from the source code; making a clear and concise description of the problem when reaching out in forums; using tech jargon and vocabulary in writing to effectively communicate your thoughts; reading about newcomings in HackerNews and blogs.
+Posting an issue when getting a weird bug from the source code; making a clear and concise description of the problem when reaching out in forums; using tech jargon and vocabulary in writing to effectively communicate your thoughts; reading about newcomings in Hacker News and blogs.
 
 
 
 ##6. Finding Effective Resources from Online and the Local Region
 
-Knowing how and when to ask for help is an acquired skill.  I've learned that one must employ certain strategies when reaching out.  Strategies include:  
+Knowing how and when to ask for help is an acquired skill.  You should employ certain strategies when reaching out:  
 
 1)  Parameterize google queries with a certain time range.  API's are constantly being iterated with new versions. "Past year" will give you results that are most current and most likely relevant to your problem.
 2)  Subscribe to techie IRC channels. This is a great way to virtually interact with your peers. I was able to learn regular expressions quite well after being quizzed by someone in Python's channel.  
@@ -53,18 +53,20 @@ The instructors at DSR really emphasized this idea as a way to check if you real
 ##4. Project Architecture
 
 The early phases of a project must include a design that's well drawn out and encapsulates the properties and functions of the project.  Most times, project brainstorming involves an exchange of words, but words can easily be misinterpreted, especially if tech jargon isn't being used.  I encountered this when working on my last project; my partner and I had different interpretations of the idea while building it!  You could imagine the snowball effect of issues that can occur.  If you're building an app or website, make sure you draw out the sequential actions of your client and server.  Then, there will be no ambiguity during implementation, which in turn makes the coding experience much smoother. 
+Here's the design for the font recommender: ![design](font_recommender_design.png)
+
 
 
 ##3. Adjusting to a Full-Time Work Flow of a Data Scientist
 
-There's no falsehood in the phrase that data clean-up is majority of the work.  This is because it's incredibly rare to be handed with perfect data.  It's important to be knowledgeable about data's various properties and their implications.  Data can be tabular where there are columns and rows or non-tabular where it lacks structure.  It can have nulls, floats, ints, strings, and other various objects.  It can be imbalanced, where you have more much more data from one class than the other.  It can have redundancies, where you find a high correlation coefficient in a set of features.  It can be massive where you have to distribute it across multiple machines.  It can be small where you have to employ some method(s) of data augmentation.  It can be online where the data is continually being updated, or offline where the data is static.  It can be grouped by some feature(s) and aggragated over some certain condition(s). It can have outliers in which you may or may not ignore. As you can see, there can be various problems with data; mentioned here is just a preview of the possibilities. As such, one must be fluent in data-wrangling. DSR substantially helped in this realm by having us get submerged into these problems using SQL, numpy, and pandas.  
+There's no falsehood in the phrase that data clean-up is majority of the work.  This is because it's incredibly rare to be handed with perfect data.  It's important to be knowledgeable about data's various properties and their implications.  Data can be tabular where there are columns and rows or non-tabular where there's different structure.  It can have nulls, floats, ints, strings, and other various objects.  It can be imbalanced, where there's more much more data from one class than the other.  It can have redundancies, a high correlation coefficient is discovered in a set of features.  It can be massive where the data is partitioned and processed through pipelines running on several machines.  It can be small where some method(s) of data augmentation is needed.  It can be online where the data is continually being updated, or offline where the data is static.  It can be grouped by some feature(s) and aggragated over some certain condition(s). It can have outliers in which may or may not be ignored. Mentioned here is just a preview of the ~80% of data science work. I've improved on data-wrangling after DSR taught us how to get around those issues by exploring them in exercises under SQL, numpy, and pandas.  
 
 
 ##2. Becoming 'Language Agnostic'
 
-As a self-taught programmer in data science, my first language was Python.  Before the retreat, I was religiously looking for pythonic tasks, barring my chances from learning other languages as I didn't have the mental eagerness to drop everything I learned from Python to make room to learn a different language.  Since the retreat, I've come to realize that it's not as daunting and arduous to learn a new language as it may appear from the perspective of tech newbie.  The underlying abstractions from a given programming language can have a lot of overlap with the abstractions from another language, i.e. the concepts of immutable and mutable objects, functions and callbacks, synchronous and asynchronous coding.  In turn, the rate in learning a programming language after knowing one fluently will increase over time.  This epiphany was brought into light during my implementation of visualizations in my project.  Python has great libraries for data visualization, but due to web-integration and graphics customization, JavaScipt was a better candidate.  So, I learned d3.  As a cool side-affect, I've gained a much deeper appreciation and admiration for visualizations.
+As a self-taught programmer in data science, my first language was Python.  Before the retreat, I was religiously looking for pythonic tasks, barring my chances from learning other languages as I didn't have the mental eagerness to drop everything I learned from Python to make room to learn a different language.  Since the retreat, I've come to realize that it's not as daunting and arduous to learn a new language as it may appear from the perspective of tech newbie.  The abstractions from a given programming language can have a lot of overlap with the abstractions from another language, i.e. the concepts of immutable and mutable objects, functions and callbacks, synchronous and asynchronous coding.  Once you're fluent in one programming language, the time it will take to learn a new one will decrease substantially.  This epiphany came into light after implementing the visualizations in my project.  Python has libraries for data visualization, but JavaScript's d3 library is hands-down the coolest and best way to make visualizations. So, I learned d3. I reached a point of proficiency after two weeks coding it. 
 
 
 ## 1. Effective Debugging
 
-Don't. Let. The. Computer. Win. One must learn how to debug by a series of frustrating and intensive experiences, as there's really no way to learn it explicity via tutorials.  Error message(s) may be too vague or orthogonal to help, or worse yet, they may not even appear.  I have reached a point where debugging has no longer become a daunting task, but rather a fun one, because I've learned how to act as a detective by employing debugging tools, reading the stacktrace, and then going to the place where the code exploded.  `set_trace` from Python's pdb library, `debbuger;` command in JavaScript, and the web inspector were my three best friends while working on my project.  When none of the three debugging tools helped, I reached out to the community either through Google, IRC channel, or a helpful veteran at a meet-up.  There is (mostly) always a solution if you know how to use your debugging tools, when you are in a positive frame of mind. 
+Don't. Let. The. Computer. Win. You will learn how to debug through a series of frustrating and emotionally intense moments while working on a project or task.  There's really no way to learn it explicity via tutorials.  Error message(s) may be too vague or totally irrelevant, or worse yet, they may not even appear.  I've come to a point where debugging is no longer a daunting task, but rather a fun one, because I've learned how to act as a detective with my debugging tools, by going up the stack up until the code exploded.  `set_trace` from Python's pdb library, `debbuger;` command in JavaScript, and the web inspector were my three best friends while working on my project.  When none of the three debugging tools helped, I reached out to the community either through Google, IRC channel, or a helpful veteran at a meet-up.  You. Will. Always. Win. 
