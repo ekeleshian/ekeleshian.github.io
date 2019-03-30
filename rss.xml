@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[math lizard]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 04 Jan 2019 01:21:41 GMT</lastBuildDate><item><title><![CDATA[Key Learnings So Far]]></title><description><![CDATA[To give you some context: exactly a year ago, I started the journey of changing my career from math teacher to data scientist.  The first…]]></description><link>https://ekeleshian.github.io//past_four_months/</link><guid isPermaLink="false">https://ekeleshian.github.io//past_four_months/</guid><pubDate>Wed, 02 Jan 2019 17:59:19 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;To give you some context: exactly a year ago, I started the journey of changing my career from math teacher to data scientist.  The first half of the year involved learning python part-time, attending meet-ups in the evenings, and participating in hackathons on the weekends. My learning and maturity dramatically accelerated while at a bootcamp named &lt;a href=&quot;https://datascienceretreat.com/&quot;&gt;DSR&lt;/a&gt;, where I dropped everything in SF to move and live in Berlin.  It recently concluded and now I’m back in the Bay Area, reflecting, writing, and continually learning. My thoughts are sorted by importance in ascending order.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[math lizard]]></title><description><![CDATA[Digital journal describing my career U-turn towards Data Science.]]></description><link>https://ekeleshian.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 30 Mar 2019 23:35:31 GMT</lastBuildDate><item><title><![CDATA[Key Learnings So Far]]></title><description><![CDATA[To give you some context: exactly a year ago, I started the journey of changing my career from math teacher to data scientist.  The first…]]></description><link>https://ekeleshian.github.io//past_four_months/</link><guid isPermaLink="false">https://ekeleshian.github.io//past_four_months/</guid><pubDate>Wed, 02 Jan 2019 17:59:19 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;To give you some context: exactly a year ago, I started the journey of changing my career from math teacher to data scientist.  The first half of the year involved learning python part-time, attending meet-ups in the evenings, and participating in hackathons on the weekends. My learning and maturity dramatically accelerated while at a bootcamp named &lt;a href=&quot;https://datascienceretreat.com/&quot;&gt;DSR&lt;/a&gt;, where I dropped everything in SF to move and live in Berlin.  It recently concluded and now I’m back in the Bay Area, reflecting, writing, and continually learning. My thoughts are sorted by importance in ascending order.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;P.S. follow me on twitter @_mathlizard (if you’re in SF, would love to meet up.)&lt;/em&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;P.P.S. I am currently looking for a job in the Bay Area.&lt;/em&gt; &lt;/p&gt;
 &lt;h2&gt;8. Google Cloud Functions&lt;/h2&gt;
 &lt;p&gt;Server maintenance, which involves dealing with Linux, is a pain. That’s why for &lt;a href=&quot;https://github.com/DerpMind/font_recommender/tree/master/Jesus_app&quot;&gt;my portfolio project&lt;/a&gt;, I took the serverless route with cloud functions.  I used Google Cloud Functions (GCFs), they have their pros and cons.  &lt;/p&gt;
 &lt;p&gt;Pros:  Documentation and tutorials are decent; it’s serverless; it’s cheaper than paying monthly for domain; after final deployment, website works with no issues. &lt;/p&gt;
@@ -27,52 +26,13 @@
 &lt;p&gt;The instructors at DSR really emphasized this idea as a way to check if you really understand something.  This method of learning forces you to distinguish the high- and low-level characteristics of an algorithm, which in turn provides a much richer understanding of the logic and moving parts behind your code.  Consider cross-entropy as an example.  An amateur would only be able to explain &lt;em&gt;what&lt;/em&gt; cross-entropy does and &lt;em&gt;when&lt;/em&gt; it’s used, but a professional will be able to explain &lt;em&gt;how&lt;/em&gt; and &lt;em&gt;why&lt;/em&gt; cross-entropy works for your context.  Sure, you can easily find libraries that have an API for machine learning algorithms. However, the abundance of such API’s will hinder your chances of understanding what your code is actually doing, which can then easily pave the way for difficult and frustrating debugging. Make sure you invest the time to code up ML algorithms from scratch, starting with the ones you frequently use.   &lt;/p&gt;
 &lt;h2&gt;4. Project Architecture&lt;/h2&gt;
 &lt;p&gt;The early phases of a project must include a design that’s well drawn out and encapsulates the properties and functions of the project.  Most times, project brainstorming involves an exchange of words, but words can easily be misinterpreted, especially if tech jargon isn’t being used.  I encountered this when working on my last project; my partner and I had different interpretations of the idea while building it!  You could imagine the snowball effect of issues that can occur.  If you’re building an app or website, make sure you draw out the sequential actions of your client and server.  Then, there will be no ambiguity during implementation, which in turn makes the coding experience much smoother.
-Here’s the design for my portfolio project, a font recommender: 
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/font_recommender_design-85f0f941b3137ca63cc62e3455b26c54-4a271.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 47.66081871345029%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACSklEQVQoz22S+0+SURjH+WsrN0W5xAumwkuabVZWy4niJogiecnZxSVyVUnROUvxkvqDoqAvF8EBopZ8ennNla3v9t1ztvOcz3me8xzVZmSE9dkhYnMevgWdJPeWqer6+vqOq9pf8yt5W4vv2IiMUT27+WVU8ca8h0JOQhUaFAg61IRdWrz2Gr6GPZwVSqTTKVKpFJIkcXIikc/n8Y29QjTVotPU8aJVR8CpYaa/AZ9Dg7evlkziOyq/W8RjM/PW3spEj4GYfHMVmM1myGQyJJNJBVwsFglPdtNmMSIIRl53WAi7HxEaalRiwCWQPd5D9WnAimA0odYK2DoE1udHKRTPZWCWXC5HoVCgXD7n6uoHCx+7mO43EBi24B1oJDBoUhwcMuEfeHgDnJKBRsFAvdZA33ODAjzNnRGPxxUnEgkFXK3QP2FDbNKj1+no7Wxhzm1UgCEZGHTpySZlYMBtYdzewnuHyGSPjtXZMYqlslLhrdPptNy2RGCiiyajhvp6tdyyyMxgMz6XiSlnM9MOgdPjXVRO21NedljlTbM8GA07S5P8q0qlQkWOy5+78TkNBIdF2ttEWswio3YrZrGVN8/MnElyhe1WE/drahm3CXh778njH/n9bX7egGRTtazoh06mex/gd2h50tyAUV+Hp8uAoFPT+VhN/mQH1fZalPXVKPubEQ5iIfkddv9U9Zerkg5ixLciJHaiJPZWONxdkdeLHGwvEd9eoFzKoypfXHJ0dEQuX7jT4v/avlWhdEEiKXGYOKZ0fnkn7xdxBZOa5JGrsQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;design&quot;
-        title=&quot;&quot;
-        src=&quot;/static/font_recommender_design-85f0f941b3137ca63cc62e3455b26c54-42603.png&quot;
-        srcset=&quot;/static/font_recommender_design-85f0f941b3137ca63cc62e3455b26c54-f931c.png 200w,
-/static/font_recommender_design-85f0f941b3137ca63cc62e3455b26c54-e8031.png 400w,
-/static/font_recommender_design-85f0f941b3137ca63cc62e3455b26c54-42603.png 800w,
-/static/font_recommender_design-85f0f941b3137ca63cc62e3455b26c54-5b8b9.png 1200w,
-/static/font_recommender_design-85f0f941b3137ca63cc62e3455b26c54-4a271.png 1368w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+Here’s the design for the font recommender: &lt;img src=&quot;font_recommender_design.png&quot; alt=&quot;design&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;3. Adjusting to a Full-Time Work Flow of a Data Scientist&lt;/h2&gt;
 &lt;p&gt;There’s no falsehood in the phrase that data clean-up is majority of the work.  This is because it’s incredibly rare to be handed with perfect data.  It’s important to be knowledgeable about data’s various properties and their implications.  Data can be tabular where there are columns and rows or non-tabular where there’s different structure.  It can have nulls, floats, ints, strings, and other various objects.  It can be imbalanced, where there’s more much more data from one class than the other.  It can have redundancies, a high correlation coefficient is discovered in a set of features.  It can be massive where the data is partitioned and processed through pipelines running on several machines.  It can be small where some method(s) of data augmentation is needed.  It can be online where the data is continually being updated, or offline where the data is static.  It can be grouped by some feature(s) and aggragated over some certain condition(s). It can have outliers in which may or may not be ignored. Mentioned here is just a preview of the ~80% of data science work. I’ve improved on data-wrangling after DSR taught us how to get around those issues by exploring them in exercises under SQL, numpy, and pandas.  &lt;/p&gt;
 &lt;h2&gt;2. Becoming ‘Language Agnostic’&lt;/h2&gt;
 &lt;p&gt;As a self-taught programmer in data science, my first language was Python.  Before the retreat, I was religiously looking for pythonic tasks, barring my chances from learning other languages as I didn’t have the mental eagerness to drop everything I learned from Python to make room to learn a different language.  Since the retreat, I’ve come to realize that it’s not as daunting and arduous to learn a new language as it may appear from the perspective of tech newbie.  The abstractions from a given programming language can have a lot of overlap with the abstractions from another language, i.e. the concepts of immutable and mutable objects, functions and callbacks, synchronous and asynchronous coding.  Once you’re fluent in one programming language, the time it will take to learn a new one will decrease substantially.  This epiphany came into light after implementing the visualizations in my project.  Python has libraries for data visualization, but JavaScript’s d3 library is hands-down the coolest and best way to make visualizations. So, I learned d3. I reached a point of proficiency after two weeks coding it. &lt;/p&gt;
 &lt;h2&gt;1. Effective Debugging&lt;/h2&gt;
-&lt;p&gt;Don’t. Let. The. Computer. Win. You will learn how to debug through a series of frustrating and emotionally intense moments while working on a project or task.  There’s really no way to learn it explicity via tutorials.  Error message(s) may be too vague or totally irrelevant, or worse yet, they may not even appear.  I’ve come to a point where debugging is no longer a daunting task, but rather a fun one, because I’ve learned how to act as a detective with my debugging tools, by going up the stack up until the code exploded.  &lt;code class=&quot;language-text&quot;&gt;set_trace&lt;/code&gt; from Python’s pdb library, &lt;code class=&quot;language-text&quot;&gt;debbuger;&lt;/code&gt; command in JavaScript, and the web inspector were my three best friends while working on my project.  When none of the three debugging tools helped, I reached out to the community either through Google, IRC channel, or a helpful veteran at a meet-up.  You. Will. Always. Win. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;twitter: @_mathlizard&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;linkedin: &lt;a href=&quot;https://linkedin.com/in/ekeleshian&quot;&gt;https://linkedin.com/in/ekeleshian&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;github: &lt;a href=&quot;https://github.com/ekeleshian&quot;&gt;https://github.com/ekeleshian&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;P.P.P.S. Just to mention again I am looking for a job.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reading From Blobs Efficiently]]></title><description><![CDATA[The Problem I wanted to turn my machine learning project into a working website that you can access through my blog.   To set up the server…]]></description><link>https://ekeleshian.github.io//reading_from_text_files/</link><guid isPermaLink="false">https://ekeleshian.github.io//reading_from_text_files/</guid><pubDate>Sat, 22 Dec 2018 17:59:19 GMT</pubDate><content:encoded>&lt;h2&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Don’t. Let. The. Computer. Win. You will learn how to debug through a series of frustrating and emotionally intense moments while working on a project or task.  There’s really no way to learn it explicity via tutorials.  Error message(s) may be too vague or totally irrelevant, or worse yet, they may not even appear.  I’ve come to a point where debugging is no longer a daunting task, but rather a fun one, because I’ve learned how to act as a detective with my debugging tools, by going up the stack up until the code exploded.  &lt;code class=&quot;language-text&quot;&gt;set_trace&lt;/code&gt; from Python’s pdb library, &lt;code class=&quot;language-text&quot;&gt;debbuger;&lt;/code&gt; command in JavaScript, and the web inspector were my three best friends while working on my project.  When none of the three debugging tools helped, I reached out to the community either through Google, IRC channel, or a helpful veteran at a meet-up.  You. Will. Always. Win. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reading From Blobs Efficiently]]></title><description><![CDATA[The Problem I wanted to turn my machine learning project into a working website that you can access through my blog.   To set up the server…]]></description><link>https://ekeleshian.github.io//reading_from_text_files/</link><guid isPermaLink="false">https://ekeleshian.github.io//reading_from_text_files/</guid><pubDate>Sat, 22 Dec 2018 17:59:19 GMT</pubDate><content:encoded>&lt;h2&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;I wanted to turn my machine learning project into a working website that you can access through my blog.   To set up the server, I decided to use Google Cloud Functions as I didn’t want to deal with the mundane tasks of server maintenance.  One of my GCF’s was tasked to read from a giant CSV file and extract a piece from it to send over to the client.  This created a legitimate bottleneck for two reasons:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;GCFs are allocated at most 2 GB of memory&lt;/li&gt;
@@ -104,7 +64,7 @@ blob &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; bucket&lt;span 
 &lt;h5&gt;Determine the offset:&lt;/h5&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; blob&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;download_as_string&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-rows &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b&lt;span class=&quot;token string&quot;&gt;&quot;\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+rows &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;b&quot;\n&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 offset &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; rows&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;The row with the largest byte length covered 20901 bytes.  This was my offset value.  If each row were 20901 bytes long, then the start and end values to be passed in &lt;code class=&quot;language-text&quot;&gt;download_as_string&lt;/code&gt; would just be a multiple of 20901. Therefore…&lt;/p&gt;
@@ -115,12 +75,12 @@ offset &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span clas
     row_length &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; row_length &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20901&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
         difference &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20901&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; row_length
-        new_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b&lt;span class=&quot;token string&quot;&gt;&apos;,&apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;difference &lt;span class=&quot;token comment&quot;&gt;#add trailing commas at the end of each row&lt;/span&gt;
+        new_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;b&apos;,&apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;difference &lt;span class=&quot;token comment&quot;&gt;#add trailing commas at the end of each row&lt;/span&gt;
     new_matrix&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;new_row&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h5&gt;Write over the blob with new content:&lt;/h5&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;byte_string &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; b&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;join&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;new_matrix&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;byte_string &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;b&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;join&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;new_matrix&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
 blob&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;upload_from_string&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;byte_string&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h4&gt;How It Works&lt;/h4&gt;
@@ -129,8 +89,8 @@ blob&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;upload_from_st
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np
 idx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
 relevant_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; blob&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;download_as_string&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;start&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20901&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;idx&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20901&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;idx&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-relevant_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;relevant_row&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b&lt;span class=&quot;token string&quot;&gt;&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-relevant_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; relevant_row&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;where&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;relevant_row &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; b&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;#gets rid of all the trailing commas at the end&lt;/span&gt;
+relevant_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;relevant_row&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;b&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+relevant_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; relevant_row&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;where&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;relevant_row &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;b&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;#gets rid of all the trailing commas at the end&lt;/span&gt;
 relevant_row &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; relevant_row&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;astype&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;I have to increment the index value by one since the first row of my data is the column names.  &lt;/p&gt;
@@ -225,8 +185,8 @@ Name: financialliteracyscore, dtype: float64&lt;/code&gt;&lt;/pre&gt;
 percentile_75 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;quantile&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;q&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;.75&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 percentile_98 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; df&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;financialliteracyscore&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;quantile&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;q&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;.98&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Financial literacy score in the 75th percentile: {rounding(percentile_75)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Financial literacy score in the 98th percentile: {rounding(percentile_98)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Financial literacy score in the 75th percentile: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;percentile_75&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Financial literacy score in the 98th percentile: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;percentile_98&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Financial literacy score in the 75th percentile: 48.15%
@@ -235,39 +195,7 @@ Financial literacy score in the 98th percentile: 70.37%&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Already, the stats looks alarming.  75% of surveyees score around 50% on this financial literacy assessment, meaning three-fourths of Americans failed the test.&lt;/p&gt;
 &lt;p&gt;Furthermore, &lt;strong&gt;only 2%&lt;/strong&gt; of Americans know a decent amount of financial literacy, as they passed the test.&lt;/p&gt;
 &lt;p&gt;I feel like I have seen this 2% with regards to people and money before…&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/homer_thinking-86a565d71add05ee9966b264c97df105-f4cb4.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 611px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.61211129296237%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDBP/aAAwDAQACEAMQAAABrRcpkGif/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAIBAxESITL/2gAIAQEAAQUCJtiJ1U2h/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIv/aAAgBAwEBPwEM3H//xAAYEQACAwAAAAAAAAAAAAAAAAABAgMQEf/aAAgBAgEBPwFm2QLX/8QAGBAAAgMAAAAAAAAAAAAAAAAAABABIYH/2gAIAQEABj8CIp6v/8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAECExUYH/2gAIAQEAAT8hggjLtC/EZpOqf//aAAwDAQACAAMAAAAQ++//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QkSf/xAAWEQEBAQAAAAAAAAAAAAAAAAABIRD/2gAIAQIBAT8QdUhc/8QAGxABAAEFAQAAAAAAAAAAAAAAAREAECExUWH/2gAIAQEAAT8QBWAlaIw7sKF6TyikmCCNYi3/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Homer thinking&quot;
-        title=&quot;&quot;
-        src=&quot;/static/homer_thinking-86a565d71add05ee9966b264c97df105-f4cb4.jpg&quot;
-        srcset=&quot;/static/homer_thinking-86a565d71add05ee9966b264c97df105-fa5da.jpg 200w,
-/static/homer_thinking-86a565d71add05ee9966b264c97df105-1efcc.jpg 400w,
-/static/homer_thinking-86a565d71add05ee9966b264c97df105-f4cb4.jpg 611w&quot;
-        sizes=&quot;(max-width: 611px) 100vw, 611px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;homer_thinking.jpg&quot; alt=&quot;Homer thinking&quot;&gt;&lt;/p&gt;
 &lt;p&gt;What I really want to do now is to partition the data into two groups: those who failed the test (98% of the paricipants) vs those who didn’t (2% of the participants).  Then, with feature engineering, I can hopefully figure out the particular factors that determine financial literacy proficiency.&lt;/p&gt;
 &lt;p&gt;But before I do that, I need to make sure that this partition is reasonable, as it was determined by a metric that I created.  So, I will test my financial literacy metric by comparing the two groups with parameters that I did not use in my financial literacy metric calculation.&lt;/p&gt;
 &lt;p&gt;In turn, I will compare the two groups by the following parameters:&lt;/p&gt;
@@ -320,38 +248,7 @@ income_98&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_cou
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x7f47649cbba8&amp;gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-4c4c9.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 384px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 79.42708333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAADaklEQVQ4y6WTf0wTZxjHa0tbcAiu8kPoqvyhmy4xyj+aGRMcwRmyTHTGn8v2x0yWLCT+wZxiNDMbi8hgUycz25Ql8wfYtJMqRX44ZYtaRRTakAnaowh3gHesLTXVFq7vfffe9ZbBiInGJ/fked+79z73ed43p9HQAKDr8fbtYAaHdws8X8Lz/GcvmCWCIOz1er3rZJ6+t7Ys6+TVv0b3t7B4mfD7/c0ycGbLN5/mlDd4eouO35TvjxNApFUkElHqc2RUfnFsbMwqAxNw7XhGVaOH2VpzV75PSOSxBEmS6FhJKRajM6JcSk4PGYpgMGhXDNsO75xf6exitvx6j3rfI6SmEOKTv8GE+hEVI9Nai39rynwKUIe2Y5mVDRR4qhfg7xJULUbAzyDf/g6YIAPxjgciPwI/H0VgOIx4G0QBU+NpwKQb1SXzFMNTPYDQSXAkl24wg9W2Neh77MPA2vfwtKkezbUPccPWD297G5w/VEIaFcH/5AYZj8WBgThQz9cfzKps6FQNZeAyxfBtatgX8oHb9AEiVxpx2TqA2xdZeFodOPNFCaThCXBlLpBobIphYsePn1vihv8BFUN73JB9fysivzvRSoHtDhbdV52oKyuFNDKBoUO3KFBUgAF/QAEa1D18sFk+FL5TxOFlhAIJbZkwIR+hQBK57CSt1oek3TFIuq80kNqv9hAKJCMVt8nTUHjCZrfB7XbbZGCy52SpparRPbCtzke9u4HqXDwJDyL/wlqw40MQaMvSny344/wIui4JuH+tGfaD+6gSXf6dB+PhCGp+qUFHR4dDE//1rqeWn791c+OJTgFcOxv7din76FEPl2ctYHtGe4f6N2xhQ00Oruksw17/zcd1tdRzpw/s4qIDYY4td7FBwT949PujYy6X62cF+IYlw5CbV2i2rCjMOVGx1/TumykLq6srXjXlpr1eduRrU8Hc7AVffvxRev6q9fOK1mx77cONRXPfWrI4p+pARVrBolULrbXnUpevWD6/uLg4RTMnNVmjhlFuXx2nqzVTrWlqTVbX6WnO+t+zLM3kMCbNTNEZEjM+2V6kTUyYkU0PTaPVa81yNWq15gXmbL1pdnpSdqbFMDtl1itGvX7O6pV5OmOCwSy/bzKZjKV7SmdMZmrlv0Yd6yYZ/WtseMbahMmQfwA6Nx/lg/r2LgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-4c4c9.png&quot;
-        srcset=&quot;/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-82932.png 200w,
-/static/output_18_1-0b6e34e3eca1e87e6b8b8add44ac36f8-4c4c9.png 384w&quot;
-        sizes=&quot;(max-width: 384px) 100vw, 384px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_18_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;income_2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; top_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;HouseholdIncome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
 income_2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;plot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;bar&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -359,38 +256,7 @@ income_2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_coun
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x7f476493e470&amp;gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-ca96f.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 378px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 80.6878306878307%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACu0lEQVQ4y6XTXUhTYRgH8OPXcsyP5kdEkqGZLQgvloXI9CrBj6kXUqRGHwopREKMiKCLijQ/qOw2K8sMq4syo0LU0BKdY0qWMdxSt7Wzs6Nb6Y66ufmep/dsJ9nMTOmBP89hz8vvvOflHUHgGvv8KU47ZbygN1GKaYtZQZtNCpqmN5PzFEVd1mg0GZxHUGPKgupuA7SNTMP/FIbvcF6AY2oku7RpEF1/p3OBw+haNgy58dyNWOTpG8giB1qt1hoODLJplHnlzUqo66NZUNaz7qYsFs9XwnJZp/AaFw/WenbIfFPnlHFgr4UF1S2WfVgIdrxg4ocWWC/n7R6d9fvMtcDAWa0qdwUcamDhSQn00MOQ154HzhkajKfKYIkyewGE/g1Sox/y/cDWYniPwfyOAnCQJhiXpoJTr98wSCxMjmT/DXSaSdDJMsFpMPiBPkfwJzg/MZyzLpgu2xxIf+mXn34wCLW9FoRBhEGEQYRB5DCTSJsuQxjkJMSRGEXYWQn+fckPtOvUueWP1NDw0QqgvgnQVgp9tlEoeFMIbtoCk7IMQCQJAx0moHSza91pz7ZtNlv9708+fLKpf+FGD2mHgToGWo4xXaSKkbfn2xmjgRlPl9nnJyeYliuqua/9JDM7891OG/TMstPNLM0t2l1u90+8acB/v2uee3ip6kzEwaPnUo5cbJS8qj6e/LQyTVLT2piUXLxX2v3yRULVznhp1/NnCSXys9LH99qTTmRl7q8sku9rrrkruVqkSOl4+zqxsqLiUGdn51bi/u1qgq9IvgtxwvjnaL6L+R7jsyaIu3I4olUzb4UIw7ZFxu4QHZbuDjmwS7xlT4pEECwM3o6PhhAGBsZzPVQgjEtLlYWEh4miY6LE4YnxCcIIUXgsngWIxeIoYlVF+7zN8w6cCP45lO8C7oj4WRAfgS/yCztLTRRTYPwOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-ca96f.png&quot;
-        srcset=&quot;/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-230dd.png 200w,
-/static/output_19_1-c5704c7023ee0ec989220ceebfffe9fc-ca96f.png 378w&quot;
-        sizes=&quot;(max-width: 378px) 100vw, 378px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_19_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;income_98&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;normalize &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -420,16 +286,16 @@ Name: HouseholdIncome, dtype: float64&lt;/code&gt;&lt;/pre&gt;
 Name: HouseholdIncome, dtype: float64&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Percent of low-income surveyees from the bottom 98%: {rounding((0.118694 + 0.112046+ 0.111783)*100)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Percent of low-income surveyees from the top 2%: {rounding((0.002125 + 0.004251 + 0.013815)*100)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Percent of low-income surveyees from the bottom 98%: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.118694&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.112046&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.111783&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Percent of low-income surveyees from the top 2%: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.002125&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.004251&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.013815&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Percent of low-income surveyees from the bottom 98%: 34.25%
 Percent of low-income surveyees from the top 2%: 2.02%&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Percent of surveyees with income more than 100K from the bottom 98%: {rounding((0.115915 +0.051985)*100)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Percent of surveyees with income more than 100K from the top 2%: {rounding((0.299681 + 0.243358)*100)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Percent of surveyees with income more than 100K from the bottom 98%: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.115915&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.051985&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Percent of surveyees with income more than 100K from the top 2%: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.299681&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.243358&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Percent of surveyees with income more than 100K from the bottom 98%: 16.79%
@@ -466,13 +332,13 @@ GED or alternative    0.009569
 Name: HighestLevelEducation, dtype: float64&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Percent of surveyees from bottom 98% who did not attend college: {rounding((0.284866+ 0.165045+ 0.022199+0.063366)*100)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Percent of surveyees from bottom 98% who did not attend college: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.284866&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.165045&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.022199&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.063366&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Percent of surveyees from bottom 98% who did not attend college: 53.55%&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token string&quot;&gt;&apos;Percent of surveyees from top 2% who did not attend college: {rounding((0.164718+ 0.056323+0.011690 )*100)}%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string-interpolation&quot;&gt;&lt;span class=&quot;token string&quot;&gt;f&apos;Percent of surveyees from top 2% who did not attend college: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;rounding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.164718&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.056323&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.011690&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;%&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Percent of surveyees from top 2% who did not attend college: 23.27%&lt;/code&gt;&lt;/pre&gt;
@@ -504,39 +370,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(0,12000,&amp;#39;0 = IDK\n1 = Yes, but did not participate \n2 = Yes, and participate \n3 = No&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-bdfc6.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACWUlEQVQ4y2NISkpiZGBgEHNzc5N8/vx55Zs3bxqBuP7Dhw9g/P79ezD96dMnMBsk9/btWzANY999/Lz23pMXbffu3nFjOHHiBMhA/paWFqUvX778B4EfP378JwVkr77+v/ng6///v3+cwXDv3j2QgcJVVVXKL1++fH///v2/N27c+Hn16tVfFy9eBGMg/xdQ7tfXr19/AfXD8d9/ENq598D3iLln////+62LASgANI+Bt76+XuHjx49fgN77D6T//f379//v37/BGMSGgX///sHxX6CJIOA18dDvhCWX/////bWXQU5OjhNooERubq7yz58/v8D0oXsLZggyG6uB3Nzc4kADBYBeVvj+/fsXqIZ/yC5BN+z3n7///+IykIuLSwpooEh6eroasoHYAh9d+A82AxUVFTmABnKVl5Upfvv2DWzgXySdIE0gDBN6+v7b/6n7boNpGEAxEAp4E5NT1P78QoQhDEDD899viHP+Hbr16h9b+up/h2+/hsuBDIxfDDLwC9xA7lmddUrXHr/9OP3gvf/PP37/DXIcCK8+8/jP+vNP/8D4x+6++SNauPHPiXtv4WJeEw//iF90Ecj61g0zkO3sin6VFcdu/xcq2fH/3JPPcO849R/97z31BJx/+tHn/8LFW/+ffYxQ4z352P/klbeAOeLjZIaenh6wiVumNXK1zFweo5Q9L2Tt3pOhZ0+diAFmNR/7kpkxvq2rg58/fRJ4+cK5qF0X7vnwhXXGrNh1PPT5k4dBp08ej3Fp2+LjVjk78dKpo4Zgw+pz4hmIANxALERIEQC9se/BLMqIogAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-bdfc6.png&quot;
-        srcset=&quot;/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-62a61.png 200w,
-/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-ba673.png 400w,
-/static/output_32_1-73af0ee5388334f53ad7937c8307cb88-bdfc6.png 405w&quot;
-        sizes=&quot;(max-width: 405px) 100vw, 405px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_32_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;fin_ed_2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; top_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
 fin_ed_2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; fin_ed_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;fin_ed_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;FinancialEducationOfferedAtSchoolOrWork?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;99&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
@@ -549,38 +383,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(0,350,&amp;#39;0 = IDK\n1 = Yes, but did not participate \n2 = Yes, and participate \n3 = No&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-b8f46.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAChklEQVQ4y52TT0gUURzHNywqCrYuEVokEkKH0gi0PEYHLx68dAtCqAjJaqeMjDSzMINtPRkEXQpS0FIytRS7hGt/BGndTHcX1nZ2nd1xZ3ZGHHXnzZtfvzeOk4WU9IUv8/u99+Yzv9+b91wuVCgUOsHzfF0kErkqCAKnKAony7LlTCbDqarKSZLEJZNJLpYQuFkhyaVSKU5EszjKz3I/+Lhn1D+yl/FcCPMCKh6PQzabZSFQSq2nYRjO2HoKilkobxuDkagCsDBbxng5CLynaRoEg8ElrJYEAgGCMRkfHycsT6clsry0SDSdkmf+GfKVVwiyLL8NCvrmC12k41N0GSBTYlWIrTWwr4miSHRdNzE0mbBKK151TNLMXZdemc39352xocmkuftyD3R9mTEAJAu4PRwOt9gdEHuhI+SCYbcflxdh//VeeDQ47cwPfUua7poe6Pz8C+jCDW+wXybmimCtVwoF4GUN8q69Bu/g1F+BOYlEomm1Qov2h9YCczcA3BKLxe6vB1yvwo0AXel02mqZ2i2vwv63wq14oJvteR1J1LS9rBs0Syj72eyvUARSBFLvuykrZ0Ygddd0mwgkToUZKX1Xw9mIuPDb3lU+/ghc14STC/M65NX2QetwxBl7Pz0H7iu98HIshplcagG1uUR91VO/efh2nzSvLSkG0RU8kGpRQ79yuu2DCqahMEdFVcn1dKsP+4N4LaiKVgbwlLurO+c7/GEZSOoY422qq/XsO1JRVVZw8cmB5gctR1t9vuKJQCA//9SZknKPr7Cj/cWhW3U3j3cPDBe4T54rqjh/ozgyPZnfeKe+pKnteeGOysaDlWerS0fftG9zbVB70Ozi7/zXwp8ROkBd8d9k1gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-b8f46.png&quot;
-        srcset=&quot;/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-cc80b.png 200w,
-/static/output_33_1-19220663ef7576b8ec186c8430cdc6e0-b8f46.png 392w&quot;
-        sizes=&quot;(max-width: 392px) 100vw, 392px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_33_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;fin_ed_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;FinancialEducationOfferedAtSchoolOrWork?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;normalize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -615,39 +418,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(0,12000,&amp;#39;0 = IDK\n1 = Yes\n2 = No&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-bdfc6.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACEUlEQVQ4y2N48OABAxCIe3l5Sd2/f7/y+vXrjVevXq1///59/Zs3b+D47ds39a9eQ/Dbt2+RxN/W3338vPbekxdt9+7ecWP4//8/I9BAzmnTpsl//Pjx/9evX/9//vz5Pykge/X1/80HX/////3jDIbp06eDDOSvrq5W+PTp0wegy/4CDfwJVPcLHXdsv/6ra8cNMPsfEP/9BxF37j3wPWLu2f///37rArkQ5GWB8vJyhR8/fnyBWvoPCP4jYxBw6N7/H6gZzP4LNO3PX4i418RDvxOWXP7///fXXgYlJSUOoIF8QBfKf//+/QvcNAiNYqDv5MP/A6YegRgIFPuLzUAeHh4xkJdLSkoU0Q1ENhQEvCce+u8HNBSvgVxcXNIgL1PNQEVFRZCXOauqquSpYiAUcBUWFCh/+wYx8O8/TAAyG2jgP6CBYDbQsH9//kLEQQbGLwYZ+AVhYEZWjvKfXz8/QR32G4j/oGPvSYf/+E05Amb/g0QymO018fDP+EUXgayv3bBkw7R23mS5W0/f/N924/3/z7+wJ2DfaSf/B8w4hSHuPfnY/+SVt/7///lpMsOmTZvATlzUks9T2js3gSGwM2rSonUJD+7cCt2+Y0fyxYuXwnfv3p145fKlcKvC6TEOlQvDL5w9FX38xAkwPn/mZIxN2bxwl5JpqUf37jABG/b3yg4GIoAwEAuBfINPEQAC+/AjQmuI3AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-bdfc6.png&quot;
-        srcset=&quot;/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-62a61.png 200w,
-/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-ba673.png 400w,
-/static/output_37_1-9ded1d881973c2baae51e0445fe4a87b-bdfc6.png 405w&quot;
-        sizes=&quot;(max-width: 405px) 100vw, 405px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_37_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;fin_ed_2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; top_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
 fin_ed_copy_2&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;fin_ed_2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;copy&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -661,38 +432,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(0,600,&amp;#39;0 = IDK\n1 = Yes\n2 = No&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-b8f46.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACOElEQVQ4y2NgYGDgOnDggMPDhw8rL126VHT//v3i169fF798+RKOXwHxwyfPi+8/foYiDpd/9ar46dOnRUeOHJFgAIEnT570/geCa9eu/f/z589/bKB9z4P/SUuv/McHrly5YgUyjxnouhaQwPPnz7//+vXrN5AJx3//QejQGcd+q1Zv+/3zz18w/x9CzS8QDQQ/rl+/bgZ24YMHD1qhloAU/EMGf//++wcSi5t78p9h465/P0FWoKkBaQQ65A/Qh3AD2/5DVP2GKQBRIPwXrP///9g5J/7rN+78DzTwP0weSmMYyPbo0SO4Cykx8Pp1iIGsz549a0I3EKYJn4Ewu0HEn9+//1y9CjGQBRgpreQYCAI/fv359/LTz/+fv/34c/fWTUgYAtNeG6kG/v4DofffePlPvmLr/w1nH/35//cNxEBgGLZADfgFilhk/OfvP5DOvzFzTvzVb9j59yfEpL9ACkzvvPL8L3f2un+rTt4HppC3YAOZgF7u+E8AxM0/89+gec//v2ji+26+/i9YuPn/2jOPgLx35mAX3r17p+7r9x//gPgtMLY+wPBPIP7x8+cHoNs/RM86+l6vbtuHL99+fPj9+9eHbz8g4tsvPv7An73m44rjd979//3SGGxgSnKiQnhihn1hyyTNgoJCmxkzZugWFRVZT5o0Sa+8osJi5vSpemqOwQ6yfoXahUDxlStWaBQUFlovXjBPOyazyIzTKVPHKzzB9uC6RRwMRAIxIJYEYl5CCgGoUFUshHXQpwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-b8f46.png&quot;
-        srcset=&quot;/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-cc80b.png 200w,
-/static/output_38_1-9ec3fb9b8365db6c5fc115f87da571e7-b8f46.png 392w&quot;
-        sizes=&quot;(max-width: 392px) 100vw, 392px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_38_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;fin_ed_copy_98&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ParentsTeachYouAboutFinance?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;normalize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -726,39 +466,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(0,12000,&amp;#39;0 = IDK\n1 = Yes\n2 = No&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-bdfc6.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACEElEQVQ4y2OYPXs2AxCw1tTU8D19+rTq3bt3jW/fvq1/8+YNCgaJ3X38HIyxyNcCxdpu377txjBr1ixGoIESGRkZGv/+/fuPD+Stu/W/YP1tnPKvXr2awXDr1i2Qgfytra0KQJveA135F4h/AuV/oWOXvoO/3CccArOBdsPFgc74DjIQ6MouBiAN8rJoYWGhKlDgy/Pnz/+/ePEC7FSQi2EYBHwmHf7vP+UImP0XVe43iAA6qJdBXl6eA2igUGVlpcL379+/gBX//YvVQO+Jh/77TT6MYiAIvPv68zeI9e7d214Gbm5uCaCB4nl5ecowA/9BwH9kQ7EZCLUXJPY7edkVoDu/9DJwcXFJgVyYm5uLYiAxLoQZ6DHh4O+4xZf+///ztZdBSUkJ5GVebAYS60KviYd+Jyy5DHQh0EAo4EtOTlZH8zIKAAkDDfwHNBDMBhr2789fiDjIwPjFlyFehgKugoICpZ8/f3yEOgwUa3/Qsfekw3/8phwBs4FGAc2DiHtNPPwzftFFkJe7YQay5+flqn78/BlvwvaddvJ/wIxTGOLek4/9T1556///n58mM9TX14NNLMlN5168ck3C/E37ozZt25lw88b10B07diRfvHgpfPfu3YlXLl8KtyqcHuNQuTD8wtlT0cdPnADj82dOxtiUzQt3KZmWenTvDhOwYSnx0QxEAGFQagBiJnyKAAou8Tcq2NGNAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-bdfc6.png&quot;
-        srcset=&quot;/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-62a61.png 200w,
-/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-ba673.png 400w,
-/static/output_43_1-403aef313aefc4bf5f9d52cf32f06357-bdfc6.png 405w&quot;
-        sizes=&quot;(max-width: 405px) 100vw, 405px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_43_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;copy_top_2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; top_2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;copy&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 copy_top_2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; copy_top_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;copy_top_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;OwnHome?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;99&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
@@ -770,38 +478,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(0,300,&amp;#39;0 = IDK\n1 = Yes\n2 = No&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-b8f46.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB+klEQVQ4y6VTz0sbQRResKAXr6UeBC+Vim2sCFabinrrKZfiqSrBe8HNHiqKVqugHuwhIMZiERpK4z8g+AO8pFYhJ1kSk0CaqEnzq+kIJe7s7Mz0zZrVoG1T9MHHY+Z98+339s1IEkQ4HO5Mp9OjmUxGBihXkQUkTr4r345Tyh/r2aySTCZdfr//ntCTEonEAq8Qs9txPvRJ/SdHVdWnQu9OPB6fKe2dAUg5KDvPfZ5dcn9snWCDmmt2ydFFhtBCoVC76TCfz78pCRJ2JShlcJazwQ/7rHVqk2HxCViXhzio67oRDAZNwdpIJDLPz1nEIogkQM3znA+s7PGWqQ0Ogtyql/I1QalQKExYDss4NxasTqVS02ITJk2KxeKtHVaB4IymaTwQCBBwe/uWraEghIhhGDcWDFktR6PRudI/FFeAiuFaMCgTCrR/ZY+2TG5QTAxazuHMrDOi6+TCYS6Xe1vpYg+uBvjj6W1O/1KH1nj48PCJKRiLxcYxxgxs/wAgCxigYYzAAHr5/stP28Q6+lXUECE6OtPEPkVfoxn0/N3O6dbBUYGfHreZgk6ns0GW5W6v19sE+ZnH43mkKIrd7XbbXo+MdCwvLdoae1/01DvkZtnlsq/5fA+GZdn++eNqs8P5ql2q73tod/R3qZu+Guk/4y6gTjyCSsTfdsleO/3ff3sAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-b8f46.png&quot;
-        srcset=&quot;/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-cc80b.png 200w,
-/static/output_44_1-367c8a1ed1930b4c941f10eaa10cb44a-b8f46.png 392w&quot;
-        sizes=&quot;(max-width: 392px) 100vw, 392px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_44_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;copy_bottom_98&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;OwnHome?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;normalize &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -834,39 +511,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(0,8000,&amp;#39;0 = IDK\n1 = Strongly Disagree \n4 = Neither agree nor disagree \n7 = Strongly Agree&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-bdfc6.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 405px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 65.67901234567901%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACnElEQVQ4y5WT70tTURjHj28SZZomGhH1Qry96U1/gvSiFxWrxF+jF2k/ZU4thEBJtwgGYRSVIFQaxaKpY0Njglg5XYzYFNQww9KhGy10y83d69zuj6fnHO6GCRV94ctzzr3n+dzvA+eSYDBIUFk9PT0aXLeHw2ET2hiNRo0bGxus0v3a2hqrkUiE1bTpfikQ6lgO/jB/+7pYTiwWSxYCi9va2jhBEIBqa2sL/keNgwtwZ2IdG6NdBL9AgcTj8ZSEQqGY3++X3W530ufzpfBZamZmJoXJUysrKyme51PYn7EkK6wev+dK1PZOA0hCJ1GVbzAYjsRiMezhIRAIKAgBhEM8HgdJklhqWqkURQEZnZa22y3WWT4BiLyJlJaWZlOi3W4vSSQSgnpG+dN4O2H+MA9PJ5fg2O1R8crrecwaNxGNRlOCvEJMWIZAnh6UZWyhjbLMAL8Z3+OoDDgy9x1y9DbIb7KLTbYFgO1NE8nNzT2IwD1Wq3U/jiWoKZTdIFBBaVN5/RE40DoM+1ocomFQBXIcR0fO0+v1mYSKSkiDdkLTGvCtQv1zLxy++QYKm3cA08Lrk0koYgRqSVYyotyXHr/S71tl61MPJ5XsBpvCtTuVvTjybmDetYYGLplMxtQAIp1wt8u7xiVt9we21j35KBXfGJLK2kekgmbHduPAZ4Bk3Ei8Xi+7hxMuV/FmnE0M998tg8m5CM75dUZeDG9DzbMp4DrG4OqrWXZG1zsFRa1O4DrHoOD6MLQMLYPM/zQTfMci1p2vyRt566q2u+fOFV3oriInH5wlNY8rHOPeqv730xXkdFdlTn2fttLcXy1EI9oTt17UFl7uO3Po4iNd/qU+bfVdm+7L7NRRBht1WMm/VIRXC4uG/vd/O/cLwLLXK42c9SYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-bdfc6.png&quot;
-        srcset=&quot;/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-62a61.png 200w,
-/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-ba673.png 400w,
-/static/output_48_1-7a9ae5a74ab6676b625e4ccc615c781b-bdfc6.png 405w&quot;
-        sizes=&quot;(max-width: 405px) 100vw, 405px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_48_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;copy_math_2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;top_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;top_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;GoodAtMath?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;99&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
 plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hist&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;copy_math_2&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;GoodAtMath?&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -877,38 +522,7 @@ plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Text(1,600,&amp;#39;0 = IDK\n1 = Strongly Disagree \n4 = Neither agree nor disagree \n7 = Strongly Agree&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_49_1-8e8e675f276190345dc6dae3be10e146-b8f46.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 392px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 67.85714285714286%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACNElEQVQ4y52TTWgTQRSA11rrQaFUipVeKkLEhlIEoaLgzYNHUcGrNxFqtOZikUgFm4p6UJB6sh6EIBraHjxYCqJINElzStLELCabP5NNiJvd/O0mszPj23U3higx+uBjZh/zPubNzDIMw+zy+XynSqXSfKVSmYPRXigU2vA836Yzr1EEcnnezmVy9lQme+PzJ88BRhMmEolHFKJcLtN/jXCxSc8sB6iHEymt5U5qQiadTi/KskxDoZAcDAZRLBZD0WgURSIRJAgCEkURKYqCoL6Niok+vg3nW4OX3eilj1NgSzOabwCEToSQJkR+v58EAgHi9XoJ5AkcAclms6RarRIQEDNUjPXvzQhPRq6tU/dWUqX0uy4cjMfjS0YHyCj6Y3udeRX/nG9u82TYtk5f+38Jd2stGwXItGmDCca4LTNzvYR7MpnMXXOHRke0m+7oJRxKJpPOTmE/t9tLOMBx3FK/wu6WN8L534Q7QOg0FrcA3AsQwf0SDO8GQwn+yBbx8NU1AkJkCnemUql79D/iS6FOH7/7SvfNvaHuQBoywnH9YbMsu1BvyLTWUIRmsymZ1BqyVJcVqdVqiWKtIXJFSXz2gZW24kUJTlE6sbghjdrc4tj11YrLw5Zpkz+mC2/N3xx3PFyeerL6fmJl5bnV5XJNwl8yMeu4P+V8+uLwmvvVkelzs0eZ045DzPjFyZlLt625ROyg5axtevTCgmXk/B3LFccDq/pte4jpM/YDY8Devy38AR9QWy2Q/GA6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_49_1-8e8e675f276190345dc6dae3be10e146-b8f46.png&quot;
-        srcset=&quot;/static/output_49_1-8e8e675f276190345dc6dae3be10e146-cc80b.png 200w,
-/static/output_49_1-8e8e675f276190345dc6dae3be10e146-b8f46.png 392w&quot;
-        sizes=&quot;(max-width: 392px) 100vw, 392px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_49_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;copy_math_98&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;GoodAtMath?&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value_counts&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;normalize&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
@@ -957,38 +571,7 @@ Name: GoodAtMath?, dtype: float64&lt;/code&gt;&lt;/pre&gt;
   &amp;lt;matplotlib.lines.Line2D at 0x7f8e4ed89c50&amp;gt;],
  &amp;#39;means&amp;#39;: []}&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-c8d09.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 366px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 68.85245901639344%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABgElEQVQ4y62TzUrDQBDHAx69iAi+mFcfojmIV5/AJ6mCUKvi2Qpiz5aUWhpskzbfLW4+Nrv+J01KmzRBwYE/mZ2d/e3s7kQZDAbn8/n8wjCMFqSOx5+qrk9U0zRVGldlqrOviTrTx0WshdxLTdPOFDLbtjW5ZWEUS54K+VdzHOc1A8J5y2NRAmO+lXwHLjyeILZXjIWJZTuZL4QIaXEQBI8FsJ8DeRzHwnNs4XuuiJOEyhRlo1gURQKAYp7TYt/3n3eANEH5M8OQfhBsjrJm7PphGErXdYtYPZC+y+VScs4rsDIwyDetALHTe2lC4ugbwL4KaX61Wv2+QrxIY4W4w3ogKtwBWpYlGWONQNpwK6f5yHR/aZo2AimH7rEOmPUhIBHl4q/hSOZ5j1W07kPGPc/LcvJ1EuN1H8L5kP9gePWXDDgaja4x6KDS9mKxuO/1ek/D4fABj3WHzW7LwtFu8O92ptNpN4+1Eevqun6l7LEj6BQ6gQ6UejuEjstBFKr8ABSpsgtxwK4tAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-c8d09.png&quot;
-        srcset=&quot;/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-6464a.png 200w,
-/static/output_52_1-2741d15d3d4e94eb709ddedd4f1c7de4-c8d09.png 366w&quot;
-        sizes=&quot;(max-width: 366px) 100vw, 366px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;output_52_1.png&quot; alt=&quot;png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;39% of the bottom 98&lt;/strong&gt; claim strongly that they’re good at math, as opposed to &lt;strong&gt;85% of the top 2&lt;/strong&gt;. Furthermore, the spread of responses is much larger from the bottom 98 when examining the box plot and histograms directly above.&lt;/p&gt;
 &lt;h3&gt;Summary:&lt;/h3&gt;
 &lt;table&gt;

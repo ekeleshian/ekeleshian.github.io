@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "path---past-four-months": [
-      "path---past-four-months-006d1d323af24685ef64.js",
-      "path---past-four-months-006d1d323af24685ef64.js.map"
+      "path---past-four-months-b2921ed8ea19d890d7e6.js",
+      "path---past-four-months-b2921ed8ea19d890d7e6.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-75f69340db5fd0fd8099.js",
-      "component---src-pages-index-js-75f69340db5fd0fd8099.js.map"
+      "component---src-pages-index-js-d081b03ba177a2261bb7.js",
+      "component---src-pages-index-js-d081b03ba177a2261bb7.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,12 +17,16 @@
       "path---pybay-2018-e9f535003c952b478eff.js.map"
     ],
     "path---reading-from-text-files": [
-      "path---reading-from-text-files-264eea0cf5e66fa9f2bd.js",
-      "path---reading-from-text-files-264eea0cf5e66fa9f2bd.js.map"
+      "path---reading-from-text-files-80a751edf360720f682b.js",
+      "path---reading-from-text-files-80a751edf360720f682b.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-d2b5abdadd1ea450c0ab.js",
-      "component---src-templates-blog-post-js-d2b5abdadd1ea450c0ab.js.map"
+      "component---src-templates-blog-post-js-be604fc623f12b0afb83.js",
+      "component---src-templates-blog-post-js-be604fc623f12b0afb83.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-503bd0b3f9d6f4214f04.js",
@@ -33,8 +37,8 @@
       "path---cleaning-up-data-1263db7f8840a8165bdc.js.map"
     ],
     "path---financial-literacy-analysis": [
-      "path---financial-literacy-analysis-10d8afd31763beaa2623.js",
-      "path---financial-literacy-analysis-10d8afd31763beaa2623.js.map"
+      "path---financial-literacy-analysis-c809fa0e9818171af0d8.js",
+      "path---financial-literacy-analysis-c809fa0e9818171af0d8.js.map"
     ],
     "path---index": [
       "path---index-c68bc46a97a934ccf9e0.js",
@@ -45,23 +49,27 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-6e82eaae3f56c620a9ec.js",
+      "commons-2c66e7cc3cdcdb63843e.js",
       "build-js-styles.css",
-      "commons-6e82eaae3f56c620a9ec.js.map",
+      "commons-2c66e7cc3cdcdb63843e.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---genomics-hackathon": [
       "path---genomics-hackathon-6ba6fa133a890315e64e.js",
       "path---genomics-hackathon-6ba6fa133a890315e64e.js.map"
     ],
     "app": [
-      "app-400a6ebca563eec2f75f.js",
+      "app-7366c859f42b1ede780b.js",
       "build-js-styles.css",
-      "app-400a6ebca563eec2f75f.js.map",
+      "app-7366c859f42b1ede780b.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
