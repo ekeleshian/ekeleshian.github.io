@@ -1,4 +1,5 @@
 
+const ROOT = "https://ekeleshian.github.io/"
 function select(category){ //if category is undefined, then you hit the clear case.
   if(category === 'google' || category === 'other'){
     $.ajax({url: 'https://us-central1-smartfont-2018.cloudfunctions.net/select_data',
@@ -7,7 +8,7 @@ function select(category){ //if category is undefined, then you hit the clear ca
             type: 'GET',
             complete: function(result){
               // debugger;
-              fillFontList(result.responseJSON, 'fontList')
+              fillFontList(result.responseJSON.result, category)
             }
     });
   }
@@ -19,15 +20,16 @@ function select(category){ //if category is undefined, then you hit the clear ca
 }
 
 
-function fillFontList(result, fontList){
-
+function fillFontList(result, category){
   var x_coordinates = [0, 300, 150, 0, 300];
   var y_coordinates = [0, 0, 200, 400, 400];
   var cx = [150, 600, 370, 150, 600];
   var cy = [140, 140, 440, 740, 740];
   // debugger;
+  // console.log(result, fontList)
 
   for (var i = 0; i < result.length; i++){
+    // debugger;
     d3.select('#fontList')
     .append('circle')
     .attr('r', 120)
@@ -39,7 +41,7 @@ function fillFontList(result, fontList){
   for (var i = 0; i < result.length; i++ ){
     d3.select('#fontList')
     .append("svg:image")
-    .attr('xlink:href', result[i])
+    .attr('xlink:href', ROOT+result[i])
     .attr('x', x_coordinates[i])
     .attr('y', y_coordinates[i])
     .attr('transform', "scale(1.5)");
@@ -49,25 +51,30 @@ function fillFontList(result, fontList){
     .selectAll('image')
     .on('click', function(){
       var clicked_font = this.href.baseVal;
-      var clicked_font_name = clicked_font.split('/')[3].split('.')[0]
+      var index = clicked_font.split("/").length - 1
+      var clicked_font_name = clicked_font.split('/')[index].split('.')[0]
       clear();
-      on_node_clicked(clicked_font_name);
+      getResult(clicked_font_name, category);
     });
+
 }
 
 
-function getResult(clicked_font){
+function getResult(clicked_font, category){
   $.ajax({
     url: "https://us-central1-smartfont-2018.cloudfunctions.net/neighbors",
-    data: {'clicked_font': clicked_font, 'trial': true},
+    data: {'clicked_font': clicked_font, 'category': category},
     dataType: 'json',
     type: 'GET',
-    success: on_node_clicked
+    complete: function(result){
+        on_node_clicked(result.responseJSON, category)
+    }
   });
 }
 
 
-function on_node_clicked(root){
+function on_node_clicked(root, category){
+
     var w = window.innerWidth*0.68*0.95;
     var h = Math.ceil(w*0.9);
     var oR = 0;
@@ -89,6 +96,8 @@ function on_node_clicked(root){
     .attr("height", 800)
     .on("mouseleave", function() { return resetBubbles(); });
 
+    // debugger;
+
     var bubbleObj = svg.selectAll(".parentBubble")
     .data(root.children)
     .enter()
@@ -106,7 +115,7 @@ function on_node_clicked(root){
     bubbleObj.append("image")
     .attr("class", "parentBubble")
     .attr("id", "parentImg")
-    .attr("xlink:href", function(d){ return d.img; })
+    .attr("xlink:href", function(d){ return ROOT + d.img; })
     .attr("x", function(d,i) { return (oR*(3*(1+i)-1) - 300); })
     .attr("y", ((h+oR)/3)-200)
     .attr("width", oR)
@@ -140,7 +149,7 @@ function on_node_clicked(root){
         childBubbles.append("image")
         .attr("class", "childBubble")
         .attr("id", function(d,i) { return "childBubbleImg_" + i; })
-        .attr("xlink:href", function(d){ return d.img;})
+        .attr("xlink:href", function(d){ return ROOT + d.img;})
         .attr("width", oR/2)
         .attr("height", oR/2)
         .attr("x", function(d,i) { 
@@ -154,9 +163,10 @@ function on_node_clicked(root){
         .on("mouseleave", function(){ return resetBubbles(); })
         .on("click", function(d){
           var clicked_font = this.href.baseVal;
-          var clicked_font_name =clicked_font.split("/")[3].split(".")[0];
+          let index = clicked_font.split("/").length - 1;
+          var clicked_font_name =clicked_font.split("/")[index].split(".")[0];
           clear();
-          on_node_clicked(clicked_font_name);
+          getResult(clicked_font_name, category);
         }); 
 
         childBubbles.append("text")
@@ -189,7 +199,6 @@ function on_node_clicked(root){
     }
 //mouse-overed parent image and text animation
     function activateBubble(d,i){
-
       var t = svg.transition()
       .duration(d3.event.altKey ? 7500 : 350);
 
@@ -215,7 +224,6 @@ function on_node_clicked(root){
 
     //mouse-overed child image animation
     function activateChildBubble(d,i){
-
       var t = svg.transition()
       .duration(d3.event.altKey ? 7500 : 350);
 
@@ -280,7 +288,7 @@ function on_node_clicked(root){
 
 
     //mouse-overed child text animation with tooltip
-    function activateChildTxt(d,i){ 
+    function activateChildTxt(d,i){
       var txt_id_selected = this.id;
       var txt_x_selected = this.getAttribute("x");
 
