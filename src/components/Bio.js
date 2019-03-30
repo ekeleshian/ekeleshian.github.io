@@ -4,7 +4,7 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import profilePic from './Keleshian-Liz.jpg'
+import profilePic from './liz.jpg'
 import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
@@ -22,13 +22,13 @@ class Bio extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(6),
+            width: rhythm(10),
             height: rhythm(6),
           }}
         />
         <p>
           Written by <strong>Elizabeth Keleshian</strong>, documenting the journey of her career change.{' '}
-          <a href="https://twitter.com/_mathlizard">
+          <a href="https://twitter.com/themathlizard">
             You should follow her on Twitter
           </a>
         </p>
