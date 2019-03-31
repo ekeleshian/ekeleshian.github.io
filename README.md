@@ -7,3 +7,8 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 ## Running in development
 `gatsby develop`
+
+
+* always make and push commits in developed branch
+* Never edit files in public folder -- they will get overwritten with whatever content is in static folder
+* 
