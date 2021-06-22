@@ -55,7 +55,7 @@
         </span>
         <span>
           
-            1133 words
+            1268 words
           
         </span>
         <span class="split">
@@ -170,15 +170,12 @@
 <li>
 <p><strong>Better data representation.</strong> Related to the first bullet point, we need to diversify the content. Wikipedia text is not enough to train a machine on speech patterns because 1- it does not contain any conversational/dialogic text and  2- the miniscule Western Armenian content misrepresents the vast amount of Western Armenian text out there in the real world.</p>
 </li>
-<li>
-<p><strong>5 hours of validated recordings</strong> needed at minimum to build production-ready speech-to-text models.</p>
-</li>
 </ul>
 <h1 id="how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-how-it-is-split-in-wikipedia">How are dialects addressed? Is there a voice corpus for each dialect similar to how it is split in Wikipedia? <a href="#how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-how-it-is-split-in-wikipedia" class="anchor">🔗</a></h1><p>Wikipedia hosts two sites for Armenian content, hy.wikipedia.org and hyw.wikipedia.org due to differences in orthography.  Prior to the launch, the main question was should we follow the same pattern with Common Voice, i.e. split the language to two datasets based on dialect? We<sup>1</sup> discussed this exhaustively through a collection of facebook posts, virtual meetups and google doc collaboration with experienced developers and linguists, including one coder who worked many years as a software engineer in Google Translate&rsquo;s team.</p>
-<p>We decided that the <strong>language split in general is a bad idea</strong> and hence maintain <strong>one voice corpus</strong> with both hy.wikipedia and hyw.wikipedia sentences. Why? -</p>
+<p>We decided that the <strong>language split in general is a bad idea</strong> and hence maintain <strong>one voice corpus</strong> containing both hy.wikipedia and hyw.wikipedia sentences. Why? -</p>
 <ul>
 <li>
-<p>Splitting a language by some attribute whether it be dialect, accent, or geography is an outdated approach when it comes to learning general speech.  The architecture of modern SST models makes them amenable to noise and are already beinng used in production (making $$) by other polyentric languages including English, Arabic, Portuguese, French, and Spanish. They each maintain one voice corpus.  The Armenian language should not be held as a special case entity as no other language is treated that way (Chinese is an exception due to their massive scale).</p>
+<p>Splitting a language by some attribute whether it be dialect, accent, or geography is an outdated approach when it comes to learning general speech.  The architecture of modern speech-to-text models makes them amenable to noise and are already being used in production (making $$) by other polyentric languages including English, Arabic, Portuguese, French, and Spanish. They each maintain one voice corpus.  The Armenian language should not be held as a special case entity as no other language is treated that way (Chinese is an exception due to their massive scale).</p>
 </li>
 <li>
 <p>The split already hurts Western Armenian - by isolating it we are abandoning it. The evidence is clear with Wikipedia; take a look at the volume of hy.wikipedia and hyw.wikipedia content.  The difference is embarassingly wide - hyw contains less than 10% of the number of articles of hy. Hyw&rsquo;s low content also prevents it to be used on modern language systems (<a 
@@ -197,7 +194,7 @@
 <p>It confuses developers and scientists outside the Armenian community when they see multiple Armenian language data sources. The confusion typically leads to either abondoning the less popular one (likely Western Armenian) or abandoning the language altogether in development or research.</p>
 </li>
 <li>
-<p>Even Mozilla says so. They <em>encourage</em> muliple accents and dialects in their speaker pools. The more variance in speaker data, the more robust a predictive model will be in addressing idiomatic speech and corner cases.</p>
+<p>Even Mozilla says so. They <em>encourage</em> multiple accents and dialects in their speaker pools. The more variance in speaker data, the more robust a predictive model will be in addressing idiomatic speech and corner cases.</p>
 </li>
 <li>
 <p>In the case with automatic speech recognition, our system takes input from all forms of Armenian speech and should be able to process each correctly. In general, the burden should be on the developer to write better code that handles various incoming audio. The burden <em>should not</em> be on the user to manipulate their speech just so the model can work.</p>
@@ -252,6 +249,9 @@
     Github Pull Request
 </a></li>
 </ul>
+<h1 id="now-that-the-dataset-is-mixed-how-can-i-build-something-that-only-respects-western-armenian-speech-application">Now that the dataset is mixed, how can I build something that only respects Western Armenian speech application? <a href="#now-that-the-dataset-is-mixed-how-can-i-build-something-that-only-respects-western-armenian-speech-application" class="anchor">🔗</a></h1><p>There is a generalized technique being employed now in literature and industry that we should follow: bootstrap pretrained model then fine-tune with data specific to your use case.</p>
+<p>That pretrained model is trained over large amounts of multi-lingual speech data to learn latent speech embeddings. Currently no pretrained model has learned Armenian speech.  Common Voice Armenia intends to fix this by giving developers the resources needed to build that pretrained model.  The burden then is on the developer to find data specific to their use case for fine-tuning.</p>
+<p>So to answer the question, you&rsquo;re not blocked at all by the fact that the dataset is mixed. You are better equipped than ever because now you will be able to plug in your data to state-of-the-art architecture and build something deployable.</p>
 <h1 id="is-there-a-timeline">Is there a timeline? <a href="#is-there-a-timeline" class="anchor">🔗</a></h1><p>Kind of. Common Voice has a dataset release every six months. Our timeline can span one release cycle or multiple.  It is really up to us - what is our definition of success?</p>
 <p>In <a 
     href="https://common-voice.github.io/community-playbook/"
@@ -281,7 +281,7 @@
     
 >
     Wav2Vec2.0
-</a> is very promising. It has been finetuned over various languages including low-resourced ones. For example, <a 
+</a> is very promising. It has been fine-tuned over various languages including low-resourced ones. For example, <a 
     href="https://huggingface.co/lighteternal/wav2vec2-large-xlsr-53-greek"
     
     
