@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Elizabeth&#39;s Blog</title>
+    <link>https://ekeleshian.github.io/posts/</link>
+    <description>Recent content in Posts on Elizabeth&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ekeleshian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common Voice for Armenian: Frequently Asked Questions</title>
+      <link>https://ekeleshian.github.io/posts/common-voice-for-armenian-frequently-asked-questions/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ekeleshian.github.io/posts/common-voice-for-armenian-frequently-asked-questions/</guid>
+      <description>Common Voice Armenia FAQs 🔗What is Common Voice for Armenian? 🔗Common Voice Armenia is a subcommunity of Common Voice , an initiative/project by Mozilla Firefox to help teach machines how people speak. Common Voice invites all languages to join the community provided that contributors follow Mozilla&amp;rsquo;s playbook.  The main moving part of Common Voice is getting people to donate their time and voices to grow their public domain datasets - a collection of multi-lingual voice corpora  that is already being used in academia and industry.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Elizabeth&#39;s Blog</title>
+    <link>https://ekeleshian.github.io/tags/</link>
+    <description>Recent content in Tags on Elizabeth&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ekeleshian.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatic Speech Recognition</title>
+      <link>https://ekeleshian.github.io/tags/automatic-speech-recognition/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ekeleshian.github.io/tags/automatic-speech-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common Voice</title>
+      <link>https://ekeleshian.github.io/tags/common-voice/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ekeleshian.github.io/tags/common-voice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source software</title>
+      <link>https://ekeleshian.github.io/tags/open-source-software/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ekeleshian.github.io/tags/open-source-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speech-to-text</title>
+      <link>https://ekeleshian.github.io/tags/speech-to-text/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ekeleshian.github.io/tags/speech-to-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>under-resourced languages</title>
+      <link>https://ekeleshian.github.io/tags/under-resourced-languages/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ekeleshian.github.io/tags/under-resourced-languages/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
