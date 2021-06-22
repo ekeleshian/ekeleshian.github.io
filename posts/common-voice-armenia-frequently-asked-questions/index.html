@@ -55,7 +55,7 @@
         </span>
         <span>
           
-            1313 words
+            1304 words
           
         </span>
         <span class="split">
@@ -68,6 +68,9 @@
 
     <div class="content">
       <p><em>Common Voice Armenia was launched in May 2021. This post contains some context on what it is and how you can help.</em></p>
+<p><p class="markdown-image">
+  <img src="screen-shot.png" alt="Common Voice Armenia"  />
+</p></p>
 <h1 id="what-is-common-voice-armenia">What is Common Voice Armenia? <a href="#what-is-common-voice-armenia" class="anchor">🔗</a></h1><p>Common Voice Armenia is a subcommunity of <a 
     href="https://commonvoice.mozilla.org"
     
@@ -175,7 +178,7 @@
 <p>We decided that the <strong>language split in general is a bad idea</strong> and hence maintain <strong>one voice corpus</strong> containing both hy.wikipedia and hyw.wikipedia sentences. Why? -</p>
 <ul>
 <li>
-<p>Splitting a language by some attribute (like dialect, accent, or geography) is an outdated approach when it comes to learning general speech.  The architecture of modern speech-to-text models makes them amenable to variance in speech and are already being used in production (making $$) by other polyentric languages including English, Arabic, Portuguese, French, and Spanish. They each maintain one voice corpus.  The Armenian language should not be held as a special case entity as no other language is treated that way (Chinese is an exception due to their massive scale).</p>
+<p>Splitting a language by some attribute (like dialect, accent, or geography) is an outdated approach when it comes to learning general speech.  The architecture of modern speech-to-text models makes them amenable to noise and are already being used in production (making $$) by other polyentric languages including English, Arabic, Portuguese, French, and Spanish. They each maintain one voice corpus.  The Armenian language should not be held as a special case entity as no other language is treated that way (Chinese is an exception due to their massive scale).</p>
 </li>
 <li>
 <p>The split already hurts Western Armenian - by isolating it, we are abandoning it. The evidence is clear with Wikipedia; take a look at the volume of hy.wikipedia and hyw.wikipedia content.  The difference is embarassingly wide - hyw contains less than 10% of the number of articles of hy. Hyw&rsquo;s low content also prevents it to be used on modern language systems (<a 
@@ -197,11 +200,11 @@
 <p>Even Mozilla says so. They <em>encourage</em> multiple accents and dialects in their speaker pools. The more variance in speaker data, the more robust a predictive model will be in addressing idiomatic speech and corner cases.</p>
 </li>
 <li>
-<p>Our system takes input from all forms of Armenian speech and should be able to process each correctly. In general, the burden should be on the developer to write better code that handles various incoming audio. The burden <em>should not</em> be on the user to manipulate their speech just so the model can work.</p>
+<p>In the case with automatic speech recognition, our system takes input from all forms of Armenian speech and should be able to process each correctly. In general, the burden should be on the developer to write better code that handles various incoming audio. The burden <em>should not</em> be on the user to manipulate their speech just so the model can work.</p>
 </li>
 </ul>
 <p><sub>1 Natural Language Processing in Armenia community via Telegram and Facebook </sub></p>
-<h1 id="about-the-voice-recordings----is-it-bad-if-i-stutter-or-re-read-a-few-words-what-about-background-noise">About the voice recordings &ndash; is it bad if I stutter or re-read a few words? What about background noise? <a href="#about-the-voice-recordings----is-it-bad-if-i-stutter-or-re-read-a-few-words-what-about-background-noise" class="anchor">🔗</a></h1><p>Yes it is bad. If you do one minor stutter - forgivable. More than one, please re-do the recording.  Validators should also reject recordings that contain more than one speech flaw.</p>
+<h1 id="about-the-voice-recordings----is-it-bad-if-i-stutter-or-re-read-a-few-words-what-about-background-noise">About the voice recordings &ndash; is it bad if I stutter or re-read a few words? What about background noise? <a href="#about-the-voice-recordings----is-it-bad-if-i-stutter-or-re-read-a-few-words-what-about-background-noise" class="anchor">🔗</a></h1><p>Yes. If you do one minor stutter - forgivable. More than one, please re-do the recording.  Validators should also reject recordings that contain more than one speech flaw.</p>
 <p>Background noise is okay as long as your speech is intelligible by a normal listener.</p>
 <h1 id="if-i-am-a-western-armenian-speaker-who-is-given-an-eastern-armenian-sentence-in-the-application-should-i-skip-it-and-vice-versa-for-eastern-armenian-speakers">If I am a Western Armenian speaker who is given an Eastern Armenian sentence in the application, should I skip it, and vice versa for Eastern Armenian speakers? <a href="#if-i-am-a-western-armenian-speaker-who-is-given-an-eastern-armenian-sentence-in-the-application-should-i-skip-it-and-vice-versa-for-eastern-armenian-speakers" class="anchor">🔗</a></h1><p>Please do not skip if you know how to read in both forms! Just read it naturally in your accent.</p>
 <h1 id="are-there-any-links-to-documentation-to-get-more-information-about-common-voice-armenia">Are there any links to documentation to get more information about Common Voice Armenia? <a href="#are-there-any-links-to-documentation-to-get-more-information-about-common-voice-armenia" class="anchor">🔗</a></h1><ul>
@@ -250,9 +253,9 @@
     Github Pull Request
 </a></li>
 </ul>
-<h1 id="now-that-the-dataset-is-mixed-how-can-i-build-something-that-only-respects-western-armenian-speech-application-vice-versa-for-ea-speech-application">Now that the dataset is mixed, how can I build something that only respects Western Armenian speech application, vice versa for EA speech application? <a href="#now-that-the-dataset-is-mixed-how-can-i-build-something-that-only-respects-western-armenian-speech-application-vice-versa-for-ea-speech-application" class="anchor">🔗</a></h1><p>There is a generalized technique being employed now in literature and industry that we should follow: bootstrap pretrained model then fine-tune with data specific to your use case.</p>
-<p>That pretrained model is trained over large amounts of multi-lingual speech data to learn latent speech embeddings. Currently no pretrained model has learned Armenian speech.  Common Voice Armenia intends to fix this by giving developers the resources needed to build that pretrained model.  The burden then is on the developer to find data specific to their use case for fine-tuning.</p>
-<p>So to answer the question, you&rsquo;re not blocked at all by the fact that the dataset is mixed. You are better equipped than ever because now you will be able to plug in your data to state-of-the-art architecture and build something deployable.  Take a look at the work being done at <a 
+<h1 id="what-can-i-do-with-a-mixed-dataset-if-my-demographic-is-eastern-armenian-speakers">What can I do with a mixed dataset if my demographic is Eastern Armenian speakers? <a href="#what-can-i-do-with-a-mixed-dataset-if-my-demographic-is-eastern-armenian-speakers" class="anchor">🔗</a></h1><p>There is a generalized technique being employed now in academia and industry that we should follow: bootstrap pretrained model then fine-tune with data specific to your use case.</p>
+<p>That pretrained model is trained over large amounts of multi-lingual speech data to learn latent speech embeddings. Currently no open-source model has learned Armenian speech.  Common Voice Armenia intends to fix this by giving developers the resources needed to build this pretrained model.  The burden is then on the developer to find data specific to their use case for fine-tuning.</p>
+<p>So to answer the question, you&rsquo;re not blocked at all by the fact that the dataset is mixed. You are better equipped than ever because now you will be able to plug in your data to modern architecture and build something deployable.  Take a look at the work being done at <a 
     href="https://discuss.huggingface.co/t/open-to-the-community-xlsr-wav2vec2-fine-tuning-week-for-low-resource-languages/4467"
     
     
@@ -292,7 +295,7 @@
     
 >
     Wav2Vec2.0
-</a> is very promising. It has been fine-tuned with various languages including low-resourced ones. For example, <a 
+</a> is very promising. It has been fine-tuned over various languages including low-resourced ones. For example, <a 
     href="https://huggingface.co/lighteternal/wav2vec2-large-xlsr-53-greek"
     
     
