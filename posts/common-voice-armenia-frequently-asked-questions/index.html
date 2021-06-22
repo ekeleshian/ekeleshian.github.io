@@ -55,7 +55,7 @@
         </span>
         <span>
           
-            1121 words
+            1133 words
           
         </span>
         <span class="split">
@@ -88,7 +88,7 @@
     
 >
     playbook.
-</a> The wheel that keeps Common Voice spinning is getting people to donate their time and voices to grow public datasets - in their case, a collection of multi-lingual <a 
+</a> The wheel that keeps Common Voice spinning is getting people to donate their time and voices to accumulate large public datasets - in their case, a collection of multi-lingual <a 
     href="https://common-voice.github.io/community-playbook/#-voice-corpus"
     
     
@@ -119,7 +119,7 @@
     
 >
     their dropdown menu.
-</a> The downloadable content will be in the form of audio, text, and metadata files.  The text is in sentence form, and its source (for now) is from Armenian Wikipedia - over 240,000 sentences.</p>
+</a> The downloadable content will be in the form of audio, text, and metadata files.  The text is in sentence form, and its source (for now) is from Armenian Wikipedia.</p>
 <h1 id="what-help-is-needed">What help is needed? <a href="#what-help-is-needed" class="anchor">🔗</a></h1><ul>
 <li>
 <p><strong>More Armenian text from <a 
@@ -168,20 +168,20 @@
 <p><strong>More validations.</strong> For quality assurance, each audio recording must be validated by other peers from our subcommunity.</p>
 </li>
 <li>
-<p><strong>Better data representation.</strong> Related to the first bullet point about adding more text, we need to diversify the content. Wikipedia text is not enough to train a machine on speech patterns. 1- it does not contain any conversational/dialogic text and  2- the miniscule Western Armenian content misrepresents the vast amount of Western Armenian text out there in the real world.</p>
+<p><strong>Better data representation.</strong> Related to the first bullet point, we need to diversify the content. Wikipedia text is not enough to train a machine on speech patterns because 1- it does not contain any conversational/dialogic text and  2- the miniscule Western Armenian content misrepresents the vast amount of Western Armenian text out there in the real world.</p>
 </li>
 <li>
 <p><strong>5 hours of validated recordings</strong> needed at minimum to build production-ready speech-to-text models.</p>
 </li>
 </ul>
-<h1 id="how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-wikipedia">How are dialects addressed? Is there a voice corpus for each dialect similar to Wikipedia? <a href="#how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-wikipedia" class="anchor">🔗</a></h1><p>Wikipedia hosts two sites for Armenian content, hy.wikipedia.org and hyw.wikipedia.org due to differences in orthography.  Prior to the launch, the main question was should we follow the same pattern with Common Voice as was done with Wikipedia, i.e. split the language to two datasets based on dialect? We<sup>1</sup> discussed this exhaustively through a collection of facebook posts, virtual meetups and google doc collaboration with experienced developers and linguists, including one coder who worked as a software engineer in Google Translate&rsquo;s team.</p>
+<h1 id="how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-how-it-is-split-in-wikipedia">How are dialects addressed? Is there a voice corpus for each dialect similar to how it is split in Wikipedia? <a href="#how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-how-it-is-split-in-wikipedia" class="anchor">🔗</a></h1><p>Wikipedia hosts two sites for Armenian content, hy.wikipedia.org and hyw.wikipedia.org due to differences in orthography.  Prior to the launch, the main question was should we follow the same pattern with Common Voice, i.e. split the language to two datasets based on dialect? We<sup>1</sup> discussed this exhaustively through a collection of facebook posts, virtual meetups and google doc collaboration with experienced developers and linguists, including one coder who worked many years as a software engineer in Google Translate&rsquo;s team.</p>
 <p>We decided that the <strong>language split in general is a bad idea</strong> and hence maintain <strong>one voice corpus</strong> with both hy.wikipedia and hyw.wikipedia sentences. Why? -</p>
 <ul>
 <li>
-<p>Splitting a language by some attribute, whether it be dialect, accent, or geography, is an outdated approach when it comes to learning general speech.  The architecture of modern SST models makes them amenable to noise and has already been in production by other polyentric languages including English, Arabic, Portuguese, French, and Spanish. They each maintain one voice corpus.  The Armenian language should not be held as a special case entity as no other language is treated that way (Chinese is an exception due to their massive scale).</p>
+<p>Splitting a language by some attribute whether it be dialect, accent, or geography is an outdated approach when it comes to learning general speech.  The architecture of modern SST models makes them amenable to noise and are already beinng used in production (making $$) by other polyentric languages including English, Arabic, Portuguese, French, and Spanish. They each maintain one voice corpus.  The Armenian language should not be held as a special case entity as no other language is treated that way (Chinese is an exception due to their massive scale).</p>
 </li>
 <li>
-<p>The split has already hurt Western Armenian - by isolating it we are abandoning it. The evidence is clear with Wikipedia &ndash; take a look at the volume of hy.wikipedia and hyw.wikipedia content.  The difference is embarassingly wide - hyw contains less than 10% of the number of articles of hy. Hyw&rsquo;s low content also prevents it to be used on modern language systems (<a 
+<p>The split already hurts Western Armenian - by isolating it we are abandoning it. The evidence is clear with Wikipedia; take a look at the volume of hy.wikipedia and hyw.wikipedia content.  The difference is embarassingly wide - hyw contains less than 10% of the number of articles of hy. Hyw&rsquo;s low content also prevents it to be used on modern language systems (<a 
     href="https://github.com/google-research/bert/blob/master/multilingual.md"
     
     
@@ -194,13 +194,13 @@
 </a>), leaving it effectively and dangerously siloed.</p>
 </li>
 <li>
-<p>It confuses developers and scientists outside the Armenian community when they see multiple Armenian language data sources. The confusion typically leads to either abondoning the less popular one (likely Western Armenian) or abandoning the language altogether.</p>
+<p>It confuses developers and scientists outside the Armenian community when they see multiple Armenian language data sources. The confusion typically leads to either abondoning the less popular one (likely Western Armenian) or abandoning the language altogether in development or research.</p>
 </li>
 <li>
-<p>Even Mozilla says that various accents/dialects are a good thing. The more variance in speaker data, the more robust the model will be in catching corner cases.</p>
+<p>Even Mozilla says so. They <em>encourage</em> muliple accents and dialects in their speaker pools. The more variance in speaker data, the more robust a predictive model will be in addressing idiomatic speech and corner cases.</p>
 </li>
 <li>
-<p>In the case with STT models, our system should take input from all forms of Armenian speech and be able to process them. In general, the burden should be on the developer to write better code that handles various incoming audio. The burden <em>should not</em> be on the user to manipulate their speech just so the model can work.</p>
+<p>In the case with automatic speech recognition, our system takes input from all forms of Armenian speech and should be able to process each correctly. In general, the burden should be on the developer to write better code that handles various incoming audio. The burden <em>should not</em> be on the user to manipulate their speech just so the model can work.</p>
 </li>
 </ul>
 <p><sub>1 Natural Language Processing in Armenia community via Telegram and Facebook </sub></p>
@@ -293,7 +293,7 @@
     huggingface
 </a> deployed a Wav2Vec2.0 model fine tuned over 365 MB of Greek speech data from Common Voice (~10 hrs). They achieved a word error rate of 10% on their test set.  You can <em>build</em> with this.</p>
 <p>How soon can we get to 10 hours of validated recordings?  We currently have 18 speakers and 30 minutes of validated sentences. At this rate, we can generate about 4 hours of recordings per year. So we will have 10 hours in 2.5 years<sup>1</sup>.</p>
-<p>I think we can and should do better given that there currently is an explosion of success in automatic speech recognition with low-resourced languages.</p>
+<p>I think we can and should do better. Given that automatic speech recognition is currently exploding especially with low-resourced languages, we need to catch up.</p>
 <p><sub>1 Tech years can be treated like dog years. Basically that is a really long time.</sub></p>
 
     </div>
