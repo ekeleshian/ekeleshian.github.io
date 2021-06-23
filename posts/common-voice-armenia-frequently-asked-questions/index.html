@@ -55,7 +55,7 @@
         </span>
         <span>
           
-            1442 words
+            1417 words
           
         </span>
         <span class="split">
@@ -77,20 +77,28 @@
     What is Common Voice Armenia? 
 </a><br />
 <a 
-    href="#what-does-the-voice-corpus-look-like"
-    
-    
-    
->
-    What does the voice corpus look like? 
-</a><br />
-<a 
     href="#what-help-is-needed"
     
     
     
 >
     What help is needed?
+</a><br />
+<a 
+    href="#is-there-a-timeline"
+    
+    
+    
+>
+    Is there a timeline?
+</a><br />
+<a 
+    href="#what-does-the-voice-corpus-look-like"
+    
+    
+    
+>
+    What does the voice corpus look like? 
 </a><br />
 <a 
     href="#how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-how-the-language-is-split-in-wikipedia"
@@ -131,14 +139,6 @@
     
 >
     What can I do with a mixed dataset if my demographic is Eastern Armenian speakers?
-</a><br />
-<a 
-    href="#is-there-a-timeline"
-    
-    
-    
->
-    Is there a timeline?
 </a></p>
 <h1 id="what-is-common-voice-armenia">What is Common Voice Armenia? <a href="#what-is-common-voice-armenia" class="anchor">🔗</a></h1><p>Common Voice Armenia is a subcommunity of <a 
     href="https://commonvoice.mozilla.org"
@@ -150,17 +150,7 @@
     
 >
     Common Voice
-</a>, an initiative by Mozilla Firefox to help teach machines how people speak. Common Voice invites speakers from all languages to join the community and provides clear and strict <a 
-    href="https://common-voice.github.io/community-playbook/"
-    
-    
-     
-      target="_blank" 
-      rel="noopener"
-    
->
-    guidelines
-</a> to launch a language in their platform. The wheel that keeps Common Voice spinning is the people who donate their time to accumulate large public datasets - in case with Common Voice, a collection of multi-lingual <a 
+</a>, an initiative by Mozilla Firefox to help teach machines how people speak. The wheel that keeps it spinning is the people who donate their time to accumulate large public datasets - in case with Common Voice, a collection of multi-lingual <a 
     href="https://common-voice.github.io/community-playbook/#-voice-corpus"
     
     
@@ -181,17 +171,6 @@
 >
     Common Voice Armenia
 </a> is responsible for managing the Armenian voice corpus.</p>
-<h1 id="what-does-the-voice-corpus-look-like">What does the voice corpus look like? <a href="#what-does-the-voice-corpus-look-like" class="anchor">🔗</a></h1><p>Common Voice Armenia was launched after Mozilla released their latest dataset. Therefore, Armenian will be available after their next dataset release - mid of July 2021.  Watch out for announcements, because soon you will be able to download Armenian from their dropdown of <a 
-    href="https://commonvoice.mozilla.org/en/datasets"
-    
-    
-     
-      target="_blank" 
-      rel="noopener"
-    
->
-    available languages.
-</a> The downloadable content will be in the form of audio, text, and metadata files.  The text is in sentence form, and its source (for now) is from Armenian Wikipedia.</p>
 <h1 id="what-help-is-needed">What help is needed? <a href="#what-help-is-needed" class="anchor">🔗</a></h1><ul>
 <li>
 <p><strong>More Armenian text from <a 
@@ -243,6 +222,60 @@
 <p><strong>Better data representation.</strong> Related to the first bullet point, we need to diversify the content. Wikipedia text is not enough to train a machine on speech patterns because 1- it does not contain any conversational/dialogic text and  2- the miniscule Western Armenian content misrepresents the vast amount of Western Armenian text out there in the real world.</p>
 </li>
 </ul>
+<h1 id="is-there-a-timeline">Is there a timeline? <a href="#is-there-a-timeline" class="anchor">🔗</a></h1><p>Kind of. Common Voice has a dataset release every six months. Our timeline can span one release cycle or multiple.  It is really up to us - what is our definition of success?</p>
+<p>In <a 
+    href="https://common-voice.github.io/community-playbook/"
+    
+    
+     
+      target="_blank" 
+      rel="noopener"
+    
+>
+    Mozilla&rsquo;s words,
+</a> success is:</p>
+<blockquote>
+<ul>
+<li>At least 1,000 unique speakers per language.</li>
+<li>2,000 hours of voice validated to train a near-human general STT model.</li>
+<li>10,000 hours of voice validated for a very high quality, general, large vocabulary, continuous speech recognition model</li>
+</ul>
+</blockquote>
+<p>Success is taking baby steps towards building a baseline model for automatic speech recognition.  <a 
+    href="https://arxiv.org/pdf/2006.11477.pdf"
+    
+    
+     
+      target="_blank" 
+      rel="noopener"
+    
+>
+    Wav2Vec2.0
+</a> is very promising. It has been fine-tuned over various languages including low-resourced ones. For example, <a 
+    href="https://huggingface.co/lighteternal/wav2vec2-large-xlsr-53-greek"
+    
+    
+     
+      target="_blank" 
+      rel="noopener"
+    
+>
+    huggingface
+</a> deployed a Wav2Vec2.0 model fine-tuned over 365 MB of Greek speech data from Common Voice (~10 hrs). They achieved a word error rate of 10% on their test set.  You can <em>build</em> with this.</p>
+<p>How soon can we get to 10 hours of validated recordings?  We currently have 18 speakers and 30 minutes of validated sentences. At this rate, we can generate about 4 hours of recordings per year. So we will have 10 hours in 2.5 years<sup>1</sup>.</p>
+<p>I think we can and should do better. Given that automatic speech recognition is currently exploding especially with low-resourced languages, we need to catch up.</p>
+<p><sub>1 Tech years can be treated like dog years. Basically that is a really long time.</sub></p>
+<h1 id="what-does-the-voice-corpus-look-like">What does the voice corpus look like? <a href="#what-does-the-voice-corpus-look-like" class="anchor">🔗</a></h1><p>Common Voice Armenia was launched after Mozilla released their latest dataset. Therefore, Armenian will be available after their next dataset release - mid of July 2021.  Watch out for announcements, because soon you will be able to download Armenian from their dropdown of <a 
+    href="https://commonvoice.mozilla.org/en/datasets"
+    
+    
+     
+      target="_blank" 
+      rel="noopener"
+    
+>
+    available languages.
+</a> The downloadable content will be in the form of audio, text, and metadata files.  The text is in sentence form, and its source (for now) is from Armenian Wikipedia.</p>
 <h1 id="how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-how-the-language-is-split-in-wikipedia">How are dialects addressed? Is there a voice corpus for each dialect similar to how the language is split in Wikipedia? <a href="#how-are-dialects-addressed-is-there-a-voice-corpus-for-each-dialect-similar-to-how-the-language-is-split-in-wikipedia" class="anchor">🔗</a></h1><p>Wikipedia hosts two sites for Armenian content, hy.wikipedia.org and hyw.wikipedia.org due to differences in orthography.  Prior to the launch, the main question was should we follow the same pattern with Common Voice, i.e. split the language to two datasets based on dialect? We<sup>1</sup> discussed this exhaustively through a collection of facebook posts, virtual meetups and google doc collaboration with experienced developers and linguists, including one coder who worked many years in Google Translate&rsquo;s team and a developer working directly with the Armenian Wikipedia team.</p>
 <p>We decided that the <strong>language split in general is a bad idea</strong> and hence maintain <strong>one voice corpus</strong> containing both hy.wikipedia and hyw.wikipedia sentences. Why? -</p>
 <ul>
@@ -335,49 +368,6 @@
 >
     huggingface
 </a> with automatic speech recognition.</p>
-<h1 id="is-there-a-timeline">Is there a timeline? <a href="#is-there-a-timeline" class="anchor">🔗</a></h1><p>Kind of. Common Voice has a dataset release every six months. Our timeline can span one release cycle or multiple.  It is really up to us - what is our definition of success?</p>
-<p>In <a 
-    href="https://common-voice.github.io/community-playbook/"
-    
-    
-     
-      target="_blank" 
-      rel="noopener"
-    
->
-    Mozilla&rsquo;s words,
-</a> success is:</p>
-<blockquote>
-<ul>
-<li>At least 1,000 unique speakers per language.</li>
-<li>2,000 hours of voice validated to train a near-human general STT model.</li>
-<li>10,000 hours of voice validated for a very high quality, general, large vocabulary, continuous speech recognition model</li>
-</ul>
-</blockquote>
-<p>Success is taking baby steps towards building a baseline model for automatic speech recognition.  <a 
-    href="https://arxiv.org/pdf/2006.11477.pdf"
-    
-    
-     
-      target="_blank" 
-      rel="noopener"
-    
->
-    Wav2Vec2.0
-</a> is very promising. It has been fine-tuned over various languages including low-resourced ones. For example, <a 
-    href="https://huggingface.co/lighteternal/wav2vec2-large-xlsr-53-greek"
-    
-    
-     
-      target="_blank" 
-      rel="noopener"
-    
->
-    huggingface
-</a> deployed a Wav2Vec2.0 model fine-tuned over 365 MB of Greek speech data from Common Voice (~10 hrs). They achieved a word error rate of 10% on their test set.  You can <em>build</em> with this.</p>
-<p>How soon can we get to 10 hours of validated recordings?  We currently have 18 speakers and 30 minutes of validated sentences. At this rate, we can generate about 4 hours of recordings per year. So we will have 10 hours in 2.5 years<sup>1</sup>.</p>
-<p>I think we can and should do better. Given that automatic speech recognition is currently exploding especially with low-resourced languages, we need to catch up.</p>
-<p><sub>1 Tech years can be treated like dog years. Basically that is a really long time.</sub></p>
 <h1 id="create-an-account-now-at-common-voice-armeniahttpscommonvoicemozillaorghy-am"><a 
     href="https://commonvoice.mozilla.org/hy-AM"
     
